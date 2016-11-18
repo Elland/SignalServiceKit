@@ -1,0 +1,1494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F7C132F1DDDA12400529703 /* SignalServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C132D1DDDA12400529703 /* SignalServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7C14431DDDA16300529703 /* TSAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13371DDDA16300529703 /* TSAccountManager.h */; };
+		9F7C14441DDDA16300529703 /* TSAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13381DDDA16300529703 /* TSAccountManager.m */; };
+		9F7C14451DDDA16300529703 /* TSAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13391DDDA16300529703 /* TSAttributes.h */; };
+		9F7C14461DDDA16300529703 /* TSAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C133A1DDDA16300529703 /* TSAttributes.m */; };
+		9F7C14471DDDA16300529703 /* TSPreKeyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C133B1DDDA16300529703 /* TSPreKeyManager.h */; };
+		9F7C14481DDDA16300529703 /* TSPreKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C133C1DDDA16300529703 /* TSPreKeyManager.m */; };
+		9F7C14491DDDA16300529703 /* TSPrivacyPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C133D1DDDA16300529703 /* TSPrivacyPreferences.h */; };
+		9F7C144A1DDDA16300529703 /* TSPrivacyPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C133E1DDDA16300529703 /* TSPrivacyPreferences.m */; };
+		9F7C144B1DDDA16300529703 /* Contact.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13401DDDA16300529703 /* Contact.h */; };
+		9F7C144C1DDDA16300529703 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13411DDDA16300529703 /* Contact.m */; };
+		9F7C144D1DDDA16300529703 /* ContactsUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13421DDDA16300529703 /* ContactsUpdater.h */; };
+		9F7C144E1DDDA16300529703 /* ContactsUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13431DDDA16300529703 /* ContactsUpdater.m */; };
+		9F7C144F1DDDA16300529703 /* OWSDisappearingMessagesConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13441DDDA16300529703 /* OWSDisappearingMessagesConfiguration.h */; };
+		9F7C14501DDDA16300529703 /* OWSDisappearingMessagesConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13451DDDA16300529703 /* OWSDisappearingMessagesConfiguration.m */; };
+		9F7C14511DDDA16300529703 /* PhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13461DDDA16300529703 /* PhoneNumber.h */; };
+		9F7C14521DDDA16300529703 /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13471DDDA16300529703 /* PhoneNumber.m */; };
+		9F7C14531DDDA16300529703 /* PhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13481DDDA16300529703 /* PhoneNumberUtil.h */; };
+		9F7C14541DDDA16300529703 /* PhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13491DDDA16300529703 /* PhoneNumberUtil.m */; };
+		9F7C14551DDDA16300529703 /* SignalRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C134A1DDDA16300529703 /* SignalRecipient.h */; };
+		9F7C14561DDDA16300529703 /* SignalRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C134B1DDDA16300529703 /* SignalRecipient.m */; };
+		9F7C14571DDDA16300529703 /* TSContactThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C134D1DDDA16300529703 /* TSContactThread.h */; };
+		9F7C14581DDDA16300529703 /* TSContactThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C134E1DDDA16300529703 /* TSContactThread.m */; };
+		9F7C14591DDDA16300529703 /* TSGroupThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C134F1DDDA16300529703 /* TSGroupThread.h */; };
+		9F7C145A1DDDA16300529703 /* TSGroupThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13501DDDA16300529703 /* TSGroupThread.m */; };
+		9F7C145B1DDDA16300529703 /* TSThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13511DDDA16300529703 /* TSThread.h */; };
+		9F7C145C1DDDA16300529703 /* TSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13521DDDA16300529703 /* TSThread.m */; };
+		9F7C145D1DDDA16300529703 /* OWSChunkedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13541DDDA16300529703 /* OWSChunkedOutputStream.h */; };
+		9F7C145E1DDDA16300529703 /* OWSChunkedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13551DDDA16300529703 /* OWSChunkedOutputStream.m */; };
+		9F7C145F1DDDA16300529703 /* OWSContactsOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13561DDDA16300529703 /* OWSContactsOutputStream.h */; };
+		9F7C14601DDDA16300529703 /* OWSContactsOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13571DDDA16300529703 /* OWSContactsOutputStream.m */; };
+		9F7C14611DDDA16300529703 /* OWSDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13581DDDA16300529703 /* OWSDevice.h */; };
+		9F7C14621DDDA16300529703 /* OWSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13591DDDA16300529703 /* OWSDevice.m */; };
+		9F7C14631DDDA16300529703 /* OWSDeviceProvisioner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C135A1DDDA16300529703 /* OWSDeviceProvisioner.h */; };
+		9F7C14641DDDA16300529703 /* OWSDeviceProvisioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C135B1DDDA16300529703 /* OWSDeviceProvisioner.m */; };
+		9F7C14651DDDA16300529703 /* OWSGroupsOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C135C1DDDA16300529703 /* OWSGroupsOutputStream.h */; };
+		9F7C14661DDDA16300529703 /* OWSGroupsOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C135D1DDDA16300529703 /* OWSGroupsOutputStream.m */; };
+		9F7C14671DDDA16300529703 /* OWSProvisioningCipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C135E1DDDA16300529703 /* OWSProvisioningCipher.h */; };
+		9F7C14681DDDA16300529703 /* OWSProvisioningCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C135F1DDDA16300529703 /* OWSProvisioningCipher.m */; };
+		9F7C14691DDDA16300529703 /* OWSProvisioningMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13601DDDA16300529703 /* OWSProvisioningMessage.h */; };
+		9F7C146A1DDDA16300529703 /* OWSProvisioningMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13611DDDA16300529703 /* OWSProvisioningMessage.m */; };
+		9F7C146B1DDDA16300529703 /* OWSProvisioningProtos.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13621DDDA16300529703 /* OWSProvisioningProtos.pb.h */; };
+		9F7C146C1DDDA16300529703 /* OWSProvisioningProtos.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13631DDDA16300529703 /* OWSProvisioningProtos.pb.m */; };
+		9F7C146D1DDDA16300529703 /* OWSReadReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13641DDDA16300529703 /* OWSReadReceipt.h */; };
+		9F7C146E1DDDA16300529703 /* OWSReadReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13651DDDA16300529703 /* OWSReadReceipt.m */; };
+		9F7C146F1DDDA16300529703 /* OWSReadReceiptsMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13661DDDA16300529703 /* OWSReadReceiptsMessage.h */; };
+		9F7C14701DDDA16300529703 /* OWSReadReceiptsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13671DDDA16300529703 /* OWSReadReceiptsMessage.m */; };
+		9F7C14711DDDA16300529703 /* OWSReadReceiptsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13681DDDA16300529703 /* OWSReadReceiptsProcessor.h */; };
+		9F7C14721DDDA16300529703 /* OWSReadReceiptsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13691DDDA16300529703 /* OWSReadReceiptsProcessor.m */; };
+		9F7C14731DDDA16300529703 /* OWSRecordTranscriptJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C136A1DDDA16300529703 /* OWSRecordTranscriptJob.h */; };
+		9F7C14741DDDA16300529703 /* OWSRecordTranscriptJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C136B1DDDA16300529703 /* OWSRecordTranscriptJob.m */; };
+		9F7C14751DDDA16300529703 /* OWSSendReadReceiptsJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C136C1DDDA16300529703 /* OWSSendReadReceiptsJob.h */; };
+		9F7C14761DDDA16300529703 /* OWSSendReadReceiptsJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C136D1DDDA16300529703 /* OWSSendReadReceiptsJob.m */; };
+		9F7C14771DDDA16300529703 /* OWSAttachmentsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13701DDDA16300529703 /* OWSAttachmentsProcessor.h */; };
+		9F7C14781DDDA16300529703 /* OWSAttachmentsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13711DDDA16300529703 /* OWSAttachmentsProcessor.m */; };
+		9F7C14791DDDA16300529703 /* TSAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13721DDDA16300529703 /* TSAttachment.h */; };
+		9F7C147A1DDDA16300529703 /* TSAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13731DDDA16300529703 /* TSAttachment.m */; };
+		9F7C147B1DDDA16300529703 /* TSAttachmentPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13741DDDA16300529703 /* TSAttachmentPointer.h */; };
+		9F7C147C1DDDA16300529703 /* TSAttachmentPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13751DDDA16300529703 /* TSAttachmentPointer.m */; };
+		9F7C147D1DDDA16300529703 /* TSAttachmentStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13761DDDA16300529703 /* TSAttachmentStream.h */; };
+		9F7C147E1DDDA16300529703 /* TSAttachmentStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13771DDDA16300529703 /* TSAttachmentStream.m */; };
+		9F7C147F1DDDA16300529703 /* OWSIncomingSentMessageTranscript.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13791DDDA16300529703 /* OWSIncomingSentMessageTranscript.h */; };
+		9F7C14801DDDA16300529703 /* OWSIncomingSentMessageTranscript.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C137A1DDDA16300529703 /* OWSIncomingSentMessageTranscript.m */; };
+		9F7C14811DDDA16300529703 /* OWSOutgoingSentMessageTranscript.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C137B1DDDA16300529703 /* OWSOutgoingSentMessageTranscript.h */; };
+		9F7C14821DDDA16300529703 /* OWSOutgoingSentMessageTranscript.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C137C1DDDA16300529703 /* OWSOutgoingSentMessageTranscript.m */; };
+		9F7C14831DDDA16300529703 /* OWSOutgoingSyncMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C137D1DDDA16300529703 /* OWSOutgoingSyncMessage.h */; };
+		9F7C14841DDDA16300529703 /* OWSOutgoingSyncMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C137E1DDDA16300529703 /* OWSOutgoingSyncMessage.m */; };
+		9F7C14851DDDA16300529703 /* OWSSyncContactsMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C137F1DDDA16300529703 /* OWSSyncContactsMessage.h */; };
+		9F7C14861DDDA16300529703 /* OWSSyncContactsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13801DDDA16300529703 /* OWSSyncContactsMessage.m */; };
+		9F7C14871DDDA16300529703 /* OWSSyncGroupsMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13811DDDA16300529703 /* OWSSyncGroupsMessage.h */; };
+		9F7C14881DDDA16300529703 /* OWSSyncGroupsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13821DDDA16300529703 /* OWSSyncGroupsMessage.m */; };
+		9F7C14891DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13841DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.h */; };
+		9F7C148A1DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13851DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.m */; };
+		9F7C148B1DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13861DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.h */; };
+		9F7C148C1DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13871DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.m */; };
+		9F7C148D1DDDA16300529703 /* OWSEndSessionMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13881DDDA16300529703 /* OWSEndSessionMessage.h */; };
+		9F7C148E1DDDA16300529703 /* OWSEndSessionMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13891DDDA16300529703 /* OWSEndSessionMessage.m */; };
+		9F7C148F1DDDA16300529703 /* TSErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138A1DDDA16300529703 /* TSErrorMessage.h */; };
+		9F7C14901DDDA16300529703 /* TSErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C138B1DDDA16300529703 /* TSErrorMessage.m */; };
+		9F7C14911DDDA16300529703 /* TSErrorMessage_privateConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138C1DDDA16300529703 /* TSErrorMessage_privateConstructor.h */; };
+		9F7C14921DDDA16300529703 /* TSIncomingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138D1DDDA16300529703 /* TSIncomingMessage.h */; };
+		9F7C14931DDDA16300529703 /* TSIncomingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C138E1DDDA16300529703 /* TSIncomingMessage.m */; };
+		9F7C14941DDDA16300529703 /* TSInfoMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138F1DDDA16300529703 /* TSInfoMessage.h */; };
+		9F7C14951DDDA16300529703 /* TSInfoMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13901DDDA16300529703 /* TSInfoMessage.m */; };
+		9F7C14961DDDA16300529703 /* TSInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13911DDDA16300529703 /* TSInteraction.h */; };
+		9F7C14971DDDA16300529703 /* TSInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13921DDDA16300529703 /* TSInteraction.m */; };
+		9F7C14981DDDA16300529703 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13931DDDA16300529703 /* TSMessage.h */; };
+		9F7C14991DDDA16300529703 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13941DDDA16300529703 /* TSMessage.m */; };
+		9F7C149A1DDDA16300529703 /* TSOutgoingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13951DDDA16300529703 /* TSOutgoingMessage.h */; };
+		9F7C149B1DDDA16300529703 /* TSOutgoingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13961DDDA16300529703 /* TSOutgoingMessage.m */; };
+		9F7C149C1DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13981DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.h */; };
+		9F7C149D1DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13991DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.m */; };
+		9F7C149E1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C139A1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.h */; };
+		9F7C149F1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C139B1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.m */; };
+		9F7C14A01DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C139C1DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.h */; };
+		9F7C14A11DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C139D1DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.m */; };
+		9F7C14A21DDDA16300529703 /* OWSDisappearingMessagesFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C139E1DDDA16300529703 /* OWSDisappearingMessagesFinder.h */; };
+		9F7C14A31DDDA16300529703 /* OWSDisappearingMessagesFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C139F1DDDA16300529703 /* OWSDisappearingMessagesFinder.m */; };
+		9F7C14A41DDDA16300529703 /* OWSDisappearingMessagesJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A01DDDA16300529703 /* OWSDisappearingMessagesJob.h */; };
+		9F7C14A51DDDA16300529703 /* OWSDisappearingMessagesJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A11DDDA16300529703 /* OWSDisappearingMessagesJob.m */; };
+		9F7C14A61DDDA16300529703 /* OWSIncomingMessageReadObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A21DDDA16300529703 /* OWSIncomingMessageReadObserver.h */; };
+		9F7C14A71DDDA16400529703 /* OWSIncomingMessageReadObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A31DDDA16300529703 /* OWSIncomingMessageReadObserver.m */; };
+		9F7C14A81DDDA16400529703 /* OWSLegacyMessageServiceParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A41DDDA16300529703 /* OWSLegacyMessageServiceParams.h */; };
+		9F7C14A91DDDA16400529703 /* OWSLegacyMessageServiceParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A51DDDA16300529703 /* OWSLegacyMessageServiceParams.m */; };
+		9F7C14AA1DDDA16400529703 /* OWSMessageSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A61DDDA16300529703 /* OWSMessageSender.h */; };
+		9F7C14AB1DDDA16400529703 /* OWSMessageSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A71DDDA16300529703 /* OWSMessageSender.m */; };
+		9F7C14AC1DDDA16400529703 /* OWSMessageServiceParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A81DDDA16300529703 /* OWSMessageServiceParams.h */; };
+		9F7C14AD1DDDA16400529703 /* OWSMessageServiceParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A91DDDA16300529703 /* OWSMessageServiceParams.m */; };
+		9F7C14AE1DDDA16400529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13AA1DDDA16300529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h */; };
+		9F7C14AF1DDDA16400529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13AB1DDDA16300529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.m */; };
+		9F7C14B01DDDA16400529703 /* OWSSignalServiceProtos.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13AC1DDDA16300529703 /* OWSSignalServiceProtos.pb.h */; };
+		9F7C14B11DDDA16400529703 /* OWSSignalServiceProtos.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13AD1DDDA16300529703 /* OWSSignalServiceProtos.pb.m */; };
+		9F7C14B21DDDA16400529703 /* PreKeyBundle+jsonDict.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13AE1DDDA16300529703 /* PreKeyBundle+jsonDict.h */; };
+		9F7C14B31DDDA16400529703 /* PreKeyBundle+jsonDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13AF1DDDA16300529703 /* PreKeyBundle+jsonDict.m */; };
+		9F7C14B41DDDA16400529703 /* TSCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B01DDDA16300529703 /* TSCall.h */; };
+		9F7C14B51DDDA16400529703 /* TSCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13B11DDDA16300529703 /* TSCall.m */; };
+		9F7C14B61DDDA16400529703 /* TSGroupModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B21DDDA16300529703 /* TSGroupModel.h */; };
+		9F7C14B71DDDA16400529703 /* TSGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13B31DDDA16300529703 /* TSGroupModel.m */; };
+		9F7C14B81DDDA16400529703 /* TSMessagesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B41DDDA16300529703 /* TSMessagesManager.h */; };
+		9F7C14B91DDDA16400529703 /* TSMessagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13B51DDDA16300529703 /* TSMessagesManager.m */; };
+		9F7C14BA1DDDA16400529703 /* OWSDeviceProvisioningCodeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B81DDDA16300529703 /* OWSDeviceProvisioningCodeService.h */; };
+		9F7C14BB1DDDA16400529703 /* OWSDeviceProvisioningCodeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13B91DDDA16300529703 /* OWSDeviceProvisioningCodeService.m */; };
+		9F7C14BC1DDDA16400529703 /* OWSDeviceProvisioningService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13BA1DDDA16300529703 /* OWSDeviceProvisioningService.h */; };
+		9F7C14BD1DDDA16400529703 /* OWSDeviceProvisioningService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13BB1DDDA16300529703 /* OWSDeviceProvisioningService.m */; };
+		9F7C14BE1DDDA16400529703 /* OWSDevicesService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13BC1DDDA16300529703 /* OWSDevicesService.h */; };
+		9F7C14BF1DDDA16400529703 /* OWSDevicesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13BD1DDDA16300529703 /* OWSDevicesService.m */; };
+		9F7C14C01DDDA16400529703 /* OWSUploadingService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13BE1DDDA16300529703 /* OWSUploadingService.h */; };
+		9F7C14C11DDDA16400529703 /* OWSUploadingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13BF1DDDA16300529703 /* OWSUploadingService.m */; };
+		9F7C14C21DDDA16400529703 /* OWSDeleteDeviceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C11DDDA16300529703 /* OWSDeleteDeviceRequest.h */; };
+		9F7C14C31DDDA16400529703 /* OWSDeleteDeviceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13C21DDDA16300529703 /* OWSDeleteDeviceRequest.m */; };
+		9F7C14C41DDDA16400529703 /* OWSDeviceProvisioningCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C31DDDA16300529703 /* OWSDeviceProvisioningCodeRequest.h */; };
+		9F7C14C51DDDA16400529703 /* OWSDeviceProvisioningCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13C41DDDA16300529703 /* OWSDeviceProvisioningCodeRequest.m */; };
+		9F7C14C61DDDA16400529703 /* OWSDeviceProvisioningRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C51DDDA16300529703 /* OWSDeviceProvisioningRequest.h */; };
+		9F7C14C71DDDA16400529703 /* OWSDeviceProvisioningRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13C61DDDA16300529703 /* OWSDeviceProvisioningRequest.m */; };
+		9F7C14C81DDDA16400529703 /* OWSGetDevicesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C71DDDA16300529703 /* OWSGetDevicesRequest.h */; };
+		9F7C14C91DDDA16400529703 /* OWSGetDevicesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13C81DDDA16300529703 /* OWSGetDevicesRequest.m */; };
+		9F7C14CA1DDDA16400529703 /* TSAllocAttachmentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C91DDDA16300529703 /* TSAllocAttachmentRequest.h */; };
+		9F7C14CB1DDDA16400529703 /* TSAllocAttachmentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13CA1DDDA16300529703 /* TSAllocAttachmentRequest.m */; };
+		9F7C14CC1DDDA16400529703 /* TSAttachmentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13CB1DDDA16300529703 /* TSAttachmentRequest.h */; };
+		9F7C14CD1DDDA16400529703 /* TSAttachmentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13CC1DDDA16300529703 /* TSAttachmentRequest.m */; };
+		9F7C14CE1DDDA16400529703 /* TSAvailablePreKeysCountRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13CD1DDDA16300529703 /* TSAvailablePreKeysCountRequest.h */; };
+		9F7C14CF1DDDA16400529703 /* TSAvailablePreKeysCountRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13CE1DDDA16300529703 /* TSAvailablePreKeysCountRequest.m */; };
+		9F7C14D01DDDA16400529703 /* TSContactsIntersectionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13CF1DDDA16300529703 /* TSContactsIntersectionRequest.h */; };
+		9F7C14D11DDDA16400529703 /* TSContactsIntersectionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D01DDDA16300529703 /* TSContactsIntersectionRequest.m */; };
+		9F7C14D21DDDA16400529703 /* TSCurrentSignedPreKeyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D11DDDA16300529703 /* TSCurrentSignedPreKeyRequest.h */; };
+		9F7C14D31DDDA16400529703 /* TSCurrentSignedPreKeyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D21DDDA16300529703 /* TSCurrentSignedPreKeyRequest.m */; };
+		9F7C14D41DDDA16400529703 /* TSRecipientPrekeyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D31DDDA16300529703 /* TSRecipientPrekeyRequest.h */; };
+		9F7C14D51DDDA16400529703 /* TSRecipientPrekeyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D41DDDA16300529703 /* TSRecipientPrekeyRequest.m */; };
+		9F7C14D61DDDA16400529703 /* TSRedPhoneTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D51DDDA16300529703 /* TSRedPhoneTokenRequest.h */; };
+		9F7C14D71DDDA16400529703 /* TSRedPhoneTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D61DDDA16300529703 /* TSRedPhoneTokenRequest.m */; };
+		9F7C14D81DDDA16400529703 /* TSRegisterForPushRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D71DDDA16300529703 /* TSRegisterForPushRequest.h */; };
+		9F7C14D91DDDA16400529703 /* TSRegisterForPushRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D81DDDA16300529703 /* TSRegisterForPushRequest.m */; };
+		9F7C14DA1DDDA16400529703 /* TSRegisterPrekeysRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D91DDDA16300529703 /* TSRegisterPrekeysRequest.h */; };
+		9F7C14DB1DDDA16400529703 /* TSRegisterPrekeysRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13DA1DDDA16300529703 /* TSRegisterPrekeysRequest.m */; };
+		9F7C14DC1DDDA16400529703 /* TSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13DB1DDDA16300529703 /* TSRequest.h */; };
+		9F7C14DD1DDDA16400529703 /* TSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13DC1DDDA16300529703 /* TSRequest.m */; };
+		9F7C14DE1DDDA16400529703 /* TSRequestVerificationCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13DD1DDDA16300529703 /* TSRequestVerificationCodeRequest.h */; };
+		9F7C14DF1DDDA16400529703 /* TSRequestVerificationCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13DE1DDDA16300529703 /* TSRequestVerificationCodeRequest.m */; };
+		9F7C14E01DDDA16400529703 /* TSSubmitMessageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13DF1DDDA16300529703 /* TSSubmitMessageRequest.h */; };
+		9F7C14E11DDDA16400529703 /* TSSubmitMessageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E01DDDA16300529703 /* TSSubmitMessageRequest.m */; };
+		9F7C14E21DDDA16400529703 /* TSUnregisterAccountRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E11DDDA16300529703 /* TSUnregisterAccountRequest.h */; };
+		9F7C14E31DDDA16400529703 /* TSUnregisterAccountRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E21DDDA16300529703 /* TSUnregisterAccountRequest.m */; };
+		9F7C14E41DDDA16400529703 /* TSUpdateAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E31DDDA16300529703 /* TSUpdateAttributesRequest.h */; };
+		9F7C14E51DDDA16400529703 /* TSUpdateAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E41DDDA16300529703 /* TSUpdateAttributesRequest.m */; };
+		9F7C14E61DDDA16400529703 /* TSVerifyCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E51DDDA16300529703 /* TSVerifyCodeRequest.h */; };
+		9F7C14E71DDDA16400529703 /* TSVerifyCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E61DDDA16300529703 /* TSVerifyCodeRequest.m */; };
+		9F7C14E81DDDA16400529703 /* TSNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E71DDDA16300529703 /* TSNetworkManager.h */; };
+		9F7C14E91DDDA16400529703 /* TSNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E81DDDA16300529703 /* TSNetworkManager.m */; };
+		9F7C14EA1DDDA16400529703 /* SubProtocol.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13EA1DDDA16300529703 /* SubProtocol.pb.h */; };
+		9F7C14EB1DDDA16400529703 /* SubProtocol.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13EB1DDDA16300529703 /* SubProtocol.pb.m */; };
+		9F7C14EC1DDDA16400529703 /* TSSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13EC1DDDA16300529703 /* TSSocketManager.h */; };
+		9F7C14ED1DDDA16400529703 /* TSSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13ED1DDDA16300529703 /* TSSocketManager.m */; };
+		9F7C14EE1DDDA16400529703 /* ContactsManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13EF1DDDA16300529703 /* ContactsManagerProtocol.h */; };
+		9F7C14EF1DDDA16400529703 /* NotificationsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F01DDDA16300529703 /* NotificationsProtocol.h */; };
+		9F7C14F01DDDA16400529703 /* ECKeyPair+OWSPrivateKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F21DDDA16300529703 /* ECKeyPair+OWSPrivateKey.h */; };
+		9F7C14F11DDDA16400529703 /* ECKeyPair+OWSPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13F31DDDA16300529703 /* ECKeyPair+OWSPrivateKey.m */; };
+		9F7C14F21DDDA16400529703 /* OWSFingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F41DDDA16300529703 /* OWSFingerprint.h */; };
+		9F7C14F31DDDA16400529703 /* OWSFingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13F51DDDA16300529703 /* OWSFingerprint.m */; };
+		9F7C14F41DDDA16400529703 /* OWSFingerprintBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F61DDDA16300529703 /* OWSFingerprintBuilder.h */; };
+		9F7C14F51DDDA16400529703 /* OWSFingerprintBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13F71DDDA16300529703 /* OWSFingerprintBuilder.m */; };
+		9F7C14F61DDDA16400529703 /* OWSFingerprintProtos.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F81DDDA16300529703 /* OWSFingerprintProtos.pb.h */; };
+		9F7C14F71DDDA16400529703 /* OWSFingerprintProtos.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13F91DDDA16300529703 /* OWSFingerprintProtos.pb.m */; };
+		9F7C14F81DDDA16400529703 /* OWSHTTPSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13FA1DDDA16300529703 /* OWSHTTPSecurityPolicy.h */; };
+		9F7C14F91DDDA16400529703 /* OWSHTTPSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13FB1DDDA16300529703 /* OWSHTTPSecurityPolicy.m */; };
+		9F7C14FA1DDDA16400529703 /* OWSWebsocketSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13FC1DDDA16300529703 /* OWSWebsocketSecurityPolicy.h */; };
+		9F7C14FB1DDDA16400529703 /* OWSWebsocketSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13FD1DDDA16300529703 /* OWSWebsocketSecurityPolicy.m */; };
+		9F7C14FC1DDDA16400529703 /* textsecure.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C13FF1DDDA16300529703 /* textsecure.cer */; };
+		9F7C14FD1DDDA16400529703 /* SecurityUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14001DDDA16300529703 /* SecurityUtils.h */; };
+		9F7C14FE1DDDA16400529703 /* SecurityUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14011DDDA16300529703 /* SecurityUtils.m */; };
+		9F7C14FF1DDDA16400529703 /* TSStorageManager+IdentityKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14041DDDA16300529703 /* TSStorageManager+IdentityKeyStore.h */; };
+		9F7C15001DDDA16400529703 /* TSStorageManager+IdentityKeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14051DDDA16300529703 /* TSStorageManager+IdentityKeyStore.m */; };
+		9F7C15011DDDA16400529703 /* TSStorageManager+keyFromIntLong.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14061DDDA16300529703 /* TSStorageManager+keyFromIntLong.h */; };
+		9F7C15021DDDA16400529703 /* TSStorageManager+keyFromIntLong.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14071DDDA16300529703 /* TSStorageManager+keyFromIntLong.m */; };
+		9F7C15031DDDA16400529703 /* TSStorageManager+PreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14081DDDA16300529703 /* TSStorageManager+PreKeyStore.h */; };
+		9F7C15041DDDA16400529703 /* TSStorageManager+PreKeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14091DDDA16300529703 /* TSStorageManager+PreKeyStore.m */; };
+		9F7C15051DDDA16400529703 /* TSStorageManager+SessionStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C140A1DDDA16300529703 /* TSStorageManager+SessionStore.h */; };
+		9F7C15061DDDA16400529703 /* TSStorageManager+SessionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C140B1DDDA16300529703 /* TSStorageManager+SessionStore.m */; };
+		9F7C15071DDDA16400529703 /* TSStorageManager+SignedPreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C140C1DDDA16300529703 /* TSStorageManager+SignedPreKeyStore.h */; };
+		9F7C15081DDDA16400529703 /* TSStorageManager+SignedPreKeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C140D1DDDA16300529703 /* TSStorageManager+SignedPreKeyStore.m */; };
+		9F7C15091DDDA16400529703 /* OWSOrphanedDataCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C140E1DDDA16300529703 /* OWSOrphanedDataCleaner.h */; };
+		9F7C150A1DDDA16400529703 /* OWSOrphanedDataCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C140F1DDDA16300529703 /* OWSOrphanedDataCleaner.m */; };
+		9F7C150B1DDDA16400529703 /* TSDatabaseSecondaryIndexes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14101DDDA16300529703 /* TSDatabaseSecondaryIndexes.h */; };
+		9F7C150C1DDDA16400529703 /* TSDatabaseSecondaryIndexes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14111DDDA16300529703 /* TSDatabaseSecondaryIndexes.m */; };
+		9F7C150D1DDDA16400529703 /* TSDatabaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14121DDDA16300529703 /* TSDatabaseView.h */; };
+		9F7C150E1DDDA16400529703 /* TSDatabaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14131DDDA16300529703 /* TSDatabaseView.m */; };
+		9F7C150F1DDDA16400529703 /* TSStorageHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14141DDDA16300529703 /* TSStorageHeaders.h */; };
+		9F7C15101DDDA16400529703 /* TSStorageKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14151DDDA16300529703 /* TSStorageKeys.h */; };
+		9F7C15111DDDA16400529703 /* TSStorageManager+keyingMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14161DDDA16300529703 /* TSStorageManager+keyingMaterial.h */; };
+		9F7C15121DDDA16400529703 /* TSStorageManager+keyingMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14171DDDA16300529703 /* TSStorageManager+keyingMaterial.m */; };
+		9F7C15131DDDA16400529703 /* TSStorageManager+messageIDs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14181DDDA16300529703 /* TSStorageManager+messageIDs.h */; };
+		9F7C15141DDDA16400529703 /* TSStorageManager+messageIDs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14191DDDA16300529703 /* TSStorageManager+messageIDs.m */; };
+		9F7C15151DDDA16400529703 /* TSStorageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C141A1DDDA16300529703 /* TSStorageManager.h */; };
+		9F7C15161DDDA16400529703 /* TSStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C141B1DDDA16300529703 /* TSStorageManager.m */; };
+		9F7C15171DDDA16400529703 /* TSYapDatabaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C141C1DDDA16300529703 /* TSYapDatabaseObject.h */; };
+		9F7C15181DDDA16400529703 /* TSYapDatabaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C141D1DDDA16300529703 /* TSYapDatabaseObject.m */; };
+		9F7C15191DDDA16400529703 /* TextSecureKitEnv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C141E1DDDA16300529703 /* TextSecureKitEnv.h */; };
+		9F7C151A1DDDA16400529703 /* TextSecureKitEnv.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C141F1DDDA16300529703 /* TextSecureKitEnv.m */; };
+		9F7C151B1DDDA16400529703 /* TSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14201DDDA16300529703 /* TSConstants.h */; };
+		9F7C151C1DDDA16400529703 /* TSPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14211DDDA16300529703 /* TSPrefix.h */; };
+		9F7C151D1DDDA16400529703 /* BadArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14241DDDA16300529703 /* BadArgument.h */; };
+		9F7C151E1DDDA16400529703 /* BadArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14251DDDA16300529703 /* BadArgument.m */; };
+		9F7C151F1DDDA16400529703 /* BadState.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14261DDDA16300529703 /* BadState.h */; };
+		9F7C15201DDDA16400529703 /* BadState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14271DDDA16300529703 /* BadState.m */; };
+		9F7C15211DDDA16400529703 /* Constraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14281DDDA16300529703 /* Constraints.h */; };
+		9F7C15221DDDA16400529703 /* OperationFailed.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14291DDDA16300529703 /* OperationFailed.h */; };
+		9F7C15231DDDA16400529703 /* OperationFailed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C142A1DDDA16300529703 /* OperationFailed.m */; };
+		9F7C15241DDDA16400529703 /* SecurityFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C142B1DDDA16300529703 /* SecurityFailure.h */; };
+		9F7C15251DDDA16400529703 /* SecurityFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C142C1DDDA16300529703 /* SecurityFailure.m */; };
+		9F7C15261DDDA16400529703 /* Cryptography.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C142D1DDDA16300529703 /* Cryptography.h */; };
+		9F7C15271DDDA16400529703 /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C142E1DDDA16300529703 /* Cryptography.m */; };
+		9F7C15281DDDA16400529703 /* FunctionalUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C142F1DDDA16300529703 /* FunctionalUtil.h */; };
+		9F7C15291DDDA16400529703 /* FunctionalUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14301DDDA16300529703 /* FunctionalUtil.m */; };
+		9F7C152A1DDDA16400529703 /* MIMETypeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14311DDDA16300529703 /* MIMETypeUtil.h */; };
+		9F7C152B1DDDA16400529703 /* MIMETypeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14321DDDA16300529703 /* MIMETypeUtil.m */; };
+		9F7C152C1DDDA16400529703 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14331DDDA16300529703 /* NSData+Base64.h */; };
+		9F7C152D1DDDA16400529703 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14341DDDA16300529703 /* NSData+Base64.m */; };
+		9F7C152E1DDDA16400529703 /* NSData+hexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14351DDDA16300529703 /* NSData+hexString.h */; };
+		9F7C152F1DDDA16400529703 /* NSData+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14361DDDA16300529703 /* NSData+hexString.m */; };
+		9F7C15301DDDA16400529703 /* NSData+messagePadding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14371DDDA16300529703 /* NSData+messagePadding.h */; };
+		9F7C15311DDDA16400529703 /* NSData+messagePadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14381DDDA16300529703 /* NSData+messagePadding.m */; };
+		9F7C15321DDDA16400529703 /* NSDate+millisecondTimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14391DDDA16300529703 /* NSDate+millisecondTimeStamp.h */; };
+		9F7C15331DDDA16400529703 /* NSDate+millisecondTimeStamp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C143A1DDDA16300529703 /* NSDate+millisecondTimeStamp.mm */; };
+		9F7C15341DDDA16400529703 /* NSURLSessionDataTask+StatusCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C143B1DDDA16300529703 /* NSURLSessionDataTask+StatusCode.h */; };
+		9F7C15351DDDA16400529703 /* NSURLSessionDataTask+StatusCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C143C1DDDA16300529703 /* NSURLSessionDataTask+StatusCode.m */; };
+		9F7C15361DDDA16400529703 /* OWSDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C143D1DDDA16300529703 /* OWSDispatch.h */; };
+		9F7C15371DDDA16400529703 /* OWSDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C143E1DDDA16300529703 /* OWSDispatch.m */; };
+		9F7C15381DDDA16400529703 /* OWSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C143F1DDDA16300529703 /* OWSError.h */; };
+		9F7C15391DDDA16400529703 /* OWSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14401DDDA16300529703 /* OWSError.m */; };
+		9F7C153A1DDDA16400529703 /* UIImage+contentTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14411DDDA16300529703 /* UIImage+contentTypes.h */; };
+		9F7C153B1DDDA16400529703 /* UIImage+contentTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14421DDDA16300529703 /* UIImage+contentTypes.m */; };
+		9F7C161E1DDDA68500529703 /* Curve25519.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C16181DDDA68500529703 /* Curve25519.h */; };
+		9F7C161F1DDDA68500529703 /* Curve25519.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C16191DDDA68500529703 /* Curve25519.m */; };
+		9F7C16201DDDA68500529703 /* Ed25519.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C161A1DDDA68500529703 /* Ed25519.h */; };
+		9F7C16211DDDA68500529703 /* Ed25519.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C161B1DDDA68500529703 /* Ed25519.m */; };
+		9F7C16221DDDA68500529703 /* Randomness.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C161C1DDDA68500529703 /* Randomness.h */; };
+		9F7C16231DDDA68500529703 /* Randomness.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C161D1DDDA68500529703 /* Randomness.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F7C132A1DDDA12400529703 /* SignalServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7C132D1DDDA12400529703 /* SignalServiceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalServiceKit.h; sourceTree = "<group>"; };
+		9F7C132E1DDDA12400529703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7C13371DDDA16300529703 /* TSAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAccountManager.h; sourceTree = "<group>"; };
+		9F7C13381DDDA16300529703 /* TSAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAccountManager.m; sourceTree = "<group>"; };
+		9F7C13391DDDA16300529703 /* TSAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAttributes.h; sourceTree = "<group>"; };
+		9F7C133A1DDDA16300529703 /* TSAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAttributes.m; sourceTree = "<group>"; };
+		9F7C133B1DDDA16300529703 /* TSPreKeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPreKeyManager.h; sourceTree = "<group>"; };
+		9F7C133C1DDDA16300529703 /* TSPreKeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPreKeyManager.m; sourceTree = "<group>"; };
+		9F7C133D1DDDA16300529703 /* TSPrivacyPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPrivacyPreferences.h; sourceTree = "<group>"; };
+		9F7C133E1DDDA16300529703 /* TSPrivacyPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPrivacyPreferences.m; sourceTree = "<group>"; };
+		9F7C13401DDDA16300529703 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		9F7C13411DDDA16300529703 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		9F7C13421DDDA16300529703 /* ContactsUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsUpdater.h; sourceTree = "<group>"; };
+		9F7C13431DDDA16300529703 /* ContactsUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsUpdater.m; sourceTree = "<group>"; };
+		9F7C13441DDDA16300529703 /* OWSDisappearingMessagesConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDisappearingMessagesConfiguration.h; sourceTree = "<group>"; };
+		9F7C13451DDDA16300529703 /* OWSDisappearingMessagesConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDisappearingMessagesConfiguration.m; sourceTree = "<group>"; };
+		9F7C13461DDDA16300529703 /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumber.h; sourceTree = "<group>"; };
+		9F7C13471DDDA16300529703 /* PhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumber.m; sourceTree = "<group>"; };
+		9F7C13481DDDA16300529703 /* PhoneNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberUtil.h; sourceTree = "<group>"; };
+		9F7C13491DDDA16300529703 /* PhoneNumberUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberUtil.m; sourceTree = "<group>"; };
+		9F7C134A1DDDA16300529703 /* SignalRecipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalRecipient.h; sourceTree = "<group>"; };
+		9F7C134B1DDDA16300529703 /* SignalRecipient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalRecipient.m; sourceTree = "<group>"; };
+		9F7C134D1DDDA16300529703 /* TSContactThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSContactThread.h; sourceTree = "<group>"; };
+		9F7C134E1DDDA16300529703 /* TSContactThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSContactThread.m; sourceTree = "<group>"; };
+		9F7C134F1DDDA16300529703 /* TSGroupThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGroupThread.h; sourceTree = "<group>"; };
+		9F7C13501DDDA16300529703 /* TSGroupThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSGroupThread.m; sourceTree = "<group>"; };
+		9F7C13511DDDA16300529703 /* TSThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSThread.h; sourceTree = "<group>"; };
+		9F7C13521DDDA16300529703 /* TSThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSThread.m; sourceTree = "<group>"; };
+		9F7C13541DDDA16300529703 /* OWSChunkedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSChunkedOutputStream.h; sourceTree = "<group>"; };
+		9F7C13551DDDA16300529703 /* OWSChunkedOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSChunkedOutputStream.m; sourceTree = "<group>"; };
+		9F7C13561DDDA16300529703 /* OWSContactsOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSContactsOutputStream.h; sourceTree = "<group>"; };
+		9F7C13571DDDA16300529703 /* OWSContactsOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSContactsOutputStream.m; sourceTree = "<group>"; };
+		9F7C13581DDDA16300529703 /* OWSDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDevice.h; sourceTree = "<group>"; };
+		9F7C13591DDDA16300529703 /* OWSDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDevice.m; sourceTree = "<group>"; };
+		9F7C135A1DDDA16300529703 /* OWSDeviceProvisioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDeviceProvisioner.h; sourceTree = "<group>"; };
+		9F7C135B1DDDA16300529703 /* OWSDeviceProvisioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDeviceProvisioner.m; sourceTree = "<group>"; };
+		9F7C135C1DDDA16300529703 /* OWSGroupsOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSGroupsOutputStream.h; sourceTree = "<group>"; };
+		9F7C135D1DDDA16300529703 /* OWSGroupsOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSGroupsOutputStream.m; sourceTree = "<group>"; };
+		9F7C135E1DDDA16300529703 /* OWSProvisioningCipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSProvisioningCipher.h; sourceTree = "<group>"; };
+		9F7C135F1DDDA16300529703 /* OWSProvisioningCipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSProvisioningCipher.m; sourceTree = "<group>"; };
+		9F7C13601DDDA16300529703 /* OWSProvisioningMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSProvisioningMessage.h; sourceTree = "<group>"; };
+		9F7C13611DDDA16300529703 /* OWSProvisioningMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSProvisioningMessage.m; sourceTree = "<group>"; };
+		9F7C13621DDDA16300529703 /* OWSProvisioningProtos.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSProvisioningProtos.pb.h; sourceTree = "<group>"; };
+		9F7C13631DDDA16300529703 /* OWSProvisioningProtos.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSProvisioningProtos.pb.m; sourceTree = "<group>"; };
+		9F7C13641DDDA16300529703 /* OWSReadReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSReadReceipt.h; sourceTree = "<group>"; };
+		9F7C13651DDDA16300529703 /* OWSReadReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSReadReceipt.m; sourceTree = "<group>"; };
+		9F7C13661DDDA16300529703 /* OWSReadReceiptsMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSReadReceiptsMessage.h; sourceTree = "<group>"; };
+		9F7C13671DDDA16300529703 /* OWSReadReceiptsMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSReadReceiptsMessage.m; sourceTree = "<group>"; };
+		9F7C13681DDDA16300529703 /* OWSReadReceiptsProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSReadReceiptsProcessor.h; sourceTree = "<group>"; };
+		9F7C13691DDDA16300529703 /* OWSReadReceiptsProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSReadReceiptsProcessor.m; sourceTree = "<group>"; };
+		9F7C136A1DDDA16300529703 /* OWSRecordTranscriptJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSRecordTranscriptJob.h; sourceTree = "<group>"; };
+		9F7C136B1DDDA16300529703 /* OWSRecordTranscriptJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSRecordTranscriptJob.m; sourceTree = "<group>"; };
+		9F7C136C1DDDA16300529703 /* OWSSendReadReceiptsJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSSendReadReceiptsJob.h; sourceTree = "<group>"; };
+		9F7C136D1DDDA16300529703 /* OWSSendReadReceiptsJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSSendReadReceiptsJob.m; sourceTree = "<group>"; };
+		9F7C13701DDDA16300529703 /* OWSAttachmentsProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSAttachmentsProcessor.h; sourceTree = "<group>"; };
+		9F7C13711DDDA16300529703 /* OWSAttachmentsProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSAttachmentsProcessor.m; sourceTree = "<group>"; };
+		9F7C13721DDDA16300529703 /* TSAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAttachment.h; sourceTree = "<group>"; };
+		9F7C13731DDDA16300529703 /* TSAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAttachment.m; sourceTree = "<group>"; };
+		9F7C13741DDDA16300529703 /* TSAttachmentPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAttachmentPointer.h; sourceTree = "<group>"; };
+		9F7C13751DDDA16300529703 /* TSAttachmentPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAttachmentPointer.m; sourceTree = "<group>"; };
+		9F7C13761DDDA16300529703 /* TSAttachmentStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAttachmentStream.h; sourceTree = "<group>"; };
+		9F7C13771DDDA16300529703 /* TSAttachmentStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAttachmentStream.m; sourceTree = "<group>"; };
+		9F7C13791DDDA16300529703 /* OWSIncomingSentMessageTranscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSIncomingSentMessageTranscript.h; sourceTree = "<group>"; };
+		9F7C137A1DDDA16300529703 /* OWSIncomingSentMessageTranscript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSIncomingSentMessageTranscript.m; sourceTree = "<group>"; };
+		9F7C137B1DDDA16300529703 /* OWSOutgoingSentMessageTranscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSOutgoingSentMessageTranscript.h; sourceTree = "<group>"; };
+		9F7C137C1DDDA16300529703 /* OWSOutgoingSentMessageTranscript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSOutgoingSentMessageTranscript.m; sourceTree = "<group>"; };
+		9F7C137D1DDDA16300529703 /* OWSOutgoingSyncMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSOutgoingSyncMessage.h; sourceTree = "<group>"; };
+		9F7C137E1DDDA16300529703 /* OWSOutgoingSyncMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSOutgoingSyncMessage.m; sourceTree = "<group>"; };
+		9F7C137F1DDDA16300529703 /* OWSSyncContactsMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSSyncContactsMessage.h; sourceTree = "<group>"; };
+		9F7C13801DDDA16300529703 /* OWSSyncContactsMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSSyncContactsMessage.m; sourceTree = "<group>"; };
+		9F7C13811DDDA16300529703 /* OWSSyncGroupsMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSSyncGroupsMessage.h; sourceTree = "<group>"; };
+		9F7C13821DDDA16300529703 /* OWSSyncGroupsMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSSyncGroupsMessage.m; sourceTree = "<group>"; };
+		9F7C13841DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDisappearingConfigurationUpdateInfoMessage.h; sourceTree = "<group>"; };
+		9F7C13851DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDisappearingConfigurationUpdateInfoMessage.m; sourceTree = "<group>"; };
+		9F7C13861DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDisappearingMessagesConfigurationMessage.h; sourceTree = "<group>"; };
+		9F7C13871DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDisappearingMessagesConfigurationMessage.m; sourceTree = "<group>"; };
+		9F7C13881DDDA16300529703 /* OWSEndSessionMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSEndSessionMessage.h; sourceTree = "<group>"; };
+		9F7C13891DDDA16300529703 /* OWSEndSessionMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSEndSessionMessage.m; sourceTree = "<group>"; };
+		9F7C138A1DDDA16300529703 /* TSErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSErrorMessage.h; sourceTree = "<group>"; };
+		9F7C138B1DDDA16300529703 /* TSErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSErrorMessage.m; sourceTree = "<group>"; };
+		9F7C138C1DDDA16300529703 /* TSErrorMessage_privateConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSErrorMessage_privateConstructor.h; sourceTree = "<group>"; };
+		9F7C138D1DDDA16300529703 /* TSIncomingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSIncomingMessage.h; sourceTree = "<group>"; };
+		9F7C138E1DDDA16300529703 /* TSIncomingMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSIncomingMessage.m; sourceTree = "<group>"; };
+		9F7C138F1DDDA16300529703 /* TSInfoMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSInfoMessage.h; sourceTree = "<group>"; };
+		9F7C13901DDDA16300529703 /* TSInfoMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSInfoMessage.m; sourceTree = "<group>"; };
+		9F7C13911DDDA16300529703 /* TSInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSInteraction.h; sourceTree = "<group>"; };
+		9F7C13921DDDA16300529703 /* TSInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSInteraction.m; sourceTree = "<group>"; };
+		9F7C13931DDDA16300529703 /* TSMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessage.h; sourceTree = "<group>"; };
+		9F7C13941DDDA16300529703 /* TSMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessage.m; sourceTree = "<group>"; };
+		9F7C13951DDDA16300529703 /* TSOutgoingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSOutgoingMessage.h; sourceTree = "<group>"; };
+		9F7C13961DDDA16300529703 /* TSOutgoingMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSOutgoingMessage.m; sourceTree = "<group>"; };
+		9F7C13981DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSInvalidIdentityKeyErrorMessage.h; sourceTree = "<group>"; };
+		9F7C13991DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSInvalidIdentityKeyErrorMessage.m; sourceTree = "<group>"; };
+		9F7C139A1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSInvalidIdentityKeyReceivingErrorMessage.h; sourceTree = "<group>"; };
+		9F7C139B1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSInvalidIdentityKeyReceivingErrorMessage.m; sourceTree = "<group>"; };
+		9F7C139C1DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSInvalidIdentityKeySendingErrorMessage.h; sourceTree = "<group>"; };
+		9F7C139D1DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSInvalidIdentityKeySendingErrorMessage.m; sourceTree = "<group>"; };
+		9F7C139E1DDDA16300529703 /* OWSDisappearingMessagesFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDisappearingMessagesFinder.h; sourceTree = "<group>"; };
+		9F7C139F1DDDA16300529703 /* OWSDisappearingMessagesFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDisappearingMessagesFinder.m; sourceTree = "<group>"; };
+		9F7C13A01DDDA16300529703 /* OWSDisappearingMessagesJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDisappearingMessagesJob.h; sourceTree = "<group>"; };
+		9F7C13A11DDDA16300529703 /* OWSDisappearingMessagesJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDisappearingMessagesJob.m; sourceTree = "<group>"; };
+		9F7C13A21DDDA16300529703 /* OWSIncomingMessageReadObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSIncomingMessageReadObserver.h; sourceTree = "<group>"; };
+		9F7C13A31DDDA16300529703 /* OWSIncomingMessageReadObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSIncomingMessageReadObserver.m; sourceTree = "<group>"; };
+		9F7C13A41DDDA16300529703 /* OWSLegacyMessageServiceParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSLegacyMessageServiceParams.h; sourceTree = "<group>"; };
+		9F7C13A51DDDA16300529703 /* OWSLegacyMessageServiceParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSLegacyMessageServiceParams.m; sourceTree = "<group>"; };
+		9F7C13A61DDDA16300529703 /* OWSMessageSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSMessageSender.h; sourceTree = "<group>"; };
+		9F7C13A71DDDA16300529703 /* OWSMessageSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSMessageSender.m; sourceTree = "<group>"; };
+		9F7C13A81DDDA16300529703 /* OWSMessageServiceParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSMessageServiceParams.h; sourceTree = "<group>"; };
+		9F7C13A91DDDA16300529703 /* OWSMessageServiceParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSMessageServiceParams.m; sourceTree = "<group>"; };
+		9F7C13AA1DDDA16300529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h; sourceTree = "<group>"; };
+		9F7C13AB1DDDA16300529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.m; sourceTree = "<group>"; };
+		9F7C13AC1DDDA16300529703 /* OWSSignalServiceProtos.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSSignalServiceProtos.pb.h; sourceTree = "<group>"; };
+		9F7C13AD1DDDA16300529703 /* OWSSignalServiceProtos.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSSignalServiceProtos.pb.m; sourceTree = "<group>"; };
+		9F7C13AE1DDDA16300529703 /* PreKeyBundle+jsonDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PreKeyBundle+jsonDict.h"; sourceTree = "<group>"; };
+		9F7C13AF1DDDA16300529703 /* PreKeyBundle+jsonDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PreKeyBundle+jsonDict.m"; sourceTree = "<group>"; };
+		9F7C13B01DDDA16300529703 /* TSCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCall.h; sourceTree = "<group>"; };
+		9F7C13B11DDDA16300529703 /* TSCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCall.m; sourceTree = "<group>"; };
+		9F7C13B21DDDA16300529703 /* TSGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGroupModel.h; sourceTree = "<group>"; };
+		9F7C13B31DDDA16300529703 /* TSGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSGroupModel.m; sourceTree = "<group>"; };
+		9F7C13B41DDDA16300529703 /* TSMessagesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessagesManager.h; sourceTree = "<group>"; };
+		9F7C13B51DDDA16300529703 /* TSMessagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessagesManager.m; sourceTree = "<group>"; };
+		9F7C13B81DDDA16300529703 /* OWSDeviceProvisioningCodeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDeviceProvisioningCodeService.h; sourceTree = "<group>"; };
+		9F7C13B91DDDA16300529703 /* OWSDeviceProvisioningCodeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDeviceProvisioningCodeService.m; sourceTree = "<group>"; };
+		9F7C13BA1DDDA16300529703 /* OWSDeviceProvisioningService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDeviceProvisioningService.h; sourceTree = "<group>"; };
+		9F7C13BB1DDDA16300529703 /* OWSDeviceProvisioningService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDeviceProvisioningService.m; sourceTree = "<group>"; };
+		9F7C13BC1DDDA16300529703 /* OWSDevicesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDevicesService.h; sourceTree = "<group>"; };
+		9F7C13BD1DDDA16300529703 /* OWSDevicesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDevicesService.m; sourceTree = "<group>"; };
+		9F7C13BE1DDDA16300529703 /* OWSUploadingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSUploadingService.h; sourceTree = "<group>"; };
+		9F7C13BF1DDDA16300529703 /* OWSUploadingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSUploadingService.m; sourceTree = "<group>"; };
+		9F7C13C11DDDA16300529703 /* OWSDeleteDeviceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDeleteDeviceRequest.h; sourceTree = "<group>"; };
+		9F7C13C21DDDA16300529703 /* OWSDeleteDeviceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDeleteDeviceRequest.m; sourceTree = "<group>"; };
+		9F7C13C31DDDA16300529703 /* OWSDeviceProvisioningCodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDeviceProvisioningCodeRequest.h; sourceTree = "<group>"; };
+		9F7C13C41DDDA16300529703 /* OWSDeviceProvisioningCodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDeviceProvisioningCodeRequest.m; sourceTree = "<group>"; };
+		9F7C13C51DDDA16300529703 /* OWSDeviceProvisioningRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDeviceProvisioningRequest.h; sourceTree = "<group>"; };
+		9F7C13C61DDDA16300529703 /* OWSDeviceProvisioningRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDeviceProvisioningRequest.m; sourceTree = "<group>"; };
+		9F7C13C71DDDA16300529703 /* OWSGetDevicesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSGetDevicesRequest.h; sourceTree = "<group>"; };
+		9F7C13C81DDDA16300529703 /* OWSGetDevicesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSGetDevicesRequest.m; sourceTree = "<group>"; };
+		9F7C13C91DDDA16300529703 /* TSAllocAttachmentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAllocAttachmentRequest.h; sourceTree = "<group>"; };
+		9F7C13CA1DDDA16300529703 /* TSAllocAttachmentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAllocAttachmentRequest.m; sourceTree = "<group>"; };
+		9F7C13CB1DDDA16300529703 /* TSAttachmentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAttachmentRequest.h; sourceTree = "<group>"; };
+		9F7C13CC1DDDA16300529703 /* TSAttachmentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAttachmentRequest.m; sourceTree = "<group>"; };
+		9F7C13CD1DDDA16300529703 /* TSAvailablePreKeysCountRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAvailablePreKeysCountRequest.h; sourceTree = "<group>"; };
+		9F7C13CE1DDDA16300529703 /* TSAvailablePreKeysCountRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAvailablePreKeysCountRequest.m; sourceTree = "<group>"; };
+		9F7C13CF1DDDA16300529703 /* TSContactsIntersectionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSContactsIntersectionRequest.h; sourceTree = "<group>"; };
+		9F7C13D01DDDA16300529703 /* TSContactsIntersectionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSContactsIntersectionRequest.m; sourceTree = "<group>"; };
+		9F7C13D11DDDA16300529703 /* TSCurrentSignedPreKeyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCurrentSignedPreKeyRequest.h; sourceTree = "<group>"; };
+		9F7C13D21DDDA16300529703 /* TSCurrentSignedPreKeyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCurrentSignedPreKeyRequest.m; sourceTree = "<group>"; };
+		9F7C13D31DDDA16300529703 /* TSRecipientPrekeyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRecipientPrekeyRequest.h; sourceTree = "<group>"; };
+		9F7C13D41DDDA16300529703 /* TSRecipientPrekeyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRecipientPrekeyRequest.m; sourceTree = "<group>"; };
+		9F7C13D51DDDA16300529703 /* TSRedPhoneTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRedPhoneTokenRequest.h; sourceTree = "<group>"; };
+		9F7C13D61DDDA16300529703 /* TSRedPhoneTokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRedPhoneTokenRequest.m; sourceTree = "<group>"; };
+		9F7C13D71DDDA16300529703 /* TSRegisterForPushRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRegisterForPushRequest.h; sourceTree = "<group>"; };
+		9F7C13D81DDDA16300529703 /* TSRegisterForPushRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRegisterForPushRequest.m; sourceTree = "<group>"; };
+		9F7C13D91DDDA16300529703 /* TSRegisterPrekeysRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRegisterPrekeysRequest.h; sourceTree = "<group>"; };
+		9F7C13DA1DDDA16300529703 /* TSRegisterPrekeysRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRegisterPrekeysRequest.m; sourceTree = "<group>"; };
+		9F7C13DB1DDDA16300529703 /* TSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRequest.h; sourceTree = "<group>"; };
+		9F7C13DC1DDDA16300529703 /* TSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRequest.m; sourceTree = "<group>"; };
+		9F7C13DD1DDDA16300529703 /* TSRequestVerificationCodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRequestVerificationCodeRequest.h; sourceTree = "<group>"; };
+		9F7C13DE1DDDA16300529703 /* TSRequestVerificationCodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSRequestVerificationCodeRequest.m; sourceTree = "<group>"; };
+		9F7C13DF1DDDA16300529703 /* TSSubmitMessageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSubmitMessageRequest.h; sourceTree = "<group>"; };
+		9F7C13E01DDDA16300529703 /* TSSubmitMessageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSubmitMessageRequest.m; sourceTree = "<group>"; };
+		9F7C13E11DDDA16300529703 /* TSUnregisterAccountRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSUnregisterAccountRequest.h; sourceTree = "<group>"; };
+		9F7C13E21DDDA16300529703 /* TSUnregisterAccountRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSUnregisterAccountRequest.m; sourceTree = "<group>"; };
+		9F7C13E31DDDA16300529703 /* TSUpdateAttributesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSUpdateAttributesRequest.h; sourceTree = "<group>"; };
+		9F7C13E41DDDA16300529703 /* TSUpdateAttributesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSUpdateAttributesRequest.m; sourceTree = "<group>"; };
+		9F7C13E51DDDA16300529703 /* TSVerifyCodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSVerifyCodeRequest.h; sourceTree = "<group>"; };
+		9F7C13E61DDDA16300529703 /* TSVerifyCodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSVerifyCodeRequest.m; sourceTree = "<group>"; };
+		9F7C13E71DDDA16300529703 /* TSNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNetworkManager.h; sourceTree = "<group>"; };
+		9F7C13E81DDDA16300529703 /* TSNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNetworkManager.m; sourceTree = "<group>"; };
+		9F7C13EA1DDDA16300529703 /* SubProtocol.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubProtocol.pb.h; sourceTree = "<group>"; };
+		9F7C13EB1DDDA16300529703 /* SubProtocol.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubProtocol.pb.m; sourceTree = "<group>"; };
+		9F7C13EC1DDDA16300529703 /* TSSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSocketManager.h; sourceTree = "<group>"; };
+		9F7C13ED1DDDA16300529703 /* TSSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSocketManager.m; sourceTree = "<group>"; };
+		9F7C13EF1DDDA16300529703 /* ContactsManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsManagerProtocol.h; sourceTree = "<group>"; };
+		9F7C13F01DDDA16300529703 /* NotificationsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsProtocol.h; sourceTree = "<group>"; };
+		9F7C13F21DDDA16300529703 /* ECKeyPair+OWSPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ECKeyPair+OWSPrivateKey.h"; sourceTree = "<group>"; };
+		9F7C13F31DDDA16300529703 /* ECKeyPair+OWSPrivateKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ECKeyPair+OWSPrivateKey.m"; sourceTree = "<group>"; };
+		9F7C13F41DDDA16300529703 /* OWSFingerprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSFingerprint.h; sourceTree = "<group>"; };
+		9F7C13F51DDDA16300529703 /* OWSFingerprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSFingerprint.m; sourceTree = "<group>"; };
+		9F7C13F61DDDA16300529703 /* OWSFingerprintBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSFingerprintBuilder.h; sourceTree = "<group>"; };
+		9F7C13F71DDDA16300529703 /* OWSFingerprintBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSFingerprintBuilder.m; sourceTree = "<group>"; };
+		9F7C13F81DDDA16300529703 /* OWSFingerprintProtos.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSFingerprintProtos.pb.h; sourceTree = "<group>"; };
+		9F7C13F91DDDA16300529703 /* OWSFingerprintProtos.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSFingerprintProtos.pb.m; sourceTree = "<group>"; };
+		9F7C13FA1DDDA16300529703 /* OWSHTTPSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSHTTPSecurityPolicy.h; sourceTree = "<group>"; };
+		9F7C13FB1DDDA16300529703 /* OWSHTTPSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSHTTPSecurityPolicy.m; sourceTree = "<group>"; };
+		9F7C13FC1DDDA16300529703 /* OWSWebsocketSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSWebsocketSecurityPolicy.h; sourceTree = "<group>"; };
+		9F7C13FD1DDDA16300529703 /* OWSWebsocketSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSWebsocketSecurityPolicy.m; sourceTree = "<group>"; };
+		9F7C13FF1DDDA16300529703 /* textsecure.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = textsecure.cer; sourceTree = "<group>"; };
+		9F7C14001DDDA16300529703 /* SecurityUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtils.h; sourceTree = "<group>"; };
+		9F7C14011DDDA16300529703 /* SecurityUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtils.m; sourceTree = "<group>"; };
+		9F7C14041DDDA16300529703 /* TSStorageManager+IdentityKeyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSStorageManager+IdentityKeyStore.h"; sourceTree = "<group>"; };
+		9F7C14051DDDA16300529703 /* TSStorageManager+IdentityKeyStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSStorageManager+IdentityKeyStore.m"; sourceTree = "<group>"; };
+		9F7C14061DDDA16300529703 /* TSStorageManager+keyFromIntLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSStorageManager+keyFromIntLong.h"; sourceTree = "<group>"; };
+		9F7C14071DDDA16300529703 /* TSStorageManager+keyFromIntLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSStorageManager+keyFromIntLong.m"; sourceTree = "<group>"; };
+		9F7C14081DDDA16300529703 /* TSStorageManager+PreKeyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSStorageManager+PreKeyStore.h"; sourceTree = "<group>"; };
+		9F7C14091DDDA16300529703 /* TSStorageManager+PreKeyStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSStorageManager+PreKeyStore.m"; sourceTree = "<group>"; };
+		9F7C140A1DDDA16300529703 /* TSStorageManager+SessionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSStorageManager+SessionStore.h"; sourceTree = "<group>"; };
+		9F7C140B1DDDA16300529703 /* TSStorageManager+SessionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSStorageManager+SessionStore.m"; sourceTree = "<group>"; };
+		9F7C140C1DDDA16300529703 /* TSStorageManager+SignedPreKeyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSStorageManager+SignedPreKeyStore.h"; sourceTree = "<group>"; };
+		9F7C140D1DDDA16300529703 /* TSStorageManager+SignedPreKeyStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSStorageManager+SignedPreKeyStore.m"; sourceTree = "<group>"; };
+		9F7C140E1DDDA16300529703 /* OWSOrphanedDataCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSOrphanedDataCleaner.h; sourceTree = "<group>"; };
+		9F7C140F1DDDA16300529703 /* OWSOrphanedDataCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSOrphanedDataCleaner.m; sourceTree = "<group>"; };
+		9F7C14101DDDA16300529703 /* TSDatabaseSecondaryIndexes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDatabaseSecondaryIndexes.h; sourceTree = "<group>"; };
+		9F7C14111DDDA16300529703 /* TSDatabaseSecondaryIndexes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDatabaseSecondaryIndexes.m; sourceTree = "<group>"; };
+		9F7C14121DDDA16300529703 /* TSDatabaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDatabaseView.h; sourceTree = "<group>"; };
+		9F7C14131DDDA16300529703 /* TSDatabaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDatabaseView.m; sourceTree = "<group>"; };
+		9F7C14141DDDA16300529703 /* TSStorageHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStorageHeaders.h; sourceTree = "<group>"; };
+		9F7C14151DDDA16300529703 /* TSStorageKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStorageKeys.h; sourceTree = "<group>"; };
+		9F7C14161DDDA16300529703 /* TSStorageManager+keyingMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSStorageManager+keyingMaterial.h"; sourceTree = "<group>"; };
+		9F7C14171DDDA16300529703 /* TSStorageManager+keyingMaterial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSStorageManager+keyingMaterial.m"; sourceTree = "<group>"; };
+		9F7C14181DDDA16300529703 /* TSStorageManager+messageIDs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSStorageManager+messageIDs.h"; sourceTree = "<group>"; };
+		9F7C14191DDDA16300529703 /* TSStorageManager+messageIDs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSStorageManager+messageIDs.m"; sourceTree = "<group>"; };
+		9F7C141A1DDDA16300529703 /* TSStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStorageManager.h; sourceTree = "<group>"; };
+		9F7C141B1DDDA16300529703 /* TSStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSStorageManager.m; sourceTree = "<group>"; };
+		9F7C141C1DDDA16300529703 /* TSYapDatabaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSYapDatabaseObject.h; sourceTree = "<group>"; };
+		9F7C141D1DDDA16300529703 /* TSYapDatabaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSYapDatabaseObject.m; sourceTree = "<group>"; };
+		9F7C141E1DDDA16300529703 /* TextSecureKitEnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSecureKitEnv.h; sourceTree = "<group>"; };
+		9F7C141F1DDDA16300529703 /* TextSecureKitEnv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSecureKitEnv.m; sourceTree = "<group>"; };
+		9F7C14201DDDA16300529703 /* TSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSConstants.h; sourceTree = "<group>"; };
+		9F7C14211DDDA16300529703 /* TSPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPrefix.h; sourceTree = "<group>"; };
+		9F7C14241DDDA16300529703 /* BadArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadArgument.h; sourceTree = "<group>"; };
+		9F7C14251DDDA16300529703 /* BadArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadArgument.m; sourceTree = "<group>"; };
+		9F7C14261DDDA16300529703 /* BadState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadState.h; sourceTree = "<group>"; };
+		9F7C14271DDDA16300529703 /* BadState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadState.m; sourceTree = "<group>"; };
+		9F7C14281DDDA16300529703 /* Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constraints.h; sourceTree = "<group>"; };
+		9F7C14291DDDA16300529703 /* OperationFailed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationFailed.h; sourceTree = "<group>"; };
+		9F7C142A1DDDA16300529703 /* OperationFailed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFailed.m; sourceTree = "<group>"; };
+		9F7C142B1DDDA16300529703 /* SecurityFailure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityFailure.h; sourceTree = "<group>"; };
+		9F7C142C1DDDA16300529703 /* SecurityFailure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityFailure.m; sourceTree = "<group>"; };
+		9F7C142D1DDDA16300529703 /* Cryptography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cryptography.h; sourceTree = "<group>"; };
+		9F7C142E1DDDA16300529703 /* Cryptography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cryptography.m; sourceTree = "<group>"; };
+		9F7C142F1DDDA16300529703 /* FunctionalUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionalUtil.h; sourceTree = "<group>"; };
+		9F7C14301DDDA16300529703 /* FunctionalUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionalUtil.m; sourceTree = "<group>"; };
+		9F7C14311DDDA16300529703 /* MIMETypeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMETypeUtil.h; sourceTree = "<group>"; };
+		9F7C14321DDDA16300529703 /* MIMETypeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMETypeUtil.m; sourceTree = "<group>"; };
+		9F7C14331DDDA16300529703 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		9F7C14341DDDA16300529703 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		9F7C14351DDDA16300529703 /* NSData+hexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+hexString.h"; sourceTree = "<group>"; };
+		9F7C14361DDDA16300529703 /* NSData+hexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+hexString.m"; sourceTree = "<group>"; };
+		9F7C14371DDDA16300529703 /* NSData+messagePadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+messagePadding.h"; sourceTree = "<group>"; };
+		9F7C14381DDDA16300529703 /* NSData+messagePadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+messagePadding.m"; sourceTree = "<group>"; };
+		9F7C14391DDDA16300529703 /* NSDate+millisecondTimeStamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+millisecondTimeStamp.h"; sourceTree = "<group>"; };
+		9F7C143A1DDDA16300529703 /* NSDate+millisecondTimeStamp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSDate+millisecondTimeStamp.mm"; sourceTree = "<group>"; };
+		9F7C143B1DDDA16300529703 /* NSURLSessionDataTask+StatusCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionDataTask+StatusCode.h"; sourceTree = "<group>"; };
+		9F7C143C1DDDA16300529703 /* NSURLSessionDataTask+StatusCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionDataTask+StatusCode.m"; sourceTree = "<group>"; };
+		9F7C143D1DDDA16300529703 /* OWSDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSDispatch.h; sourceTree = "<group>"; };
+		9F7C143E1DDDA16300529703 /* OWSDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSDispatch.m; sourceTree = "<group>"; };
+		9F7C143F1DDDA16300529703 /* OWSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSError.h; sourceTree = "<group>"; };
+		9F7C14401DDDA16300529703 /* OWSError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSError.m; sourceTree = "<group>"; };
+		9F7C14411DDDA16300529703 /* UIImage+contentTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+contentTypes.h"; sourceTree = "<group>"; };
+		9F7C14421DDDA16300529703 /* UIImage+contentTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+contentTypes.m"; sourceTree = "<group>"; };
+		9F7C16181DDDA68500529703 /* Curve25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curve25519.h; sourceTree = "<group>"; };
+		9F7C16191DDDA68500529703 /* Curve25519.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Curve25519.m; sourceTree = "<group>"; };
+		9F7C161A1DDDA68500529703 /* Ed25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ed25519.h; sourceTree = "<group>"; };
+		9F7C161B1DDDA68500529703 /* Ed25519.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ed25519.m; sourceTree = "<group>"; };
+		9F7C161C1DDDA68500529703 /* Randomness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Randomness.h; sourceTree = "<group>"; };
+		9F7C161D1DDDA68500529703 /* Randomness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Randomness.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F7C13261DDDA12400529703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F7C13201DDDA12400529703 = {
+			isa = PBXGroup;
+			children = (
+				9F7C132C1DDDA12400529703 /* SignalServiceKit */,
+				9F7C132B1DDDA12400529703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F7C132B1DDDA12400529703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C132A1DDDA12400529703 /* SignalServiceKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F7C132C1DDDA12400529703 /* SignalServiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C16171DDDA68500529703 /* Classes */,
+				9F7C13351DDDA16300529703 /* src */,
+				9F7C132D1DDDA12400529703 /* SignalServiceKit.h */,
+				9F7C132E1DDDA12400529703 /* Info.plist */,
+			);
+			path = SignalServiceKit;
+			sourceTree = "<group>";
+		};
+		9F7C13351DDDA16300529703 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13361DDDA16300529703 /* Account */,
+				9F7C133F1DDDA16300529703 /* Contacts */,
+				9F7C13531DDDA16300529703 /* Devices */,
+				9F7C136E1DDDA16300529703 /* Messages */,
+				9F7C13B61DDDA16300529703 /* Network */,
+				9F7C13EE1DDDA16300529703 /* Protocols */,
+				9F7C13F11DDDA16300529703 /* Security */,
+				9F7C14021DDDA16300529703 /* Storage */,
+				9F7C141E1DDDA16300529703 /* TextSecureKitEnv.h */,
+				9F7C141F1DDDA16300529703 /* TextSecureKitEnv.m */,
+				9F7C14201DDDA16300529703 /* TSConstants.h */,
+				9F7C14211DDDA16300529703 /* TSPrefix.h */,
+				9F7C14221DDDA16300529703 /* Util */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		9F7C13361DDDA16300529703 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13371DDDA16300529703 /* TSAccountManager.h */,
+				9F7C13381DDDA16300529703 /* TSAccountManager.m */,
+				9F7C13391DDDA16300529703 /* TSAttributes.h */,
+				9F7C133A1DDDA16300529703 /* TSAttributes.m */,
+				9F7C133B1DDDA16300529703 /* TSPreKeyManager.h */,
+				9F7C133C1DDDA16300529703 /* TSPreKeyManager.m */,
+				9F7C133D1DDDA16300529703 /* TSPrivacyPreferences.h */,
+				9F7C133E1DDDA16300529703 /* TSPrivacyPreferences.m */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		9F7C133F1DDDA16300529703 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13401DDDA16300529703 /* Contact.h */,
+				9F7C13411DDDA16300529703 /* Contact.m */,
+				9F7C13421DDDA16300529703 /* ContactsUpdater.h */,
+				9F7C13431DDDA16300529703 /* ContactsUpdater.m */,
+				9F7C13441DDDA16300529703 /* OWSDisappearingMessagesConfiguration.h */,
+				9F7C13451DDDA16300529703 /* OWSDisappearingMessagesConfiguration.m */,
+				9F7C13461DDDA16300529703 /* PhoneNumber.h */,
+				9F7C13471DDDA16300529703 /* PhoneNumber.m */,
+				9F7C13481DDDA16300529703 /* PhoneNumberUtil.h */,
+				9F7C13491DDDA16300529703 /* PhoneNumberUtil.m */,
+				9F7C134A1DDDA16300529703 /* SignalRecipient.h */,
+				9F7C134B1DDDA16300529703 /* SignalRecipient.m */,
+				9F7C134C1DDDA16300529703 /* Threads */,
+				9F7C13511DDDA16300529703 /* TSThread.h */,
+				9F7C13521DDDA16300529703 /* TSThread.m */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		9F7C134C1DDDA16300529703 /* Threads */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C134D1DDDA16300529703 /* TSContactThread.h */,
+				9F7C134E1DDDA16300529703 /* TSContactThread.m */,
+				9F7C134F1DDDA16300529703 /* TSGroupThread.h */,
+				9F7C13501DDDA16300529703 /* TSGroupThread.m */,
+			);
+			path = Threads;
+			sourceTree = "<group>";
+		};
+		9F7C13531DDDA16300529703 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13541DDDA16300529703 /* OWSChunkedOutputStream.h */,
+				9F7C13551DDDA16300529703 /* OWSChunkedOutputStream.m */,
+				9F7C13561DDDA16300529703 /* OWSContactsOutputStream.h */,
+				9F7C13571DDDA16300529703 /* OWSContactsOutputStream.m */,
+				9F7C13581DDDA16300529703 /* OWSDevice.h */,
+				9F7C13591DDDA16300529703 /* OWSDevice.m */,
+				9F7C135A1DDDA16300529703 /* OWSDeviceProvisioner.h */,
+				9F7C135B1DDDA16300529703 /* OWSDeviceProvisioner.m */,
+				9F7C135C1DDDA16300529703 /* OWSGroupsOutputStream.h */,
+				9F7C135D1DDDA16300529703 /* OWSGroupsOutputStream.m */,
+				9F7C135E1DDDA16300529703 /* OWSProvisioningCipher.h */,
+				9F7C135F1DDDA16300529703 /* OWSProvisioningCipher.m */,
+				9F7C13601DDDA16300529703 /* OWSProvisioningMessage.h */,
+				9F7C13611DDDA16300529703 /* OWSProvisioningMessage.m */,
+				9F7C13621DDDA16300529703 /* OWSProvisioningProtos.pb.h */,
+				9F7C13631DDDA16300529703 /* OWSProvisioningProtos.pb.m */,
+				9F7C13641DDDA16300529703 /* OWSReadReceipt.h */,
+				9F7C13651DDDA16300529703 /* OWSReadReceipt.m */,
+				9F7C13661DDDA16300529703 /* OWSReadReceiptsMessage.h */,
+				9F7C13671DDDA16300529703 /* OWSReadReceiptsMessage.m */,
+				9F7C13681DDDA16300529703 /* OWSReadReceiptsProcessor.h */,
+				9F7C13691DDDA16300529703 /* OWSReadReceiptsProcessor.m */,
+				9F7C136A1DDDA16300529703 /* OWSRecordTranscriptJob.h */,
+				9F7C136B1DDDA16300529703 /* OWSRecordTranscriptJob.m */,
+				9F7C136C1DDDA16300529703 /* OWSSendReadReceiptsJob.h */,
+				9F7C136D1DDDA16300529703 /* OWSSendReadReceiptsJob.m */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		9F7C136E1DDDA16300529703 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C136F1DDDA16300529703 /* Attachments */,
+				9F7C13781DDDA16300529703 /* DeviceSyncing */,
+				9F7C13831DDDA16300529703 /* Interactions */,
+				9F7C13971DDDA16300529703 /* InvalidKeyMessages */,
+				9F7C139E1DDDA16300529703 /* OWSDisappearingMessagesFinder.h */,
+				9F7C139F1DDDA16300529703 /* OWSDisappearingMessagesFinder.m */,
+				9F7C13A01DDDA16300529703 /* OWSDisappearingMessagesJob.h */,
+				9F7C13A11DDDA16300529703 /* OWSDisappearingMessagesJob.m */,
+				9F7C13A21DDDA16300529703 /* OWSIncomingMessageReadObserver.h */,
+				9F7C13A31DDDA16300529703 /* OWSIncomingMessageReadObserver.m */,
+				9F7C13A41DDDA16300529703 /* OWSLegacyMessageServiceParams.h */,
+				9F7C13A51DDDA16300529703 /* OWSLegacyMessageServiceParams.m */,
+				9F7C13A61DDDA16300529703 /* OWSMessageSender.h */,
+				9F7C13A71DDDA16300529703 /* OWSMessageSender.m */,
+				9F7C13A81DDDA16300529703 /* OWSMessageServiceParams.h */,
+				9F7C13A91DDDA16300529703 /* OWSMessageServiceParams.m */,
+				9F7C13AA1DDDA16300529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h */,
+				9F7C13AB1DDDA16300529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.m */,
+				9F7C13AC1DDDA16300529703 /* OWSSignalServiceProtos.pb.h */,
+				9F7C13AD1DDDA16300529703 /* OWSSignalServiceProtos.pb.m */,
+				9F7C13AE1DDDA16300529703 /* PreKeyBundle+jsonDict.h */,
+				9F7C13AF1DDDA16300529703 /* PreKeyBundle+jsonDict.m */,
+				9F7C13B01DDDA16300529703 /* TSCall.h */,
+				9F7C13B11DDDA16300529703 /* TSCall.m */,
+				9F7C13B21DDDA16300529703 /* TSGroupModel.h */,
+				9F7C13B31DDDA16300529703 /* TSGroupModel.m */,
+				9F7C13B41DDDA16300529703 /* TSMessagesManager.h */,
+				9F7C13B51DDDA16300529703 /* TSMessagesManager.m */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		9F7C136F1DDDA16300529703 /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13701DDDA16300529703 /* OWSAttachmentsProcessor.h */,
+				9F7C13711DDDA16300529703 /* OWSAttachmentsProcessor.m */,
+				9F7C13721DDDA16300529703 /* TSAttachment.h */,
+				9F7C13731DDDA16300529703 /* TSAttachment.m */,
+				9F7C13741DDDA16300529703 /* TSAttachmentPointer.h */,
+				9F7C13751DDDA16300529703 /* TSAttachmentPointer.m */,
+				9F7C13761DDDA16300529703 /* TSAttachmentStream.h */,
+				9F7C13771DDDA16300529703 /* TSAttachmentStream.m */,
+			);
+			path = Attachments;
+			sourceTree = "<group>";
+		};
+		9F7C13781DDDA16300529703 /* DeviceSyncing */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13791DDDA16300529703 /* OWSIncomingSentMessageTranscript.h */,
+				9F7C137A1DDDA16300529703 /* OWSIncomingSentMessageTranscript.m */,
+				9F7C137B1DDDA16300529703 /* OWSOutgoingSentMessageTranscript.h */,
+				9F7C137C1DDDA16300529703 /* OWSOutgoingSentMessageTranscript.m */,
+				9F7C137D1DDDA16300529703 /* OWSOutgoingSyncMessage.h */,
+				9F7C137E1DDDA16300529703 /* OWSOutgoingSyncMessage.m */,
+				9F7C137F1DDDA16300529703 /* OWSSyncContactsMessage.h */,
+				9F7C13801DDDA16300529703 /* OWSSyncContactsMessage.m */,
+				9F7C13811DDDA16300529703 /* OWSSyncGroupsMessage.h */,
+				9F7C13821DDDA16300529703 /* OWSSyncGroupsMessage.m */,
+			);
+			path = DeviceSyncing;
+			sourceTree = "<group>";
+		};
+		9F7C13831DDDA16300529703 /* Interactions */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13841DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.h */,
+				9F7C13851DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.m */,
+				9F7C13861DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.h */,
+				9F7C13871DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.m */,
+				9F7C13881DDDA16300529703 /* OWSEndSessionMessage.h */,
+				9F7C13891DDDA16300529703 /* OWSEndSessionMessage.m */,
+				9F7C138A1DDDA16300529703 /* TSErrorMessage.h */,
+				9F7C138B1DDDA16300529703 /* TSErrorMessage.m */,
+				9F7C138C1DDDA16300529703 /* TSErrorMessage_privateConstructor.h */,
+				9F7C138D1DDDA16300529703 /* TSIncomingMessage.h */,
+				9F7C138E1DDDA16300529703 /* TSIncomingMessage.m */,
+				9F7C138F1DDDA16300529703 /* TSInfoMessage.h */,
+				9F7C13901DDDA16300529703 /* TSInfoMessage.m */,
+				9F7C13911DDDA16300529703 /* TSInteraction.h */,
+				9F7C13921DDDA16300529703 /* TSInteraction.m */,
+				9F7C13931DDDA16300529703 /* TSMessage.h */,
+				9F7C13941DDDA16300529703 /* TSMessage.m */,
+				9F7C13951DDDA16300529703 /* TSOutgoingMessage.h */,
+				9F7C13961DDDA16300529703 /* TSOutgoingMessage.m */,
+			);
+			path = Interactions;
+			sourceTree = "<group>";
+		};
+		9F7C13971DDDA16300529703 /* InvalidKeyMessages */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13981DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.h */,
+				9F7C13991DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.m */,
+				9F7C139A1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.h */,
+				9F7C139B1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.m */,
+				9F7C139C1DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.h */,
+				9F7C139D1DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.m */,
+			);
+			path = InvalidKeyMessages;
+			sourceTree = "<group>";
+		};
+		9F7C13B61DDDA16300529703 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13B71DDDA16300529703 /* API */,
+				9F7C13E91DDDA16300529703 /* WebSockets */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9F7C13B71DDDA16300529703 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13B81DDDA16300529703 /* OWSDeviceProvisioningCodeService.h */,
+				9F7C13B91DDDA16300529703 /* OWSDeviceProvisioningCodeService.m */,
+				9F7C13BA1DDDA16300529703 /* OWSDeviceProvisioningService.h */,
+				9F7C13BB1DDDA16300529703 /* OWSDeviceProvisioningService.m */,
+				9F7C13BC1DDDA16300529703 /* OWSDevicesService.h */,
+				9F7C13BD1DDDA16300529703 /* OWSDevicesService.m */,
+				9F7C13BE1DDDA16300529703 /* OWSUploadingService.h */,
+				9F7C13BF1DDDA16300529703 /* OWSUploadingService.m */,
+				9F7C13C01DDDA16300529703 /* Requests */,
+				9F7C13E71DDDA16300529703 /* TSNetworkManager.h */,
+				9F7C13E81DDDA16300529703 /* TSNetworkManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9F7C13C01DDDA16300529703 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13C11DDDA16300529703 /* OWSDeleteDeviceRequest.h */,
+				9F7C13C21DDDA16300529703 /* OWSDeleteDeviceRequest.m */,
+				9F7C13C31DDDA16300529703 /* OWSDeviceProvisioningCodeRequest.h */,
+				9F7C13C41DDDA16300529703 /* OWSDeviceProvisioningCodeRequest.m */,
+				9F7C13C51DDDA16300529703 /* OWSDeviceProvisioningRequest.h */,
+				9F7C13C61DDDA16300529703 /* OWSDeviceProvisioningRequest.m */,
+				9F7C13C71DDDA16300529703 /* OWSGetDevicesRequest.h */,
+				9F7C13C81DDDA16300529703 /* OWSGetDevicesRequest.m */,
+				9F7C13C91DDDA16300529703 /* TSAllocAttachmentRequest.h */,
+				9F7C13CA1DDDA16300529703 /* TSAllocAttachmentRequest.m */,
+				9F7C13CB1DDDA16300529703 /* TSAttachmentRequest.h */,
+				9F7C13CC1DDDA16300529703 /* TSAttachmentRequest.m */,
+				9F7C13CD1DDDA16300529703 /* TSAvailablePreKeysCountRequest.h */,
+				9F7C13CE1DDDA16300529703 /* TSAvailablePreKeysCountRequest.m */,
+				9F7C13CF1DDDA16300529703 /* TSContactsIntersectionRequest.h */,
+				9F7C13D01DDDA16300529703 /* TSContactsIntersectionRequest.m */,
+				9F7C13D11DDDA16300529703 /* TSCurrentSignedPreKeyRequest.h */,
+				9F7C13D21DDDA16300529703 /* TSCurrentSignedPreKeyRequest.m */,
+				9F7C13D31DDDA16300529703 /* TSRecipientPrekeyRequest.h */,
+				9F7C13D41DDDA16300529703 /* TSRecipientPrekeyRequest.m */,
+				9F7C13D51DDDA16300529703 /* TSRedPhoneTokenRequest.h */,
+				9F7C13D61DDDA16300529703 /* TSRedPhoneTokenRequest.m */,
+				9F7C13D71DDDA16300529703 /* TSRegisterForPushRequest.h */,
+				9F7C13D81DDDA16300529703 /* TSRegisterForPushRequest.m */,
+				9F7C13D91DDDA16300529703 /* TSRegisterPrekeysRequest.h */,
+				9F7C13DA1DDDA16300529703 /* TSRegisterPrekeysRequest.m */,
+				9F7C13DB1DDDA16300529703 /* TSRequest.h */,
+				9F7C13DC1DDDA16300529703 /* TSRequest.m */,
+				9F7C13DD1DDDA16300529703 /* TSRequestVerificationCodeRequest.h */,
+				9F7C13DE1DDDA16300529703 /* TSRequestVerificationCodeRequest.m */,
+				9F7C13DF1DDDA16300529703 /* TSSubmitMessageRequest.h */,
+				9F7C13E01DDDA16300529703 /* TSSubmitMessageRequest.m */,
+				9F7C13E11DDDA16300529703 /* TSUnregisterAccountRequest.h */,
+				9F7C13E21DDDA16300529703 /* TSUnregisterAccountRequest.m */,
+				9F7C13E31DDDA16300529703 /* TSUpdateAttributesRequest.h */,
+				9F7C13E41DDDA16300529703 /* TSUpdateAttributesRequest.m */,
+				9F7C13E51DDDA16300529703 /* TSVerifyCodeRequest.h */,
+				9F7C13E61DDDA16300529703 /* TSVerifyCodeRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		9F7C13E91DDDA16300529703 /* WebSockets */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13EA1DDDA16300529703 /* SubProtocol.pb.h */,
+				9F7C13EB1DDDA16300529703 /* SubProtocol.pb.m */,
+				9F7C13EC1DDDA16300529703 /* TSSocketManager.h */,
+				9F7C13ED1DDDA16300529703 /* TSSocketManager.m */,
+			);
+			path = WebSockets;
+			sourceTree = "<group>";
+		};
+		9F7C13EE1DDDA16300529703 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13EF1DDDA16300529703 /* ContactsManagerProtocol.h */,
+				9F7C13F01DDDA16300529703 /* NotificationsProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9F7C13F11DDDA16300529703 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13F21DDDA16300529703 /* ECKeyPair+OWSPrivateKey.h */,
+				9F7C13F31DDDA16300529703 /* ECKeyPair+OWSPrivateKey.m */,
+				9F7C13F41DDDA16300529703 /* OWSFingerprint.h */,
+				9F7C13F51DDDA16300529703 /* OWSFingerprint.m */,
+				9F7C13F61DDDA16300529703 /* OWSFingerprintBuilder.h */,
+				9F7C13F71DDDA16300529703 /* OWSFingerprintBuilder.m */,
+				9F7C13F81DDDA16300529703 /* OWSFingerprintProtos.pb.h */,
+				9F7C13F91DDDA16300529703 /* OWSFingerprintProtos.pb.m */,
+				9F7C13FA1DDDA16300529703 /* OWSHTTPSecurityPolicy.h */,
+				9F7C13FB1DDDA16300529703 /* OWSHTTPSecurityPolicy.m */,
+				9F7C13FC1DDDA16300529703 /* OWSWebsocketSecurityPolicy.h */,
+				9F7C13FD1DDDA16300529703 /* OWSWebsocketSecurityPolicy.m */,
+				9F7C13FE1DDDA16300529703 /* PinningCertificate */,
+				9F7C14001DDDA16300529703 /* SecurityUtils.h */,
+				9F7C14011DDDA16300529703 /* SecurityUtils.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		9F7C13FE1DDDA16300529703 /* PinningCertificate */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C13FF1DDDA16300529703 /* textsecure.cer */,
+			);
+			path = PinningCertificate;
+			sourceTree = "<group>";
+		};
+		9F7C14021DDDA16300529703 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C14031DDDA16300529703 /* AxolotlStore */,
+				9F7C140E1DDDA16300529703 /* OWSOrphanedDataCleaner.h */,
+				9F7C140F1DDDA16300529703 /* OWSOrphanedDataCleaner.m */,
+				9F7C14101DDDA16300529703 /* TSDatabaseSecondaryIndexes.h */,
+				9F7C14111DDDA16300529703 /* TSDatabaseSecondaryIndexes.m */,
+				9F7C14121DDDA16300529703 /* TSDatabaseView.h */,
+				9F7C14131DDDA16300529703 /* TSDatabaseView.m */,
+				9F7C14141DDDA16300529703 /* TSStorageHeaders.h */,
+				9F7C14151DDDA16300529703 /* TSStorageKeys.h */,
+				9F7C14161DDDA16300529703 /* TSStorageManager+keyingMaterial.h */,
+				9F7C14171DDDA16300529703 /* TSStorageManager+keyingMaterial.m */,
+				9F7C14181DDDA16300529703 /* TSStorageManager+messageIDs.h */,
+				9F7C14191DDDA16300529703 /* TSStorageManager+messageIDs.m */,
+				9F7C141A1DDDA16300529703 /* TSStorageManager.h */,
+				9F7C141B1DDDA16300529703 /* TSStorageManager.m */,
+				9F7C141C1DDDA16300529703 /* TSYapDatabaseObject.h */,
+				9F7C141D1DDDA16300529703 /* TSYapDatabaseObject.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		9F7C14031DDDA16300529703 /* AxolotlStore */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C14041DDDA16300529703 /* TSStorageManager+IdentityKeyStore.h */,
+				9F7C14051DDDA16300529703 /* TSStorageManager+IdentityKeyStore.m */,
+				9F7C14061DDDA16300529703 /* TSStorageManager+keyFromIntLong.h */,
+				9F7C14071DDDA16300529703 /* TSStorageManager+keyFromIntLong.m */,
+				9F7C14081DDDA16300529703 /* TSStorageManager+PreKeyStore.h */,
+				9F7C14091DDDA16300529703 /* TSStorageManager+PreKeyStore.m */,
+				9F7C140A1DDDA16300529703 /* TSStorageManager+SessionStore.h */,
+				9F7C140B1DDDA16300529703 /* TSStorageManager+SessionStore.m */,
+				9F7C140C1DDDA16300529703 /* TSStorageManager+SignedPreKeyStore.h */,
+				9F7C140D1DDDA16300529703 /* TSStorageManager+SignedPreKeyStore.m */,
+			);
+			path = AxolotlStore;
+			sourceTree = "<group>";
+		};
+		9F7C14221DDDA16300529703 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C14231DDDA16300529703 /* constraints */,
+				9F7C142D1DDDA16300529703 /* Cryptography.h */,
+				9F7C142E1DDDA16300529703 /* Cryptography.m */,
+				9F7C142F1DDDA16300529703 /* FunctionalUtil.h */,
+				9F7C14301DDDA16300529703 /* FunctionalUtil.m */,
+				9F7C14311DDDA16300529703 /* MIMETypeUtil.h */,
+				9F7C14321DDDA16300529703 /* MIMETypeUtil.m */,
+				9F7C14331DDDA16300529703 /* NSData+Base64.h */,
+				9F7C14341DDDA16300529703 /* NSData+Base64.m */,
+				9F7C14351DDDA16300529703 /* NSData+hexString.h */,
+				9F7C14361DDDA16300529703 /* NSData+hexString.m */,
+				9F7C14371DDDA16300529703 /* NSData+messagePadding.h */,
+				9F7C14381DDDA16300529703 /* NSData+messagePadding.m */,
+				9F7C14391DDDA16300529703 /* NSDate+millisecondTimeStamp.h */,
+				9F7C143A1DDDA16300529703 /* NSDate+millisecondTimeStamp.mm */,
+				9F7C143B1DDDA16300529703 /* NSURLSessionDataTask+StatusCode.h */,
+				9F7C143C1DDDA16300529703 /* NSURLSessionDataTask+StatusCode.m */,
+				9F7C143D1DDDA16300529703 /* OWSDispatch.h */,
+				9F7C143E1DDDA16300529703 /* OWSDispatch.m */,
+				9F7C143F1DDDA16300529703 /* OWSError.h */,
+				9F7C14401DDDA16300529703 /* OWSError.m */,
+				9F7C14411DDDA16300529703 /* UIImage+contentTypes.h */,
+				9F7C14421DDDA16300529703 /* UIImage+contentTypes.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9F7C14231DDDA16300529703 /* constraints */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C14241DDDA16300529703 /* BadArgument.h */,
+				9F7C14251DDDA16300529703 /* BadArgument.m */,
+				9F7C14261DDDA16300529703 /* BadState.h */,
+				9F7C14271DDDA16300529703 /* BadState.m */,
+				9F7C14281DDDA16300529703 /* Constraints.h */,
+				9F7C14291DDDA16300529703 /* OperationFailed.h */,
+				9F7C142A1DDDA16300529703 /* OperationFailed.m */,
+				9F7C142B1DDDA16300529703 /* SecurityFailure.h */,
+				9F7C142C1DDDA16300529703 /* SecurityFailure.m */,
+			);
+			path = constraints;
+			sourceTree = "<group>";
+		};
+		9F7C16171DDDA68500529703 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C16181DDDA68500529703 /* Curve25519.h */,
+				9F7C16191DDDA68500529703 /* Curve25519.m */,
+				9F7C161A1DDDA68500529703 /* Ed25519.h */,
+				9F7C161B1DDDA68500529703 /* Ed25519.m */,
+				9F7C161C1DDDA68500529703 /* Randomness.h */,
+				9F7C161D1DDDA68500529703 /* Randomness.m */,
+			);
+			name = Classes;
+			path = ../../25519/Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F7C13271DDDA12400529703 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7C14CA1DDDA16400529703 /* TSAllocAttachmentRequest.h in Headers */,
+				9F7C14981DDDA16300529703 /* TSMessage.h in Headers */,
+				9F7C150F1DDDA16400529703 /* TSStorageHeaders.h in Headers */,
+				9F7C14671DDDA16300529703 /* OWSProvisioningCipher.h in Headers */,
+				9F7C152C1DDDA16400529703 /* NSData+Base64.h in Headers */,
+				9F7C14B81DDDA16400529703 /* TSMessagesManager.h in Headers */,
+				9F7C15241DDDA16400529703 /* SecurityFailure.h in Headers */,
+				9F7C14751DDDA16300529703 /* OWSSendReadReceiptsJob.h in Headers */,
+				9F7C15361DDDA16400529703 /* OWSDispatch.h in Headers */,
+				9F7C14D21DDDA16400529703 /* TSCurrentSignedPreKeyRequest.h in Headers */,
+				9F7C14F01DDDA16400529703 /* ECKeyPair+OWSPrivateKey.h in Headers */,
+				9F7C145D1DDDA16300529703 /* OWSChunkedOutputStream.h in Headers */,
+				9F7C15301DDDA16400529703 /* NSData+messagePadding.h in Headers */,
+				9F7C161E1DDDA68500529703 /* Curve25519.h in Headers */,
+				9F7C14E81DDDA16400529703 /* TSNetworkManager.h in Headers */,
+				9F7C14DC1DDDA16400529703 /* TSRequest.h in Headers */,
+				9F7C14CE1DDDA16400529703 /* TSAvailablePreKeysCountRequest.h in Headers */,
+				9F7C14A61DDDA16300529703 /* OWSIncomingMessageReadObserver.h in Headers */,
+				9F7C15051DDDA16400529703 /* TSStorageManager+SessionStore.h in Headers */,
+				9F7C132F1DDDA12400529703 /* SignalServiceKit.h in Headers */,
+				9F7C15211DDDA16400529703 /* Constraints.h in Headers */,
+				9F7C14E01DDDA16400529703 /* TSSubmitMessageRequest.h in Headers */,
+				9F7C14961DDDA16300529703 /* TSInteraction.h in Headers */,
+				9F7C14AC1DDDA16400529703 /* OWSMessageServiceParams.h in Headers */,
+				9F7C151F1DDDA16400529703 /* BadState.h in Headers */,
+				9F7C14AE1DDDA16400529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h in Headers */,
+				9F7C14F21DDDA16400529703 /* OWSFingerprint.h in Headers */,
+				9F7C14651DDDA16300529703 /* OWSGroupsOutputStream.h in Headers */,
+				9F7C14831DDDA16300529703 /* OWSOutgoingSyncMessage.h in Headers */,
+				9F7C152E1DDDA16400529703 /* NSData+hexString.h in Headers */,
+				9F7C14C41DDDA16400529703 /* OWSDeviceProvisioningCodeRequest.h in Headers */,
+				9F7C14D61DDDA16400529703 /* TSRedPhoneTokenRequest.h in Headers */,
+				9F7C144B1DDDA16300529703 /* Contact.h in Headers */,
+				9F7C152A1DDDA16400529703 /* MIMETypeUtil.h in Headers */,
+				9F7C16201DDDA68500529703 /* Ed25519.h in Headers */,
+				9F7C149C1DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.h in Headers */,
+				9F7C14851DDDA16300529703 /* OWSSyncContactsMessage.h in Headers */,
+				9F7C15381DDDA16400529703 /* OWSError.h in Headers */,
+				9F7C147F1DDDA16300529703 /* OWSIncomingSentMessageTranscript.h in Headers */,
+				9F7C14591DDDA16300529703 /* TSGroupThread.h in Headers */,
+				9F7C145F1DDDA16300529703 /* OWSContactsOutputStream.h in Headers */,
+				9F7C14B61DDDA16400529703 /* TSGroupModel.h in Headers */,
+				9F7C14571DDDA16300529703 /* TSContactThread.h in Headers */,
+				9F7C14471DDDA16300529703 /* TSPreKeyManager.h in Headers */,
+				9F7C14431DDDA16300529703 /* TSAccountManager.h in Headers */,
+				9F7C14BA1DDDA16400529703 /* OWSDeviceProvisioningCodeService.h in Headers */,
+				9F7C15091DDDA16400529703 /* OWSOrphanedDataCleaner.h in Headers */,
+				9F7C14691DDDA16300529703 /* OWSProvisioningMessage.h in Headers */,
+				9F7C14A01DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.h in Headers */,
+				9F7C14531DDDA16300529703 /* PhoneNumberUtil.h in Headers */,
+				9F7C14A81DDDA16400529703 /* OWSLegacyMessageServiceParams.h in Headers */,
+				9F7C148B1DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.h in Headers */,
+				9F7C14F61DDDA16400529703 /* OWSFingerprintProtos.pb.h in Headers */,
+				9F7C14811DDDA16300529703 /* OWSOutgoingSentMessageTranscript.h in Headers */,
+				9F7C14DA1DDDA16400529703 /* TSRegisterPrekeysRequest.h in Headers */,
+				9F7C15171DDDA16400529703 /* TSYapDatabaseObject.h in Headers */,
+				9F7C14791DDDA16300529703 /* TSAttachment.h in Headers */,
+				9F7C14A21DDDA16300529703 /* OWSDisappearingMessagesFinder.h in Headers */,
+				9F7C14A41DDDA16300529703 /* OWSDisappearingMessagesJob.h in Headers */,
+				9F7C14C01DDDA16400529703 /* OWSUploadingService.h in Headers */,
+				9F7C14D01DDDA16400529703 /* TSContactsIntersectionRequest.h in Headers */,
+				9F7C14FD1DDDA16400529703 /* SecurityUtils.h in Headers */,
+				9F7C14EF1DDDA16400529703 /* NotificationsProtocol.h in Headers */,
+				9F7C144F1DDDA16300529703 /* OWSDisappearingMessagesConfiguration.h in Headers */,
+				9F7C146D1DDDA16300529703 /* OWSReadReceipt.h in Headers */,
+				9F7C15221DDDA16400529703 /* OperationFailed.h in Headers */,
+				9F7C14491DDDA16300529703 /* TSPrivacyPreferences.h in Headers */,
+				9F7C151B1DDDA16400529703 /* TSConstants.h in Headers */,
+				9F7C14C61DDDA16400529703 /* OWSDeviceProvisioningRequest.h in Headers */,
+				9F7C14B01DDDA16400529703 /* OWSSignalServiceProtos.pb.h in Headers */,
+				9F7C14E61DDDA16400529703 /* TSVerifyCodeRequest.h in Headers */,
+				9F7C148D1DDDA16300529703 /* OWSEndSessionMessage.h in Headers */,
+				9F7C15151DDDA16400529703 /* TSStorageManager.h in Headers */,
+				9F7C14CC1DDDA16400529703 /* TSAttachmentRequest.h in Headers */,
+				9F7C14E21DDDA16400529703 /* TSUnregisterAccountRequest.h in Headers */,
+				9F7C151D1DDDA16400529703 /* BadArgument.h in Headers */,
+				9F7C14771DDDA16300529703 /* OWSAttachmentsProcessor.h in Headers */,
+				9F7C15191DDDA16400529703 /* TextSecureKitEnv.h in Headers */,
+				9F7C146F1DDDA16300529703 /* OWSReadReceiptsMessage.h in Headers */,
+				9F7C14631DDDA16300529703 /* OWSDeviceProvisioner.h in Headers */,
+				9F7C14891DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.h in Headers */,
+				9F7C146B1DDDA16300529703 /* OWSProvisioningProtos.pb.h in Headers */,
+				9F7C148F1DDDA16300529703 /* TSErrorMessage.h in Headers */,
+				9F7C14B41DDDA16400529703 /* TSCall.h in Headers */,
+				9F7C14EE1DDDA16400529703 /* ContactsManagerProtocol.h in Headers */,
+				9F7C14B21DDDA16400529703 /* PreKeyBundle+jsonDict.h in Headers */,
+				9F7C15111DDDA16400529703 /* TSStorageManager+keyingMaterial.h in Headers */,
+				9F7C15321DDDA16400529703 /* NSDate+millisecondTimeStamp.h in Headers */,
+				9F7C16221DDDA68500529703 /* Randomness.h in Headers */,
+				9F7C150B1DDDA16400529703 /* TSDatabaseSecondaryIndexes.h in Headers */,
+				9F7C14D41DDDA16400529703 /* TSRecipientPrekeyRequest.h in Headers */,
+				9F7C14F41DDDA16400529703 /* OWSFingerprintBuilder.h in Headers */,
+				9F7C153A1DDDA16400529703 /* UIImage+contentTypes.h in Headers */,
+				9F7C14711DDDA16300529703 /* OWSReadReceiptsProcessor.h in Headers */,
+				9F7C14C81DDDA16400529703 /* OWSGetDevicesRequest.h in Headers */,
+				9F7C14C21DDDA16400529703 /* OWSDeleteDeviceRequest.h in Headers */,
+				9F7C14911DDDA16300529703 /* TSErrorMessage_privateConstructor.h in Headers */,
+				9F7C14551DDDA16300529703 /* SignalRecipient.h in Headers */,
+				9F7C144D1DDDA16300529703 /* ContactsUpdater.h in Headers */,
+				9F7C145B1DDDA16300529703 /* TSThread.h in Headers */,
+				9F7C14611DDDA16300529703 /* OWSDevice.h in Headers */,
+				9F7C15031DDDA16400529703 /* TSStorageManager+PreKeyStore.h in Headers */,
+				9F7C14FF1DDDA16400529703 /* TSStorageManager+IdentityKeyStore.h in Headers */,
+				9F7C15011DDDA16400529703 /* TSStorageManager+keyFromIntLong.h in Headers */,
+				9F7C151C1DDDA16400529703 /* TSPrefix.h in Headers */,
+				9F7C15101DDDA16400529703 /* TSStorageKeys.h in Headers */,
+				9F7C14D81DDDA16400529703 /* TSRegisterForPushRequest.h in Headers */,
+				9F7C15131DDDA16400529703 /* TSStorageManager+messageIDs.h in Headers */,
+				9F7C15341DDDA16400529703 /* NSURLSessionDataTask+StatusCode.h in Headers */,
+				9F7C14EA1DDDA16400529703 /* SubProtocol.pb.h in Headers */,
+				9F7C147B1DDDA16300529703 /* TSAttachmentPointer.h in Headers */,
+				9F7C14F81DDDA16400529703 /* OWSHTTPSecurityPolicy.h in Headers */,
+				9F7C14871DDDA16300529703 /* OWSSyncGroupsMessage.h in Headers */,
+				9F7C14511DDDA16300529703 /* PhoneNumber.h in Headers */,
+				9F7C14E41DDDA16400529703 /* TSUpdateAttributesRequest.h in Headers */,
+				9F7C14BE1DDDA16400529703 /* OWSDevicesService.h in Headers */,
+				9F7C15261DDDA16400529703 /* Cryptography.h in Headers */,
+				9F7C14451DDDA16300529703 /* TSAttributes.h in Headers */,
+				9F7C14941DDDA16300529703 /* TSInfoMessage.h in Headers */,
+				9F7C14731DDDA16300529703 /* OWSRecordTranscriptJob.h in Headers */,
+				9F7C14AA1DDDA16400529703 /* OWSMessageSender.h in Headers */,
+				9F7C149A1DDDA16300529703 /* TSOutgoingMessage.h in Headers */,
+				9F7C14DE1DDDA16400529703 /* TSRequestVerificationCodeRequest.h in Headers */,
+				9F7C149E1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.h in Headers */,
+				9F7C15071DDDA16400529703 /* TSStorageManager+SignedPreKeyStore.h in Headers */,
+				9F7C147D1DDDA16300529703 /* TSAttachmentStream.h in Headers */,
+				9F7C14FA1DDDA16400529703 /* OWSWebsocketSecurityPolicy.h in Headers */,
+				9F7C14BC1DDDA16400529703 /* OWSDeviceProvisioningService.h in Headers */,
+				9F7C150D1DDDA16400529703 /* TSDatabaseView.h in Headers */,
+				9F7C14921DDDA16300529703 /* TSIncomingMessage.h in Headers */,
+				9F7C14EC1DDDA16400529703 /* TSSocketManager.h in Headers */,
+				9F7C15281DDDA16400529703 /* FunctionalUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F7C13291DDDA12400529703 /* SignalServiceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F7C13321DDDA12400529703 /* Build configuration list for PBXNativeTarget "SignalServiceKit" */;
+			buildPhases = (
+				9F7C13251DDDA12400529703 /* Sources */,
+				9F7C13261DDDA12400529703 /* Frameworks */,
+				9F7C13271DDDA12400529703 /* Headers */,
+				9F7C13281DDDA12400529703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignalServiceKit;
+			productName = SignalServiceKit;
+			productReference = 9F7C132A1DDDA12400529703 /* SignalServiceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F7C13211DDDA12400529703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Whisper Systems";
+				TargetAttributes = {
+					9F7C13291DDDA12400529703 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29X3GG489T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9F7C13241DDDA12400529703 /* Build configuration list for PBXProject "SignalServiceKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F7C13201DDDA12400529703;
+			productRefGroup = 9F7C132B1DDDA12400529703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F7C13291DDDA12400529703 /* SignalServiceKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F7C13281DDDA12400529703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7C14FC1DDDA16400529703 /* textsecure.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F7C13251DDDA12400529703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7C146E1DDDA16300529703 /* OWSReadReceipt.m in Sources */,
+				9F7C15311DDDA16400529703 /* NSData+messagePadding.m in Sources */,
+				9F7C14601DDDA16300529703 /* OWSContactsOutputStream.m in Sources */,
+				9F7C14F51DDDA16400529703 /* OWSFingerprintBuilder.m in Sources */,
+				9F7C144A1DDDA16300529703 /* TSPrivacyPreferences.m in Sources */,
+				9F7C14441DDDA16300529703 /* TSAccountManager.m in Sources */,
+				9F7C144C1DDDA16300529703 /* Contact.m in Sources */,
+				9F7C14D91DDDA16400529703 /* TSRegisterForPushRequest.m in Sources */,
+				9F7C14F71DDDA16400529703 /* OWSFingerprintProtos.pb.m in Sources */,
+				9F7C148C1DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.m in Sources */,
+				9F7C147E1DDDA16300529703 /* TSAttachmentStream.m in Sources */,
+				9F7C16231DDDA68500529703 /* Randomness.m in Sources */,
+				9F7C15041DDDA16400529703 /* TSStorageManager+PreKeyStore.m in Sources */,
+				9F7C14CD1DDDA16400529703 /* TSAttachmentRequest.m in Sources */,
+				9F7C15391DDDA16400529703 /* OWSError.m in Sources */,
+				9F7C15371DDDA16400529703 /* OWSDispatch.m in Sources */,
+				9F7C150C1DDDA16400529703 /* TSDatabaseSecondaryIndexes.m in Sources */,
+				9F7C14681DDDA16300529703 /* OWSProvisioningCipher.m in Sources */,
+				9F7C15061DDDA16400529703 /* TSStorageManager+SessionStore.m in Sources */,
+				9F7C149F1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.m in Sources */,
+				9F7C14F31DDDA16400529703 /* OWSFingerprint.m in Sources */,
+				9F7C14CF1DDDA16400529703 /* TSAvailablePreKeysCountRequest.m in Sources */,
+				9F7C150A1DDDA16400529703 /* OWSOrphanedDataCleaner.m in Sources */,
+				9F7C14FE1DDDA16400529703 /* SecurityUtils.m in Sources */,
+				9F7C14E31DDDA16400529703 /* TSUnregisterAccountRequest.m in Sources */,
+				9F7C14AF1DDDA16400529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.m in Sources */,
+				9F7C15331DDDA16400529703 /* NSDate+millisecondTimeStamp.mm in Sources */,
+				9F7C14FB1DDDA16400529703 /* OWSWebsocketSecurityPolicy.m in Sources */,
+				9F7C14E11DDDA16400529703 /* TSSubmitMessageRequest.m in Sources */,
+				9F7C14F11DDDA16400529703 /* ECKeyPair+OWSPrivateKey.m in Sources */,
+				9F7C145C1DDDA16300529703 /* TSThread.m in Sources */,
+				9F7C151E1DDDA16400529703 /* BadArgument.m in Sources */,
+				9F7C14ED1DDDA16400529703 /* TSSocketManager.m in Sources */,
+				9F7C14DF1DDDA16400529703 /* TSRequestVerificationCodeRequest.m in Sources */,
+				9F7C14581DDDA16300529703 /* TSContactThread.m in Sources */,
+				9F7C14521DDDA16300529703 /* PhoneNumber.m in Sources */,
+				9F7C14CB1DDDA16400529703 /* TSAllocAttachmentRequest.m in Sources */,
+				9F7C14721DDDA16300529703 /* OWSReadReceiptsProcessor.m in Sources */,
+				9F7C148E1DDDA16300529703 /* OWSEndSessionMessage.m in Sources */,
+				9F7C14761DDDA16300529703 /* OWSSendReadReceiptsJob.m in Sources */,
+				9F7C14931DDDA16300529703 /* TSIncomingMessage.m in Sources */,
+				9F7C15141DDDA16400529703 /* TSStorageManager+messageIDs.m in Sources */,
+				9F7C14BF1DDDA16400529703 /* OWSDevicesService.m in Sources */,
+				9F7C14D71DDDA16400529703 /* TSRedPhoneTokenRequest.m in Sources */,
+				9F7C152F1DDDA16400529703 /* NSData+hexString.m in Sources */,
+				9F7C14B51DDDA16400529703 /* TSCall.m in Sources */,
+				9F7C153B1DDDA16400529703 /* UIImage+contentTypes.m in Sources */,
+				9F7C14901DDDA16300529703 /* TSErrorMessage.m in Sources */,
+				9F7C14481DDDA16300529703 /* TSPreKeyManager.m in Sources */,
+				9F7C14A91DDDA16400529703 /* OWSLegacyMessageServiceParams.m in Sources */,
+				9F7C145A1DDDA16300529703 /* TSGroupThread.m in Sources */,
+				9F7C151A1DDDA16400529703 /* TextSecureKitEnv.m in Sources */,
+				9F7C14AB1DDDA16400529703 /* OWSMessageSender.m in Sources */,
+				9F7C14D11DDDA16400529703 /* TSContactsIntersectionRequest.m in Sources */,
+				9F7C149B1DDDA16300529703 /* TSOutgoingMessage.m in Sources */,
+				9F7C15161DDDA16400529703 /* TSStorageManager.m in Sources */,
+				9F7C144E1DDDA16300529703 /* ContactsUpdater.m in Sources */,
+				9F7C15231DDDA16400529703 /* OperationFailed.m in Sources */,
+				9F7C15201DDDA16400529703 /* BadState.m in Sources */,
+				9F7C14861DDDA16300529703 /* OWSSyncContactsMessage.m in Sources */,
+				9F7C14F91DDDA16400529703 /* OWSHTTPSecurityPolicy.m in Sources */,
+				9F7C147C1DDDA16300529703 /* TSAttachmentPointer.m in Sources */,
+				9F7C14501DDDA16300529703 /* OWSDisappearingMessagesConfiguration.m in Sources */,
+				9F7C15121DDDA16400529703 /* TSStorageManager+keyingMaterial.m in Sources */,
+				9F7C14A51DDDA16300529703 /* OWSDisappearingMessagesJob.m in Sources */,
+				9F7C14C91DDDA16400529703 /* OWSGetDevicesRequest.m in Sources */,
+				9F7C14881DDDA16300529703 /* OWSSyncGroupsMessage.m in Sources */,
+				9F7C14701DDDA16300529703 /* OWSReadReceiptsMessage.m in Sources */,
+				9F7C14991DDDA16300529703 /* TSMessage.m in Sources */,
+				9F7C14D31DDDA16400529703 /* TSCurrentSignedPreKeyRequest.m in Sources */,
+				9F7C15021DDDA16400529703 /* TSStorageManager+keyFromIntLong.m in Sources */,
+				9F7C14A71DDDA16400529703 /* OWSIncomingMessageReadObserver.m in Sources */,
+				9F7C152B1DDDA16400529703 /* MIMETypeUtil.m in Sources */,
+				9F7C152D1DDDA16400529703 /* NSData+Base64.m in Sources */,
+				9F7C146A1DDDA16300529703 /* OWSProvisioningMessage.m in Sources */,
+				9F7C147A1DDDA16300529703 /* TSAttachment.m in Sources */,
+				9F7C14951DDDA16300529703 /* TSInfoMessage.m in Sources */,
+				9F7C14461DDDA16300529703 /* TSAttributes.m in Sources */,
+				9F7C145E1DDDA16300529703 /* OWSChunkedOutputStream.m in Sources */,
+				9F7C14B31DDDA16400529703 /* PreKeyBundle+jsonDict.m in Sources */,
+				9F7C15251DDDA16400529703 /* SecurityFailure.m in Sources */,
+				9F7C14C71DDDA16400529703 /* OWSDeviceProvisioningRequest.m in Sources */,
+				9F7C14801DDDA16300529703 /* OWSIncomingSentMessageTranscript.m in Sources */,
+				9F7C14821DDDA16300529703 /* OWSOutgoingSentMessageTranscript.m in Sources */,
+				9F7C14781DDDA16300529703 /* OWSAttachmentsProcessor.m in Sources */,
+				9F7C14541DDDA16300529703 /* PhoneNumberUtil.m in Sources */,
+				9F7C14561DDDA16300529703 /* SignalRecipient.m in Sources */,
+				9F7C14A11DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.m in Sources */,
+				9F7C161F1DDDA68500529703 /* Curve25519.m in Sources */,
+				9F7C14C11DDDA16400529703 /* OWSUploadingService.m in Sources */,
+				9F7C14C51DDDA16400529703 /* OWSDeviceProvisioningCodeRequest.m in Sources */,
+				9F7C14621DDDA16300529703 /* OWSDevice.m in Sources */,
+				9F7C14971DDDA16300529703 /* TSInteraction.m in Sources */,
+				9F7C14B91DDDA16400529703 /* TSMessagesManager.m in Sources */,
+				9F7C15081DDDA16400529703 /* TSStorageManager+SignedPreKeyStore.m in Sources */,
+				9F7C14BD1DDDA16400529703 /* OWSDeviceProvisioningService.m in Sources */,
+				9F7C14E71DDDA16400529703 /* TSVerifyCodeRequest.m in Sources */,
+				9F7C15001DDDA16400529703 /* TSStorageManager+IdentityKeyStore.m in Sources */,
+				9F7C14DB1DDDA16400529703 /* TSRegisterPrekeysRequest.m in Sources */,
+				9F7C148A1DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.m in Sources */,
+				9F7C15291DDDA16400529703 /* FunctionalUtil.m in Sources */,
+				9F7C150E1DDDA16400529703 /* TSDatabaseView.m in Sources */,
+				9F7C15271DDDA16400529703 /* Cryptography.m in Sources */,
+				9F7C14B71DDDA16400529703 /* TSGroupModel.m in Sources */,
+				9F7C14741DDDA16300529703 /* OWSRecordTranscriptJob.m in Sources */,
+				9F7C14A31DDDA16300529703 /* OWSDisappearingMessagesFinder.m in Sources */,
+				9F7C149D1DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.m in Sources */,
+				9F7C14C31DDDA16400529703 /* OWSDeleteDeviceRequest.m in Sources */,
+				9F7C146C1DDDA16300529703 /* OWSProvisioningProtos.pb.m in Sources */,
+				9F7C14AD1DDDA16400529703 /* OWSMessageServiceParams.m in Sources */,
+				9F7C16211DDDA68500529703 /* Ed25519.m in Sources */,
+				9F7C15181DDDA16400529703 /* TSYapDatabaseObject.m in Sources */,
+				9F7C14DD1DDDA16400529703 /* TSRequest.m in Sources */,
+				9F7C14E91DDDA16400529703 /* TSNetworkManager.m in Sources */,
+				9F7C15351DDDA16400529703 /* NSURLSessionDataTask+StatusCode.m in Sources */,
+				9F7C14661DDDA16300529703 /* OWSGroupsOutputStream.m in Sources */,
+				9F7C14D51DDDA16400529703 /* TSRecipientPrekeyRequest.m in Sources */,
+				9F7C14E51DDDA16400529703 /* TSUpdateAttributesRequest.m in Sources */,
+				9F7C14B11DDDA16400529703 /* OWSSignalServiceProtos.pb.m in Sources */,
+				9F7C14BB1DDDA16400529703 /* OWSDeviceProvisioningCodeService.m in Sources */,
+				9F7C14641DDDA16300529703 /* OWSDeviceProvisioner.m in Sources */,
+				9F7C14841DDDA16300529703 /* OWSOutgoingSyncMessage.m in Sources */,
+				9F7C14EB1DDDA16400529703 /* SubProtocol.pb.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F7C13301DDDA12400529703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F7C13311DDDA12400529703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F7C13331DDDA12400529703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29X3GG489T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SignalServiceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.whispersystems.SignalServiceKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9F7C13341DDDA12400529703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29X3GG489T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SignalServiceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.whispersystems.SignalServiceKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F7C13241DDDA12400529703 /* Build configuration list for PBXProject "SignalServiceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7C13301DDDA12400529703 /* Debug */,
+				9F7C13311DDDA12400529703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F7C13321DDDA12400529703 /* Build configuration list for PBXNativeTarget "SignalServiceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7C13331DDDA12400529703 /* Debug */,
+				9F7C13341DDDA12400529703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F7C13211DDDA12400529703 /* Project object */;
+}

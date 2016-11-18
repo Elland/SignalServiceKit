@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "37054CE35CE656680D6FFFA9EE19249E0D149C5E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F50345634CF41CB6DA6FF41C2CFAA70E8FA1CCF2" : 9223372036854775807,
+    "37054CE35CE656680D6FFFA9EE19249E0D149C5E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B2961D05-7107-4DD4-B758-A74F3CDE054E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F50345634CF41CB6DA6FF41C2CFAA70E8FA1CCF2" : "25519\/",
+    "37054CE35CE656680D6FFFA9EE19249E0D149C5E" : "SignalServiceKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SignalServiceKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SignalServiceKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:WhisperSystems\/SignalServiceKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37054CE35CE656680D6FFFA9EE19249E0D149C5E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FredericJacobs\/25519",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F50345634CF41CB6DA6FF41C2CFAA70E8FA1CCF2"
+    }
+  ]
+}
