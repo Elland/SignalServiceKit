@@ -7,6 +7,7 @@
 //
 
 #import "NSData+messagePadding.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 @implementation NSData (messagePadding)
 

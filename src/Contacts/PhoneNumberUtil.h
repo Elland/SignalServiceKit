@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
-#import "NBPhoneNumberUtil.h"
-#import "PhoneNumber.h"
+#import <libPhoneNumber/NBPhoneNumberUtil.h>
+#import <libPhoneNumber/NBPhoneNumber.h>
 
 @interface PhoneNumberUtil : NSObject
 

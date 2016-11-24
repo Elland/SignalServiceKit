@@ -3,8 +3,8 @@
 #import "OWSDevice.h"
 #import "NSDate+millisecondTimeStamp.h"
 #import "OWSError.h"
-#import "YapDatabaseConnection.h"
-#import "YapDatabaseTransaction.h"
+#import <YapDatabase/YapDatabaseConnection.h>
+#import <YapDatabase/YapDatabaseTransaction.h>
 #import <Mantle/MTLValueTransformer.h>
 
 NS_ASSUME_NONNULL_BEGIN

@@ -17,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char SignalServiceKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SignalServiceKit/PublicHeader.h>
 
-
+#import <CocoaLumberjack/CocoaLumberjack.h>

@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F4C514B1DDF29E2008DFCC2 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51391DDF29E2008DFCC2 /* AFNetworking.framework */; };
+		9F4C514C1DDF29E2008DFCC2 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513A1DDF29E2008DFCC2 /* CocoaLumberjack.framework */; };
+		9F4C514D1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513B1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework */; };
+		9F4C514E1DDF29E2008DFCC2 /* Curve25519.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513C1DDF29E2008DFCC2 /* Curve25519.framework */; };
+		9F4C514F1DDF29E2008DFCC2 /* libPhoneNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513D1DDF29E2008DFCC2 /* libPhoneNumber.framework */; };
+		9F4C51501DDF29E2008DFCC2 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513E1DDF29E2008DFCC2 /* Mantle.framework */; };
+		9F4C51511DDF29E2008DFCC2 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513F1DDF29E2008DFCC2 /* SAMKeychain.framework */; };
+		9F4C51521DDF29E2008DFCC2 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51401DDF29E2008DFCC2 /* SocketRocket.framework */; };
+		9F4C51531DDF29E2008DFCC2 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51411DDF29E2008DFCC2 /* YapDatabase.framework */; };
+		9F4C51541DDF29E2008DFCC2 /* AFNetworking.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51421DDF29E2008DFCC2 /* AFNetworking.framework.dSYM */; };
+		9F4C51551DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51431DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM */; };
+		9F4C51561DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51441DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM */; };
+		9F4C51571DDF29E2008DFCC2 /* Curve25519.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51451DDF29E2008DFCC2 /* Curve25519.framework.dSYM */; };
+		9F4C51581DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51461DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM */; };
+		9F4C51591DDF29E2008DFCC2 /* Mantle.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51471DDF29E2008DFCC2 /* Mantle.framework.dSYM */; };
+		9F4C515A1DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51481DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM */; };
+		9F4C515B1DDF29E2008DFCC2 /* SocketRocket.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51491DDF29E2008DFCC2 /* SocketRocket.framework.dSYM */; };
+		9F4C515C1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C514A1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM */; };
+		9F4C515E1DDF29FF008DFCC2 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51391DDF29E2008DFCC2 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C515F1DDF29FF008DFCC2 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513A1DDF29E2008DFCC2 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C51601DDF29FF008DFCC2 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513B1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C51611DDF29FF008DFCC2 /* Curve25519.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513C1DDF29E2008DFCC2 /* Curve25519.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C51621DDF29FF008DFCC2 /* libPhoneNumber.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513D1DDF29E2008DFCC2 /* libPhoneNumber.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C51631DDF29FF008DFCC2 /* Mantle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513E1DDF29E2008DFCC2 /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C51641DDF29FF008DFCC2 /* SAMKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513F1DDF29E2008DFCC2 /* SAMKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C51651DDF29FF008DFCC2 /* SocketRocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51401DDF29E2008DFCC2 /* SocketRocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C51661DDF29FF008DFCC2 /* YapDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51411DDF29E2008DFCC2 /* YapDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C516A1DDF301B008DFCC2 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51681DDF301B008DFCC2 /* ProtocolBuffers.framework */; };
+		9F4C516B1DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51691DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM */; };
+		9F4C516C1DDF3027008DFCC2 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51681DDF301B008DFCC2 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C516F1DDF33F6008DFCC2 /* HKDFKitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C516D1DDF33F6008DFCC2 /* HKDFKitiOS.framework */; };
+		9F4C51701DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C516E1DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM */; };
+		9F4C51711DDF3400008DFCC2 /* HKDFKitiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C516D1DDF33F6008DFCC2 /* HKDFKitiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F7C132F1DDDA12400529703 /* SignalServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C132D1DDDA12400529703 /* SignalServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14431DDDA16300529703 /* TSAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13371DDDA16300529703 /* TSAccountManager.h */; };
 		9F7C14441DDDA16300529703 /* TSAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13381DDDA16300529703 /* TSAccountManager.m */; };
@@ -265,7 +298,53 @@
 		9F7C16231DDDA68500529703 /* Randomness.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C161D1DDDA68500529703 /* Randomness.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9F4C515D1DDF29F3008DFCC2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9F4C515E1DDF29FF008DFCC2 /* AFNetworking.framework in Embed Frameworks */,
+				9F4C515F1DDF29FF008DFCC2 /* CocoaLumberjack.framework in Embed Frameworks */,
+				9F4C51601DDF29FF008DFCC2 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+				9F4C516C1DDF3027008DFCC2 /* ProtocolBuffers.framework in Embed Frameworks */,
+				9F4C51611DDF29FF008DFCC2 /* Curve25519.framework in Embed Frameworks */,
+				9F4C51621DDF29FF008DFCC2 /* libPhoneNumber.framework in Embed Frameworks */,
+				9F4C51631DDF29FF008DFCC2 /* Mantle.framework in Embed Frameworks */,
+				9F4C51641DDF29FF008DFCC2 /* SAMKeychain.framework in Embed Frameworks */,
+				9F4C51651DDF29FF008DFCC2 /* SocketRocket.framework in Embed Frameworks */,
+				9F4C51711DDF3400008DFCC2 /* HKDFKitiOS.framework in Embed Frameworks */,
+				9F4C51661DDF29FF008DFCC2 /* YapDatabase.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9F4C51391DDF29E2008DFCC2 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = SOURCE_ROOT; };
+		9F4C513A1DDF29E2008DFCC2 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = SOURCE_ROOT; };
+		9F4C513B1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework; sourceTree = SOURCE_ROOT; };
+		9F4C513C1DDF29E2008DFCC2 /* Curve25519.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curve25519.framework; path = Carthage/Build/iOS/Curve25519.framework; sourceTree = SOURCE_ROOT; };
+		9F4C513D1DDF29E2008DFCC2 /* libPhoneNumber.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libPhoneNumber.framework; path = Carthage/Build/iOS/libPhoneNumber.framework; sourceTree = SOURCE_ROOT; };
+		9F4C513E1DDF29E2008DFCC2 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = Carthage/Build/iOS/Mantle.framework; sourceTree = SOURCE_ROOT; };
+		9F4C513F1DDF29E2008DFCC2 /* SAMKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAMKeychain.framework; path = Carthage/Build/iOS/SAMKeychain.framework; sourceTree = SOURCE_ROOT; };
+		9F4C51401DDF29E2008DFCC2 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = Carthage/Build/iOS/SocketRocket.framework; sourceTree = SOURCE_ROOT; };
+		9F4C51411DDF29E2008DFCC2 /* YapDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YapDatabase.framework; path = Carthage/Build/iOS/YapDatabase.framework; sourceTree = SOURCE_ROOT; };
+		9F4C51421DDF29E2008DFCC2 /* AFNetworking.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AFNetworking.framework.dSYM; path = Carthage/Build/iOS/AFNetworking.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51431DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaLumberjack.framework.dSYM; path = Carthage/Build/iOS/CocoaLumberjack.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51441DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaLumberjackSwift.framework.dSYM; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51451DDF29E2008DFCC2 /* Curve25519.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Curve25519.framework.dSYM; path = Carthage/Build/iOS/Curve25519.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51461DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = libPhoneNumber.framework.dSYM; path = Carthage/Build/iOS/libPhoneNumber.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51471DDF29E2008DFCC2 /* Mantle.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Mantle.framework.dSYM; path = Carthage/Build/iOS/Mantle.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51481DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SAMKeychain.framework.dSYM; path = Carthage/Build/iOS/SAMKeychain.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51491DDF29E2008DFCC2 /* SocketRocket.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SocketRocket.framework.dSYM; path = Carthage/Build/iOS/SocketRocket.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C514A1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = YapDatabase.framework.dSYM; path = Carthage/Build/iOS/YapDatabase.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51681DDF301B008DFCC2 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = Carthage/Build/iOS/ProtocolBuffers.framework; sourceTree = SOURCE_ROOT; };
+		9F4C51691DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ProtocolBuffers.framework.dSYM; path = Carthage/Build/iOS/ProtocolBuffers.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C516D1DDF33F6008DFCC2 /* HKDFKitiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HKDFKitiOS.framework; path = Carthage/Build/iOS/HKDFKitiOS.framework; sourceTree = SOURCE_ROOT; };
+		9F4C516E1DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = HKDFKitiOS.framework.dSYM; path = Carthage/Build/iOS/HKDFKitiOS.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		9F7C132A1DDDA12400529703 /* SignalServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7C132D1DDDA12400529703 /* SignalServiceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalServiceKit.h; sourceTree = "<group>"; };
 		9F7C132E1DDDA12400529703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -531,6 +610,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4C514F1DDF29E2008DFCC2 /* libPhoneNumber.framework in Frameworks */,
+				9F4C51511DDF29E2008DFCC2 /* SAMKeychain.framework in Frameworks */,
+				9F4C514C1DDF29E2008DFCC2 /* CocoaLumberjack.framework in Frameworks */,
+				9F4C51521DDF29E2008DFCC2 /* SocketRocket.framework in Frameworks */,
+				9F4C514B1DDF29E2008DFCC2 /* AFNetworking.framework in Frameworks */,
+				9F4C51531DDF29E2008DFCC2 /* YapDatabase.framework in Frameworks */,
+				9F4C516F1DDF33F6008DFCC2 /* HKDFKitiOS.framework in Frameworks */,
+				9F4C516A1DDF301B008DFCC2 /* ProtocolBuffers.framework in Frameworks */,
+				9F4C514D1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework in Frameworks */,
+				9F4C514E1DDF29E2008DFCC2 /* Curve25519.framework in Frameworks */,
+				9F4C51501DDF29E2008DFCC2 /* Mantle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +650,28 @@
 				9F7C13351DDDA16300529703 /* src */,
 				9F7C132D1DDDA12400529703 /* SignalServiceKit.h */,
 				9F7C132E1DDDA12400529703 /* Info.plist */,
+				9F4C51681DDF301B008DFCC2 /* ProtocolBuffers.framework */,
+				9F4C51391DDF29E2008DFCC2 /* AFNetworking.framework */,
+				9F4C513A1DDF29E2008DFCC2 /* CocoaLumberjack.framework */,
+				9F4C513B1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework */,
+				9F4C513C1DDF29E2008DFCC2 /* Curve25519.framework */,
+				9F4C513D1DDF29E2008DFCC2 /* libPhoneNumber.framework */,
+				9F4C513E1DDF29E2008DFCC2 /* Mantle.framework */,
+				9F4C513F1DDF29E2008DFCC2 /* SAMKeychain.framework */,
+				9F4C51401DDF29E2008DFCC2 /* SocketRocket.framework */,
+				9F4C51411DDF29E2008DFCC2 /* YapDatabase.framework */,
+				9F4C516D1DDF33F6008DFCC2 /* HKDFKitiOS.framework */,
+				9F4C516E1DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM */,
+				9F4C51691DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM */,
+				9F4C51421DDF29E2008DFCC2 /* AFNetworking.framework.dSYM */,
+				9F4C51431DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM */,
+				9F4C51441DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM */,
+				9F4C51451DDF29E2008DFCC2 /* Curve25519.framework.dSYM */,
+				9F4C51461DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM */,
+				9F4C51471DDF29E2008DFCC2 /* Mantle.framework.dSYM */,
+				9F4C51481DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM */,
+				9F4C51491DDF29E2008DFCC2 /* SocketRocket.framework.dSYM */,
+				9F4C514A1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM */,
 			);
 			path = SignalServiceKit;
 			sourceTree = "<group>";
@@ -1147,6 +1259,7 @@
 				9F7C13261DDDA12400529703 /* Frameworks */,
 				9F7C13271DDDA12400529703 /* Headers */,
 				9F7C13281DDDA12400529703 /* Resources */,
+				9F4C515D1DDF29F3008DFCC2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1195,7 +1308,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4C51701DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM in Resources */,
+				9F4C51561DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM in Resources */,
+				9F4C516B1DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM in Resources */,
+				9F4C51551DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM in Resources */,
+				9F4C515C1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM in Resources */,
+				9F4C51591DDF29E2008DFCC2 /* Mantle.framework.dSYM in Resources */,
+				9F4C51571DDF29E2008DFCC2 /* Curve25519.framework.dSYM in Resources */,
 				9F7C14FC1DDDA16400529703 /* textsecure.cer in Resources */,
+				9F4C51581DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM in Resources */,
+				9F4C515B1DDF29E2008DFCC2 /* SocketRocket.framework.dSYM in Resources */,
+				9F4C515A1DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM in Resources */,
+				9F4C51541DDF29E2008DFCC2 /* AFNetworking.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1440,6 +1564,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/TSPrefix.h;
 				INFOPLIST_FILE = SignalServiceKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1458,6 +1588,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/TSPrefix.h;
 				INFOPLIST_FILE = SignalServiceKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
