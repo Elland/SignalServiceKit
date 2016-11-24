@@ -1,5 +1,4 @@
-#import "NBAsYouTypeFormatter.h"
-#import "NBPhoneNumber.h"
+#import <libPhoneNumber/libPhoneNumber.h>
 #import "PhoneNumber.h"
 #import "PhoneNumberUtil.h"
 

@@ -3,6 +3,7 @@
 
 #import "TSGroupModel.h"
 #import "FunctionalUtil.h"
+#import <UIKit/UIKit.h>
 
 @implementation TSGroupModel
 

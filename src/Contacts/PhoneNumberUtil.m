@@ -1,6 +1,7 @@
 #import "Constraints.h"
 #import "FunctionalUtil.h"
 #import "PhoneNumberUtil.h"
+#import "PhoneNumber.h"
 #import "TextSecureKitEnv.h"
 #import "Util.h"
 

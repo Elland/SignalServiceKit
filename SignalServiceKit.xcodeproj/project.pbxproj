@@ -7,294 +7,332 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F4C514B1DDF29E2008DFCC2 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51391DDF29E2008DFCC2 /* AFNetworking.framework */; };
-		9F4C514C1DDF29E2008DFCC2 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513A1DDF29E2008DFCC2 /* CocoaLumberjack.framework */; };
-		9F4C514D1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513B1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework */; };
-		9F4C514E1DDF29E2008DFCC2 /* Curve25519.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513C1DDF29E2008DFCC2 /* Curve25519.framework */; };
-		9F4C514F1DDF29E2008DFCC2 /* libPhoneNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513D1DDF29E2008DFCC2 /* libPhoneNumber.framework */; };
-		9F4C51501DDF29E2008DFCC2 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513E1DDF29E2008DFCC2 /* Mantle.framework */; };
-		9F4C51511DDF29E2008DFCC2 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513F1DDF29E2008DFCC2 /* SAMKeychain.framework */; };
-		9F4C51521DDF29E2008DFCC2 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51401DDF29E2008DFCC2 /* SocketRocket.framework */; };
-		9F4C51531DDF29E2008DFCC2 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51411DDF29E2008DFCC2 /* YapDatabase.framework */; };
-		9F4C51541DDF29E2008DFCC2 /* AFNetworking.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51421DDF29E2008DFCC2 /* AFNetworking.framework.dSYM */; };
-		9F4C51551DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51431DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM */; };
-		9F4C51561DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51441DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM */; };
-		9F4C51571DDF29E2008DFCC2 /* Curve25519.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51451DDF29E2008DFCC2 /* Curve25519.framework.dSYM */; };
-		9F4C51581DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51461DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM */; };
-		9F4C51591DDF29E2008DFCC2 /* Mantle.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51471DDF29E2008DFCC2 /* Mantle.framework.dSYM */; };
-		9F4C515A1DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51481DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM */; };
-		9F4C515B1DDF29E2008DFCC2 /* SocketRocket.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51491DDF29E2008DFCC2 /* SocketRocket.framework.dSYM */; };
-		9F4C515C1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C514A1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM */; };
-		9F4C515E1DDF29FF008DFCC2 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51391DDF29E2008DFCC2 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C515F1DDF29FF008DFCC2 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513A1DDF29E2008DFCC2 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C51601DDF29FF008DFCC2 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513B1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C51611DDF29FF008DFCC2 /* Curve25519.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513C1DDF29E2008DFCC2 /* Curve25519.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C51621DDF29FF008DFCC2 /* libPhoneNumber.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513D1DDF29E2008DFCC2 /* libPhoneNumber.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C51631DDF29FF008DFCC2 /* Mantle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513E1DDF29E2008DFCC2 /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C51641DDF29FF008DFCC2 /* SAMKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C513F1DDF29E2008DFCC2 /* SAMKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C51651DDF29FF008DFCC2 /* SocketRocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51401DDF29E2008DFCC2 /* SocketRocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C51661DDF29FF008DFCC2 /* YapDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51411DDF29E2008DFCC2 /* YapDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C516A1DDF301B008DFCC2 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51681DDF301B008DFCC2 /* ProtocolBuffers.framework */; };
-		9F4C516B1DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51691DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM */; };
-		9F4C516C1DDF3027008DFCC2 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51681DDF301B008DFCC2 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C516F1DDF33F6008DFCC2 /* HKDFKitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C516D1DDF33F6008DFCC2 /* HKDFKitiOS.framework */; };
-		9F4C51701DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C516E1DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM */; };
-		9F4C51711DDF3400008DFCC2 /* HKDFKitiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C516D1DDF33F6008DFCC2 /* HKDFKitiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F2357CA1DE73D32001C8C22 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357901DE73D32001C8C22 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap */; };
+		9F2357CB1DE73D32001C8C22 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357911DE73D32001C8C22 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap */; };
+		9F2357CC1DE73D32001C8C22 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357921DE73D32001C8C22 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap */; };
+		9F2357CD1DE73D32001C8C22 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357931DE73D32001C8C22 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap */; };
+		9F2357CE1DE73D32001C8C22 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357941DE73D32001C8C22 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap */; };
+		9F2357CF1DE73D32001C8C22 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357951DE73D32001C8C22 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap */; };
+		9F2357D01DE73D32001C8C22 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357961DE73D32001C8C22 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap */; };
+		9F2357D11DE73D32001C8C22 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357971DE73D32001C8C22 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap */; };
+		9F2357D21DE73D32001C8C22 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357981DE73D32001C8C22 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap */; };
+		9F2357D31DE73D32001C8C22 /* 31C92C59-885A-3C19-9A6E-04000D108555.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357991DE73D32001C8C22 /* 31C92C59-885A-3C19-9A6E-04000D108555.bcsymbolmap */; };
+		9F2357D41DE73D32001C8C22 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F23579A1DE73D32001C8C22 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap */; };
+		9F2357D51DE73D32001C8C22 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F23579B1DE73D32001C8C22 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap */; };
+		9F2357D61DE73D32001C8C22 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F23579C1DE73D32001C8C22 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap */; };
+		9F2357D71DE73D32001C8C22 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F23579D1DE73D32001C8C22 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap */; };
+		9F2357D81DE73D32001C8C22 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F23579E1DE73D32001C8C22 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap */; };
+		9F2357D91DE73D32001C8C22 /* 054479AB-33BA-3799-AE4D-9899820898AA.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F23579F1DE73D32001C8C22 /* 054479AB-33BA-3799-AE4D-9899820898AA.bcsymbolmap */; };
+		9F2357DA1DE73D32001C8C22 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357A01DE73D32001C8C22 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap */; };
+		9F2357DB1DE73D32001C8C22 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357A11DE73D32001C8C22 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap */; };
+		9F2357DC1DE73D32001C8C22 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357A21DE73D32001C8C22 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap */; };
+		9F2357DD1DE73D32001C8C22 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357A31DE73D32001C8C22 /* AFNetworking.framework */; };
+		9F2357DE1DE73D32001C8C22 /* AFNetworking.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357A41DE73D32001C8C22 /* AFNetworking.framework.dSYM */; };
+		9F2357DF1DE73D32001C8C22 /* AxolotlKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357A51DE73D32001C8C22 /* AxolotlKit.framework */; };
+		9F2357E01DE73D32001C8C22 /* AxolotlKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357A61DE73D32001C8C22 /* AxolotlKit.framework.dSYM */; };
+		9F2357E11DE73D32001C8C22 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357A71DE73D32001C8C22 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap */; };
+		9F2357E21DE73D32001C8C22 /* B1842DA1-B2B1-3B59-BA12-DC5F782CDB5C.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357A81DE73D32001C8C22 /* B1842DA1-B2B1-3B59-BA12-DC5F782CDB5C.bcsymbolmap */; };
+		9F2357E31DE73D32001C8C22 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357A91DE73D32001C8C22 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap */; };
+		9F2357E41DE73D32001C8C22 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357AA1DE73D32001C8C22 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap */; };
+		9F2357E51DE73D32001C8C22 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357AB1DE73D32001C8C22 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap */; };
+		9F2357E61DE73D32001C8C22 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357AC1DE73D32001C8C22 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap */; };
+		9F2357E71DE73D32001C8C22 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357AD1DE73D32001C8C22 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap */; };
+		9F2357E81DE73D32001C8C22 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357AE1DE73D32001C8C22 /* CocoaLumberjack.framework */; };
+		9F2357E91DE73D32001C8C22 /* CocoaLumberjack.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357AF1DE73D32001C8C22 /* CocoaLumberjack.framework.dSYM */; };
+		9F2357EA1DE73D32001C8C22 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357B01DE73D32001C8C22 /* CocoaLumberjackSwift.framework */; };
+		9F2357EB1DE73D32001C8C22 /* CocoaLumberjackSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357B11DE73D32001C8C22 /* CocoaLumberjackSwift.framework.dSYM */; };
+		9F2357EC1DE73D32001C8C22 /* Curve25519.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357B21DE73D32001C8C22 /* Curve25519.framework */; };
+		9F2357ED1DE73D32001C8C22 /* Curve25519.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357B31DE73D32001C8C22 /* Curve25519.framework.dSYM */; };
+		9F2357EE1DE73D32001C8C22 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357B41DE73D32001C8C22 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap */; };
+		9F2357EF1DE73D32001C8C22 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357B51DE73D32001C8C22 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap */; };
+		9F2357F01DE73D32001C8C22 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357B61DE73D32001C8C22 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap */; };
+		9F2357F11DE73D32001C8C22 /* E8FD8B59-2A43-3B6C-8E0E-04AE04B44513.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357B71DE73D32001C8C22 /* E8FD8B59-2A43-3B6C-8E0E-04AE04B44513.bcsymbolmap */; };
+		9F2357F21DE73D32001C8C22 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357B81DE73D32001C8C22 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap */; };
+		9F2357F31DE73D32001C8C22 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357B91DE73D32001C8C22 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap */; };
+		9F2357F41DE73D32001C8C22 /* HKDFKitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357BA1DE73D32001C8C22 /* HKDFKitiOS.framework */; };
+		9F2357F51DE73D32001C8C22 /* HKDFKitiOS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357BB1DE73D32001C8C22 /* HKDFKitiOS.framework.dSYM */; };
+		9F2357F61DE73D32001C8C22 /* libPhoneNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357BC1DE73D32001C8C22 /* libPhoneNumber.framework */; };
+		9F2357F71DE73D32001C8C22 /* libPhoneNumber.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357BD1DE73D32001C8C22 /* libPhoneNumber.framework.dSYM */; };
+		9F2357F81DE73D32001C8C22 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357BE1DE73D32001C8C22 /* Mantle.framework */; };
+		9F2357F91DE73D32001C8C22 /* Mantle.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357BF1DE73D32001C8C22 /* Mantle.framework.dSYM */; };
+		9F2357FA1DE73D32001C8C22 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C01DE73D32001C8C22 /* ProtocolBuffers.framework */; };
+		9F2357FB1DE73D32001C8C22 /* ProtocolBuffers.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357C11DE73D32001C8C22 /* ProtocolBuffers.framework.dSYM */; };
+		9F2357FC1DE73D32001C8C22 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C21DE73D32001C8C22 /* SAMKeychain.framework */; };
+		9F2357FD1DE73D32001C8C22 /* SAMKeychain.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357C31DE73D32001C8C22 /* SAMKeychain.framework.dSYM */; };
+		9F2357FE1DE73D32001C8C22 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C41DE73D32001C8C22 /* SocketRocket.framework */; };
+		9F2357FF1DE73D32001C8C22 /* SocketRocket.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357C51DE73D32001C8C22 /* SocketRocket.framework.dSYM */; };
+		9F2358001DE73D32001C8C22 /* UnionFindiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C61DE73D32001C8C22 /* UnionFindiOS.framework */; };
+		9F2358011DE73D32001C8C22 /* UnionFindiOS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357C71DE73D32001C8C22 /* UnionFindiOS.framework.dSYM */; };
+		9F2358021DE73D32001C8C22 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C81DE73D32001C8C22 /* YapDatabase.framework */; };
+		9F2358031DE73D32001C8C22 /* YapDatabase.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F2357C91DE73D32001C8C22 /* YapDatabase.framework.dSYM */; };
+		9F2358041DE73D44001C8C22 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357A31DE73D32001C8C22 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F2358051DE73D44001C8C22 /* AxolotlKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357A51DE73D32001C8C22 /* AxolotlKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F2358061DE73D44001C8C22 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357AE1DE73D32001C8C22 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F2358071DE73D44001C8C22 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357B01DE73D32001C8C22 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F2358081DE73D44001C8C22 /* Curve25519.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357B21DE73D32001C8C22 /* Curve25519.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F2358091DE73D44001C8C22 /* HKDFKitiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357BA1DE73D32001C8C22 /* HKDFKitiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F23580A1DE73D44001C8C22 /* libPhoneNumber.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357BC1DE73D32001C8C22 /* libPhoneNumber.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F23580B1DE73D44001C8C22 /* Mantle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357BE1DE73D32001C8C22 /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F23580C1DE73D44001C8C22 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C01DE73D32001C8C22 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F23580D1DE73D44001C8C22 /* SAMKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C21DE73D32001C8C22 /* SAMKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F23580E1DE73D44001C8C22 /* SocketRocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C41DE73D32001C8C22 /* SocketRocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F23580F1DE73D44001C8C22 /* UnionFindiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C61DE73D32001C8C22 /* UnionFindiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F2358101DE73D44001C8C22 /* YapDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2357C81DE73D32001C8C22 /* YapDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F7C132F1DDDA12400529703 /* SignalServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C132D1DDDA12400529703 /* SignalServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F7C14431DDDA16300529703 /* TSAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13371DDDA16300529703 /* TSAccountManager.h */; };
+		9F7C14431DDDA16300529703 /* TSAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13371DDDA16300529703 /* TSAccountManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14441DDDA16300529703 /* TSAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13381DDDA16300529703 /* TSAccountManager.m */; };
-		9F7C14451DDDA16300529703 /* TSAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13391DDDA16300529703 /* TSAttributes.h */; };
+		9F7C14451DDDA16300529703 /* TSAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13391DDDA16300529703 /* TSAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14461DDDA16300529703 /* TSAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C133A1DDDA16300529703 /* TSAttributes.m */; };
-		9F7C14471DDDA16300529703 /* TSPreKeyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C133B1DDDA16300529703 /* TSPreKeyManager.h */; };
+		9F7C14471DDDA16300529703 /* TSPreKeyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C133B1DDDA16300529703 /* TSPreKeyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14481DDDA16300529703 /* TSPreKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C133C1DDDA16300529703 /* TSPreKeyManager.m */; };
-		9F7C14491DDDA16300529703 /* TSPrivacyPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C133D1DDDA16300529703 /* TSPrivacyPreferences.h */; };
+		9F7C14491DDDA16300529703 /* TSPrivacyPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C133D1DDDA16300529703 /* TSPrivacyPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C144A1DDDA16300529703 /* TSPrivacyPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C133E1DDDA16300529703 /* TSPrivacyPreferences.m */; };
-		9F7C144B1DDDA16300529703 /* Contact.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13401DDDA16300529703 /* Contact.h */; };
+		9F7C144B1DDDA16300529703 /* Contact.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13401DDDA16300529703 /* Contact.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C144C1DDDA16300529703 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13411DDDA16300529703 /* Contact.m */; };
-		9F7C144D1DDDA16300529703 /* ContactsUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13421DDDA16300529703 /* ContactsUpdater.h */; };
+		9F7C144D1DDDA16300529703 /* ContactsUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13421DDDA16300529703 /* ContactsUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C144E1DDDA16300529703 /* ContactsUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13431DDDA16300529703 /* ContactsUpdater.m */; };
-		9F7C144F1DDDA16300529703 /* OWSDisappearingMessagesConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13441DDDA16300529703 /* OWSDisappearingMessagesConfiguration.h */; };
+		9F7C144F1DDDA16300529703 /* OWSDisappearingMessagesConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13441DDDA16300529703 /* OWSDisappearingMessagesConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14501DDDA16300529703 /* OWSDisappearingMessagesConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13451DDDA16300529703 /* OWSDisappearingMessagesConfiguration.m */; };
-		9F7C14511DDDA16300529703 /* PhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13461DDDA16300529703 /* PhoneNumber.h */; };
+		9F7C14511DDDA16300529703 /* PhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13461DDDA16300529703 /* PhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14521DDDA16300529703 /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13471DDDA16300529703 /* PhoneNumber.m */; };
-		9F7C14531DDDA16300529703 /* PhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13481DDDA16300529703 /* PhoneNumberUtil.h */; };
+		9F7C14531DDDA16300529703 /* PhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13481DDDA16300529703 /* PhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14541DDDA16300529703 /* PhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13491DDDA16300529703 /* PhoneNumberUtil.m */; };
-		9F7C14551DDDA16300529703 /* SignalRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C134A1DDDA16300529703 /* SignalRecipient.h */; };
+		9F7C14551DDDA16300529703 /* SignalRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C134A1DDDA16300529703 /* SignalRecipient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14561DDDA16300529703 /* SignalRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C134B1DDDA16300529703 /* SignalRecipient.m */; };
-		9F7C14571DDDA16300529703 /* TSContactThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C134D1DDDA16300529703 /* TSContactThread.h */; };
+		9F7C14571DDDA16300529703 /* TSContactThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C134D1DDDA16300529703 /* TSContactThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14581DDDA16300529703 /* TSContactThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C134E1DDDA16300529703 /* TSContactThread.m */; };
-		9F7C14591DDDA16300529703 /* TSGroupThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C134F1DDDA16300529703 /* TSGroupThread.h */; };
+		9F7C14591DDDA16300529703 /* TSGroupThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C134F1DDDA16300529703 /* TSGroupThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C145A1DDDA16300529703 /* TSGroupThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13501DDDA16300529703 /* TSGroupThread.m */; };
-		9F7C145B1DDDA16300529703 /* TSThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13511DDDA16300529703 /* TSThread.h */; };
+		9F7C145B1DDDA16300529703 /* TSThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13511DDDA16300529703 /* TSThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C145C1DDDA16300529703 /* TSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13521DDDA16300529703 /* TSThread.m */; };
-		9F7C145D1DDDA16300529703 /* OWSChunkedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13541DDDA16300529703 /* OWSChunkedOutputStream.h */; };
+		9F7C145D1DDDA16300529703 /* OWSChunkedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13541DDDA16300529703 /* OWSChunkedOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C145E1DDDA16300529703 /* OWSChunkedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13551DDDA16300529703 /* OWSChunkedOutputStream.m */; };
-		9F7C145F1DDDA16300529703 /* OWSContactsOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13561DDDA16300529703 /* OWSContactsOutputStream.h */; };
+		9F7C145F1DDDA16300529703 /* OWSContactsOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13561DDDA16300529703 /* OWSContactsOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14601DDDA16300529703 /* OWSContactsOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13571DDDA16300529703 /* OWSContactsOutputStream.m */; };
-		9F7C14611DDDA16300529703 /* OWSDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13581DDDA16300529703 /* OWSDevice.h */; };
+		9F7C14611DDDA16300529703 /* OWSDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13581DDDA16300529703 /* OWSDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14621DDDA16300529703 /* OWSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13591DDDA16300529703 /* OWSDevice.m */; };
-		9F7C14631DDDA16300529703 /* OWSDeviceProvisioner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C135A1DDDA16300529703 /* OWSDeviceProvisioner.h */; };
+		9F7C14631DDDA16300529703 /* OWSDeviceProvisioner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C135A1DDDA16300529703 /* OWSDeviceProvisioner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14641DDDA16300529703 /* OWSDeviceProvisioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C135B1DDDA16300529703 /* OWSDeviceProvisioner.m */; };
-		9F7C14651DDDA16300529703 /* OWSGroupsOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C135C1DDDA16300529703 /* OWSGroupsOutputStream.h */; };
+		9F7C14651DDDA16300529703 /* OWSGroupsOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C135C1DDDA16300529703 /* OWSGroupsOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14661DDDA16300529703 /* OWSGroupsOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C135D1DDDA16300529703 /* OWSGroupsOutputStream.m */; };
-		9F7C14671DDDA16300529703 /* OWSProvisioningCipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C135E1DDDA16300529703 /* OWSProvisioningCipher.h */; };
+		9F7C14671DDDA16300529703 /* OWSProvisioningCipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C135E1DDDA16300529703 /* OWSProvisioningCipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14681DDDA16300529703 /* OWSProvisioningCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C135F1DDDA16300529703 /* OWSProvisioningCipher.m */; };
-		9F7C14691DDDA16300529703 /* OWSProvisioningMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13601DDDA16300529703 /* OWSProvisioningMessage.h */; };
+		9F7C14691DDDA16300529703 /* OWSProvisioningMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13601DDDA16300529703 /* OWSProvisioningMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C146A1DDDA16300529703 /* OWSProvisioningMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13611DDDA16300529703 /* OWSProvisioningMessage.m */; };
-		9F7C146B1DDDA16300529703 /* OWSProvisioningProtos.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13621DDDA16300529703 /* OWSProvisioningProtos.pb.h */; };
+		9F7C146B1DDDA16300529703 /* OWSProvisioningProtos.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13621DDDA16300529703 /* OWSProvisioningProtos.pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C146C1DDDA16300529703 /* OWSProvisioningProtos.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13631DDDA16300529703 /* OWSProvisioningProtos.pb.m */; };
-		9F7C146D1DDDA16300529703 /* OWSReadReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13641DDDA16300529703 /* OWSReadReceipt.h */; };
+		9F7C146D1DDDA16300529703 /* OWSReadReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13641DDDA16300529703 /* OWSReadReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C146E1DDDA16300529703 /* OWSReadReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13651DDDA16300529703 /* OWSReadReceipt.m */; };
-		9F7C146F1DDDA16300529703 /* OWSReadReceiptsMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13661DDDA16300529703 /* OWSReadReceiptsMessage.h */; };
+		9F7C146F1DDDA16300529703 /* OWSReadReceiptsMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13661DDDA16300529703 /* OWSReadReceiptsMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14701DDDA16300529703 /* OWSReadReceiptsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13671DDDA16300529703 /* OWSReadReceiptsMessage.m */; };
-		9F7C14711DDDA16300529703 /* OWSReadReceiptsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13681DDDA16300529703 /* OWSReadReceiptsProcessor.h */; };
+		9F7C14711DDDA16300529703 /* OWSReadReceiptsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13681DDDA16300529703 /* OWSReadReceiptsProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14721DDDA16300529703 /* OWSReadReceiptsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13691DDDA16300529703 /* OWSReadReceiptsProcessor.m */; };
-		9F7C14731DDDA16300529703 /* OWSRecordTranscriptJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C136A1DDDA16300529703 /* OWSRecordTranscriptJob.h */; };
+		9F7C14731DDDA16300529703 /* OWSRecordTranscriptJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C136A1DDDA16300529703 /* OWSRecordTranscriptJob.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14741DDDA16300529703 /* OWSRecordTranscriptJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C136B1DDDA16300529703 /* OWSRecordTranscriptJob.m */; };
-		9F7C14751DDDA16300529703 /* OWSSendReadReceiptsJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C136C1DDDA16300529703 /* OWSSendReadReceiptsJob.h */; };
+		9F7C14751DDDA16300529703 /* OWSSendReadReceiptsJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C136C1DDDA16300529703 /* OWSSendReadReceiptsJob.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14761DDDA16300529703 /* OWSSendReadReceiptsJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C136D1DDDA16300529703 /* OWSSendReadReceiptsJob.m */; };
-		9F7C14771DDDA16300529703 /* OWSAttachmentsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13701DDDA16300529703 /* OWSAttachmentsProcessor.h */; };
+		9F7C14771DDDA16300529703 /* OWSAttachmentsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13701DDDA16300529703 /* OWSAttachmentsProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14781DDDA16300529703 /* OWSAttachmentsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13711DDDA16300529703 /* OWSAttachmentsProcessor.m */; };
-		9F7C14791DDDA16300529703 /* TSAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13721DDDA16300529703 /* TSAttachment.h */; };
+		9F7C14791DDDA16300529703 /* TSAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13721DDDA16300529703 /* TSAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C147A1DDDA16300529703 /* TSAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13731DDDA16300529703 /* TSAttachment.m */; };
-		9F7C147B1DDDA16300529703 /* TSAttachmentPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13741DDDA16300529703 /* TSAttachmentPointer.h */; };
+		9F7C147B1DDDA16300529703 /* TSAttachmentPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13741DDDA16300529703 /* TSAttachmentPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C147C1DDDA16300529703 /* TSAttachmentPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13751DDDA16300529703 /* TSAttachmentPointer.m */; };
-		9F7C147D1DDDA16300529703 /* TSAttachmentStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13761DDDA16300529703 /* TSAttachmentStream.h */; };
+		9F7C147D1DDDA16300529703 /* TSAttachmentStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13761DDDA16300529703 /* TSAttachmentStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C147E1DDDA16300529703 /* TSAttachmentStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13771DDDA16300529703 /* TSAttachmentStream.m */; };
-		9F7C147F1DDDA16300529703 /* OWSIncomingSentMessageTranscript.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13791DDDA16300529703 /* OWSIncomingSentMessageTranscript.h */; };
+		9F7C147F1DDDA16300529703 /* OWSIncomingSentMessageTranscript.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13791DDDA16300529703 /* OWSIncomingSentMessageTranscript.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14801DDDA16300529703 /* OWSIncomingSentMessageTranscript.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C137A1DDDA16300529703 /* OWSIncomingSentMessageTranscript.m */; };
-		9F7C14811DDDA16300529703 /* OWSOutgoingSentMessageTranscript.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C137B1DDDA16300529703 /* OWSOutgoingSentMessageTranscript.h */; };
+		9F7C14811DDDA16300529703 /* OWSOutgoingSentMessageTranscript.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C137B1DDDA16300529703 /* OWSOutgoingSentMessageTranscript.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14821DDDA16300529703 /* OWSOutgoingSentMessageTranscript.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C137C1DDDA16300529703 /* OWSOutgoingSentMessageTranscript.m */; };
-		9F7C14831DDDA16300529703 /* OWSOutgoingSyncMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C137D1DDDA16300529703 /* OWSOutgoingSyncMessage.h */; };
+		9F7C14831DDDA16300529703 /* OWSOutgoingSyncMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C137D1DDDA16300529703 /* OWSOutgoingSyncMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14841DDDA16300529703 /* OWSOutgoingSyncMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C137E1DDDA16300529703 /* OWSOutgoingSyncMessage.m */; };
-		9F7C14851DDDA16300529703 /* OWSSyncContactsMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C137F1DDDA16300529703 /* OWSSyncContactsMessage.h */; };
+		9F7C14851DDDA16300529703 /* OWSSyncContactsMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C137F1DDDA16300529703 /* OWSSyncContactsMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14861DDDA16300529703 /* OWSSyncContactsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13801DDDA16300529703 /* OWSSyncContactsMessage.m */; };
-		9F7C14871DDDA16300529703 /* OWSSyncGroupsMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13811DDDA16300529703 /* OWSSyncGroupsMessage.h */; };
+		9F7C14871DDDA16300529703 /* OWSSyncGroupsMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13811DDDA16300529703 /* OWSSyncGroupsMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14881DDDA16300529703 /* OWSSyncGroupsMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13821DDDA16300529703 /* OWSSyncGroupsMessage.m */; };
-		9F7C14891DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13841DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.h */; };
+		9F7C14891DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13841DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C148A1DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13851DDDA16300529703 /* OWSDisappearingConfigurationUpdateInfoMessage.m */; };
-		9F7C148B1DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13861DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.h */; };
+		9F7C148B1DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13861DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C148C1DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13871DDDA16300529703 /* OWSDisappearingMessagesConfigurationMessage.m */; };
-		9F7C148D1DDDA16300529703 /* OWSEndSessionMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13881DDDA16300529703 /* OWSEndSessionMessage.h */; };
+		9F7C148D1DDDA16300529703 /* OWSEndSessionMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13881DDDA16300529703 /* OWSEndSessionMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C148E1DDDA16300529703 /* OWSEndSessionMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13891DDDA16300529703 /* OWSEndSessionMessage.m */; };
-		9F7C148F1DDDA16300529703 /* TSErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138A1DDDA16300529703 /* TSErrorMessage.h */; };
+		9F7C148F1DDDA16300529703 /* TSErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138A1DDDA16300529703 /* TSErrorMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14901DDDA16300529703 /* TSErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C138B1DDDA16300529703 /* TSErrorMessage.m */; };
-		9F7C14911DDDA16300529703 /* TSErrorMessage_privateConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138C1DDDA16300529703 /* TSErrorMessage_privateConstructor.h */; };
-		9F7C14921DDDA16300529703 /* TSIncomingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138D1DDDA16300529703 /* TSIncomingMessage.h */; };
+		9F7C14911DDDA16300529703 /* TSErrorMessage_privateConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138C1DDDA16300529703 /* TSErrorMessage_privateConstructor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7C14921DDDA16300529703 /* TSIncomingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138D1DDDA16300529703 /* TSIncomingMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14931DDDA16300529703 /* TSIncomingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C138E1DDDA16300529703 /* TSIncomingMessage.m */; };
-		9F7C14941DDDA16300529703 /* TSInfoMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138F1DDDA16300529703 /* TSInfoMessage.h */; };
+		9F7C14941DDDA16300529703 /* TSInfoMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C138F1DDDA16300529703 /* TSInfoMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14951DDDA16300529703 /* TSInfoMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13901DDDA16300529703 /* TSInfoMessage.m */; };
-		9F7C14961DDDA16300529703 /* TSInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13911DDDA16300529703 /* TSInteraction.h */; };
+		9F7C14961DDDA16300529703 /* TSInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13911DDDA16300529703 /* TSInteraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14971DDDA16300529703 /* TSInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13921DDDA16300529703 /* TSInteraction.m */; };
-		9F7C14981DDDA16300529703 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13931DDDA16300529703 /* TSMessage.h */; };
+		9F7C14981DDDA16300529703 /* TSMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13931DDDA16300529703 /* TSMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14991DDDA16300529703 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13941DDDA16300529703 /* TSMessage.m */; };
-		9F7C149A1DDDA16300529703 /* TSOutgoingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13951DDDA16300529703 /* TSOutgoingMessage.h */; };
+		9F7C149A1DDDA16300529703 /* TSOutgoingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13951DDDA16300529703 /* TSOutgoingMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C149B1DDDA16300529703 /* TSOutgoingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13961DDDA16300529703 /* TSOutgoingMessage.m */; };
-		9F7C149C1DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13981DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.h */; };
+		9F7C149C1DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13981DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C149D1DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13991DDDA16300529703 /* TSInvalidIdentityKeyErrorMessage.m */; };
-		9F7C149E1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C139A1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.h */; };
+		9F7C149E1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C139A1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C149F1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C139B1DDDA16300529703 /* TSInvalidIdentityKeyReceivingErrorMessage.m */; };
-		9F7C14A01DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C139C1DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.h */; };
+		9F7C14A01DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C139C1DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14A11DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C139D1DDDA16300529703 /* TSInvalidIdentityKeySendingErrorMessage.m */; };
-		9F7C14A21DDDA16300529703 /* OWSDisappearingMessagesFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C139E1DDDA16300529703 /* OWSDisappearingMessagesFinder.h */; };
+		9F7C14A21DDDA16300529703 /* OWSDisappearingMessagesFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C139E1DDDA16300529703 /* OWSDisappearingMessagesFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14A31DDDA16300529703 /* OWSDisappearingMessagesFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C139F1DDDA16300529703 /* OWSDisappearingMessagesFinder.m */; };
-		9F7C14A41DDDA16300529703 /* OWSDisappearingMessagesJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A01DDDA16300529703 /* OWSDisappearingMessagesJob.h */; };
+		9F7C14A41DDDA16300529703 /* OWSDisappearingMessagesJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A01DDDA16300529703 /* OWSDisappearingMessagesJob.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14A51DDDA16300529703 /* OWSDisappearingMessagesJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A11DDDA16300529703 /* OWSDisappearingMessagesJob.m */; };
-		9F7C14A61DDDA16300529703 /* OWSIncomingMessageReadObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A21DDDA16300529703 /* OWSIncomingMessageReadObserver.h */; };
+		9F7C14A61DDDA16300529703 /* OWSIncomingMessageReadObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A21DDDA16300529703 /* OWSIncomingMessageReadObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14A71DDDA16400529703 /* OWSIncomingMessageReadObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A31DDDA16300529703 /* OWSIncomingMessageReadObserver.m */; };
-		9F7C14A81DDDA16400529703 /* OWSLegacyMessageServiceParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A41DDDA16300529703 /* OWSLegacyMessageServiceParams.h */; };
+		9F7C14A81DDDA16400529703 /* OWSLegacyMessageServiceParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A41DDDA16300529703 /* OWSLegacyMessageServiceParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14A91DDDA16400529703 /* OWSLegacyMessageServiceParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A51DDDA16300529703 /* OWSLegacyMessageServiceParams.m */; };
-		9F7C14AA1DDDA16400529703 /* OWSMessageSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A61DDDA16300529703 /* OWSMessageSender.h */; };
+		9F7C14AA1DDDA16400529703 /* OWSMessageSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A61DDDA16300529703 /* OWSMessageSender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14AB1DDDA16400529703 /* OWSMessageSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A71DDDA16300529703 /* OWSMessageSender.m */; };
-		9F7C14AC1DDDA16400529703 /* OWSMessageServiceParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A81DDDA16300529703 /* OWSMessageServiceParams.h */; };
+		9F7C14AC1DDDA16400529703 /* OWSMessageServiceParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13A81DDDA16300529703 /* OWSMessageServiceParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14AD1DDDA16400529703 /* OWSMessageServiceParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13A91DDDA16300529703 /* OWSMessageServiceParams.m */; };
-		9F7C14AE1DDDA16400529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13AA1DDDA16300529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h */; };
+		9F7C14AE1DDDA16400529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13AA1DDDA16300529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14AF1DDDA16400529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13AB1DDDA16300529703 /* OWSNotifyRemoteOfUpdatedDisappearingConfigurationJob.m */; };
-		9F7C14B01DDDA16400529703 /* OWSSignalServiceProtos.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13AC1DDDA16300529703 /* OWSSignalServiceProtos.pb.h */; };
+		9F7C14B01DDDA16400529703 /* OWSSignalServiceProtos.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13AC1DDDA16300529703 /* OWSSignalServiceProtos.pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14B11DDDA16400529703 /* OWSSignalServiceProtos.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13AD1DDDA16300529703 /* OWSSignalServiceProtos.pb.m */; };
-		9F7C14B21DDDA16400529703 /* PreKeyBundle+jsonDict.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13AE1DDDA16300529703 /* PreKeyBundle+jsonDict.h */; };
+		9F7C14B21DDDA16400529703 /* PreKeyBundle+jsonDict.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13AE1DDDA16300529703 /* PreKeyBundle+jsonDict.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14B31DDDA16400529703 /* PreKeyBundle+jsonDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13AF1DDDA16300529703 /* PreKeyBundle+jsonDict.m */; };
-		9F7C14B41DDDA16400529703 /* TSCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B01DDDA16300529703 /* TSCall.h */; };
+		9F7C14B41DDDA16400529703 /* TSCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B01DDDA16300529703 /* TSCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14B51DDDA16400529703 /* TSCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13B11DDDA16300529703 /* TSCall.m */; };
-		9F7C14B61DDDA16400529703 /* TSGroupModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B21DDDA16300529703 /* TSGroupModel.h */; };
+		9F7C14B61DDDA16400529703 /* TSGroupModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B21DDDA16300529703 /* TSGroupModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14B71DDDA16400529703 /* TSGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13B31DDDA16300529703 /* TSGroupModel.m */; };
-		9F7C14B81DDDA16400529703 /* TSMessagesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B41DDDA16300529703 /* TSMessagesManager.h */; };
+		9F7C14B81DDDA16400529703 /* TSMessagesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B41DDDA16300529703 /* TSMessagesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14B91DDDA16400529703 /* TSMessagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13B51DDDA16300529703 /* TSMessagesManager.m */; };
-		9F7C14BA1DDDA16400529703 /* OWSDeviceProvisioningCodeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B81DDDA16300529703 /* OWSDeviceProvisioningCodeService.h */; };
+		9F7C14BA1DDDA16400529703 /* OWSDeviceProvisioningCodeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13B81DDDA16300529703 /* OWSDeviceProvisioningCodeService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14BB1DDDA16400529703 /* OWSDeviceProvisioningCodeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13B91DDDA16300529703 /* OWSDeviceProvisioningCodeService.m */; };
-		9F7C14BC1DDDA16400529703 /* OWSDeviceProvisioningService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13BA1DDDA16300529703 /* OWSDeviceProvisioningService.h */; };
+		9F7C14BC1DDDA16400529703 /* OWSDeviceProvisioningService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13BA1DDDA16300529703 /* OWSDeviceProvisioningService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14BD1DDDA16400529703 /* OWSDeviceProvisioningService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13BB1DDDA16300529703 /* OWSDeviceProvisioningService.m */; };
-		9F7C14BE1DDDA16400529703 /* OWSDevicesService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13BC1DDDA16300529703 /* OWSDevicesService.h */; };
+		9F7C14BE1DDDA16400529703 /* OWSDevicesService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13BC1DDDA16300529703 /* OWSDevicesService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14BF1DDDA16400529703 /* OWSDevicesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13BD1DDDA16300529703 /* OWSDevicesService.m */; };
-		9F7C14C01DDDA16400529703 /* OWSUploadingService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13BE1DDDA16300529703 /* OWSUploadingService.h */; };
+		9F7C14C01DDDA16400529703 /* OWSUploadingService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13BE1DDDA16300529703 /* OWSUploadingService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14C11DDDA16400529703 /* OWSUploadingService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13BF1DDDA16300529703 /* OWSUploadingService.m */; };
-		9F7C14C21DDDA16400529703 /* OWSDeleteDeviceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C11DDDA16300529703 /* OWSDeleteDeviceRequest.h */; };
+		9F7C14C21DDDA16400529703 /* OWSDeleteDeviceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C11DDDA16300529703 /* OWSDeleteDeviceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14C31DDDA16400529703 /* OWSDeleteDeviceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13C21DDDA16300529703 /* OWSDeleteDeviceRequest.m */; };
-		9F7C14C41DDDA16400529703 /* OWSDeviceProvisioningCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C31DDDA16300529703 /* OWSDeviceProvisioningCodeRequest.h */; };
+		9F7C14C41DDDA16400529703 /* OWSDeviceProvisioningCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C31DDDA16300529703 /* OWSDeviceProvisioningCodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14C51DDDA16400529703 /* OWSDeviceProvisioningCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13C41DDDA16300529703 /* OWSDeviceProvisioningCodeRequest.m */; };
-		9F7C14C61DDDA16400529703 /* OWSDeviceProvisioningRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C51DDDA16300529703 /* OWSDeviceProvisioningRequest.h */; };
+		9F7C14C61DDDA16400529703 /* OWSDeviceProvisioningRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C51DDDA16300529703 /* OWSDeviceProvisioningRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14C71DDDA16400529703 /* OWSDeviceProvisioningRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13C61DDDA16300529703 /* OWSDeviceProvisioningRequest.m */; };
-		9F7C14C81DDDA16400529703 /* OWSGetDevicesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C71DDDA16300529703 /* OWSGetDevicesRequest.h */; };
+		9F7C14C81DDDA16400529703 /* OWSGetDevicesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C71DDDA16300529703 /* OWSGetDevicesRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14C91DDDA16400529703 /* OWSGetDevicesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13C81DDDA16300529703 /* OWSGetDevicesRequest.m */; };
-		9F7C14CA1DDDA16400529703 /* TSAllocAttachmentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C91DDDA16300529703 /* TSAllocAttachmentRequest.h */; };
+		9F7C14CA1DDDA16400529703 /* TSAllocAttachmentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13C91DDDA16300529703 /* TSAllocAttachmentRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14CB1DDDA16400529703 /* TSAllocAttachmentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13CA1DDDA16300529703 /* TSAllocAttachmentRequest.m */; };
-		9F7C14CC1DDDA16400529703 /* TSAttachmentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13CB1DDDA16300529703 /* TSAttachmentRequest.h */; };
+		9F7C14CC1DDDA16400529703 /* TSAttachmentRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13CB1DDDA16300529703 /* TSAttachmentRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14CD1DDDA16400529703 /* TSAttachmentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13CC1DDDA16300529703 /* TSAttachmentRequest.m */; };
-		9F7C14CE1DDDA16400529703 /* TSAvailablePreKeysCountRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13CD1DDDA16300529703 /* TSAvailablePreKeysCountRequest.h */; };
+		9F7C14CE1DDDA16400529703 /* TSAvailablePreKeysCountRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13CD1DDDA16300529703 /* TSAvailablePreKeysCountRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14CF1DDDA16400529703 /* TSAvailablePreKeysCountRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13CE1DDDA16300529703 /* TSAvailablePreKeysCountRequest.m */; };
-		9F7C14D01DDDA16400529703 /* TSContactsIntersectionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13CF1DDDA16300529703 /* TSContactsIntersectionRequest.h */; };
+		9F7C14D01DDDA16400529703 /* TSContactsIntersectionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13CF1DDDA16300529703 /* TSContactsIntersectionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14D11DDDA16400529703 /* TSContactsIntersectionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D01DDDA16300529703 /* TSContactsIntersectionRequest.m */; };
-		9F7C14D21DDDA16400529703 /* TSCurrentSignedPreKeyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D11DDDA16300529703 /* TSCurrentSignedPreKeyRequest.h */; };
+		9F7C14D21DDDA16400529703 /* TSCurrentSignedPreKeyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D11DDDA16300529703 /* TSCurrentSignedPreKeyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14D31DDDA16400529703 /* TSCurrentSignedPreKeyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D21DDDA16300529703 /* TSCurrentSignedPreKeyRequest.m */; };
-		9F7C14D41DDDA16400529703 /* TSRecipientPrekeyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D31DDDA16300529703 /* TSRecipientPrekeyRequest.h */; };
+		9F7C14D41DDDA16400529703 /* TSRecipientPrekeyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D31DDDA16300529703 /* TSRecipientPrekeyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14D51DDDA16400529703 /* TSRecipientPrekeyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D41DDDA16300529703 /* TSRecipientPrekeyRequest.m */; };
-		9F7C14D61DDDA16400529703 /* TSRedPhoneTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D51DDDA16300529703 /* TSRedPhoneTokenRequest.h */; };
+		9F7C14D61DDDA16400529703 /* TSRedPhoneTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D51DDDA16300529703 /* TSRedPhoneTokenRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14D71DDDA16400529703 /* TSRedPhoneTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D61DDDA16300529703 /* TSRedPhoneTokenRequest.m */; };
-		9F7C14D81DDDA16400529703 /* TSRegisterForPushRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D71DDDA16300529703 /* TSRegisterForPushRequest.h */; };
+		9F7C14D81DDDA16400529703 /* TSRegisterForPushRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D71DDDA16300529703 /* TSRegisterForPushRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14D91DDDA16400529703 /* TSRegisterForPushRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13D81DDDA16300529703 /* TSRegisterForPushRequest.m */; };
-		9F7C14DA1DDDA16400529703 /* TSRegisterPrekeysRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D91DDDA16300529703 /* TSRegisterPrekeysRequest.h */; };
+		9F7C14DA1DDDA16400529703 /* TSRegisterPrekeysRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13D91DDDA16300529703 /* TSRegisterPrekeysRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14DB1DDDA16400529703 /* TSRegisterPrekeysRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13DA1DDDA16300529703 /* TSRegisterPrekeysRequest.m */; };
-		9F7C14DC1DDDA16400529703 /* TSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13DB1DDDA16300529703 /* TSRequest.h */; };
+		9F7C14DC1DDDA16400529703 /* TSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13DB1DDDA16300529703 /* TSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14DD1DDDA16400529703 /* TSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13DC1DDDA16300529703 /* TSRequest.m */; };
-		9F7C14DE1DDDA16400529703 /* TSRequestVerificationCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13DD1DDDA16300529703 /* TSRequestVerificationCodeRequest.h */; };
+		9F7C14DE1DDDA16400529703 /* TSRequestVerificationCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13DD1DDDA16300529703 /* TSRequestVerificationCodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14DF1DDDA16400529703 /* TSRequestVerificationCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13DE1DDDA16300529703 /* TSRequestVerificationCodeRequest.m */; };
-		9F7C14E01DDDA16400529703 /* TSSubmitMessageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13DF1DDDA16300529703 /* TSSubmitMessageRequest.h */; };
+		9F7C14E01DDDA16400529703 /* TSSubmitMessageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13DF1DDDA16300529703 /* TSSubmitMessageRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14E11DDDA16400529703 /* TSSubmitMessageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E01DDDA16300529703 /* TSSubmitMessageRequest.m */; };
-		9F7C14E21DDDA16400529703 /* TSUnregisterAccountRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E11DDDA16300529703 /* TSUnregisterAccountRequest.h */; };
+		9F7C14E21DDDA16400529703 /* TSUnregisterAccountRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E11DDDA16300529703 /* TSUnregisterAccountRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14E31DDDA16400529703 /* TSUnregisterAccountRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E21DDDA16300529703 /* TSUnregisterAccountRequest.m */; };
-		9F7C14E41DDDA16400529703 /* TSUpdateAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E31DDDA16300529703 /* TSUpdateAttributesRequest.h */; };
+		9F7C14E41DDDA16400529703 /* TSUpdateAttributesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E31DDDA16300529703 /* TSUpdateAttributesRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14E51DDDA16400529703 /* TSUpdateAttributesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E41DDDA16300529703 /* TSUpdateAttributesRequest.m */; };
-		9F7C14E61DDDA16400529703 /* TSVerifyCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E51DDDA16300529703 /* TSVerifyCodeRequest.h */; };
+		9F7C14E61DDDA16400529703 /* TSVerifyCodeRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E51DDDA16300529703 /* TSVerifyCodeRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14E71DDDA16400529703 /* TSVerifyCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E61DDDA16300529703 /* TSVerifyCodeRequest.m */; };
-		9F7C14E81DDDA16400529703 /* TSNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E71DDDA16300529703 /* TSNetworkManager.h */; };
+		9F7C14E81DDDA16400529703 /* TSNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13E71DDDA16300529703 /* TSNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14E91DDDA16400529703 /* TSNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13E81DDDA16300529703 /* TSNetworkManager.m */; };
-		9F7C14EA1DDDA16400529703 /* SubProtocol.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13EA1DDDA16300529703 /* SubProtocol.pb.h */; };
+		9F7C14EA1DDDA16400529703 /* SubProtocol.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13EA1DDDA16300529703 /* SubProtocol.pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14EB1DDDA16400529703 /* SubProtocol.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13EB1DDDA16300529703 /* SubProtocol.pb.m */; };
-		9F7C14EC1DDDA16400529703 /* TSSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13EC1DDDA16300529703 /* TSSocketManager.h */; };
+		9F7C14EC1DDDA16400529703 /* TSSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13EC1DDDA16300529703 /* TSSocketManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14ED1DDDA16400529703 /* TSSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13ED1DDDA16300529703 /* TSSocketManager.m */; };
-		9F7C14EE1DDDA16400529703 /* ContactsManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13EF1DDDA16300529703 /* ContactsManagerProtocol.h */; };
-		9F7C14EF1DDDA16400529703 /* NotificationsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F01DDDA16300529703 /* NotificationsProtocol.h */; };
-		9F7C14F01DDDA16400529703 /* ECKeyPair+OWSPrivateKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F21DDDA16300529703 /* ECKeyPair+OWSPrivateKey.h */; };
+		9F7C14EE1DDDA16400529703 /* ContactsManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13EF1DDDA16300529703 /* ContactsManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7C14EF1DDDA16400529703 /* NotificationsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F01DDDA16300529703 /* NotificationsProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7C14F01DDDA16400529703 /* ECKeyPair+OWSPrivateKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F21DDDA16300529703 /* ECKeyPair+OWSPrivateKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14F11DDDA16400529703 /* ECKeyPair+OWSPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13F31DDDA16300529703 /* ECKeyPair+OWSPrivateKey.m */; };
-		9F7C14F21DDDA16400529703 /* OWSFingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F41DDDA16300529703 /* OWSFingerprint.h */; };
+		9F7C14F21DDDA16400529703 /* OWSFingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F41DDDA16300529703 /* OWSFingerprint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14F31DDDA16400529703 /* OWSFingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13F51DDDA16300529703 /* OWSFingerprint.m */; };
-		9F7C14F41DDDA16400529703 /* OWSFingerprintBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F61DDDA16300529703 /* OWSFingerprintBuilder.h */; };
+		9F7C14F41DDDA16400529703 /* OWSFingerprintBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F61DDDA16300529703 /* OWSFingerprintBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14F51DDDA16400529703 /* OWSFingerprintBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13F71DDDA16300529703 /* OWSFingerprintBuilder.m */; };
-		9F7C14F61DDDA16400529703 /* OWSFingerprintProtos.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F81DDDA16300529703 /* OWSFingerprintProtos.pb.h */; };
+		9F7C14F61DDDA16400529703 /* OWSFingerprintProtos.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13F81DDDA16300529703 /* OWSFingerprintProtos.pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14F71DDDA16400529703 /* OWSFingerprintProtos.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13F91DDDA16300529703 /* OWSFingerprintProtos.pb.m */; };
-		9F7C14F81DDDA16400529703 /* OWSHTTPSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13FA1DDDA16300529703 /* OWSHTTPSecurityPolicy.h */; };
+		9F7C14F81DDDA16400529703 /* OWSHTTPSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13FA1DDDA16300529703 /* OWSHTTPSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14F91DDDA16400529703 /* OWSHTTPSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13FB1DDDA16300529703 /* OWSHTTPSecurityPolicy.m */; };
-		9F7C14FA1DDDA16400529703 /* OWSWebsocketSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13FC1DDDA16300529703 /* OWSWebsocketSecurityPolicy.h */; };
+		9F7C14FA1DDDA16400529703 /* OWSWebsocketSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C13FC1DDDA16300529703 /* OWSWebsocketSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14FB1DDDA16400529703 /* OWSWebsocketSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C13FD1DDDA16300529703 /* OWSWebsocketSecurityPolicy.m */; };
 		9F7C14FC1DDDA16400529703 /* textsecure.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C13FF1DDDA16300529703 /* textsecure.cer */; };
-		9F7C14FD1DDDA16400529703 /* SecurityUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14001DDDA16300529703 /* SecurityUtils.h */; };
+		9F7C14FD1DDDA16400529703 /* SecurityUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14001DDDA16300529703 /* SecurityUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C14FE1DDDA16400529703 /* SecurityUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14011DDDA16300529703 /* SecurityUtils.m */; };
-		9F7C14FF1DDDA16400529703 /* TSStorageManager+IdentityKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14041DDDA16300529703 /* TSStorageManager+IdentityKeyStore.h */; };
+		9F7C14FF1DDDA16400529703 /* TSStorageManager+IdentityKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14041DDDA16300529703 /* TSStorageManager+IdentityKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15001DDDA16400529703 /* TSStorageManager+IdentityKeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14051DDDA16300529703 /* TSStorageManager+IdentityKeyStore.m */; };
-		9F7C15011DDDA16400529703 /* TSStorageManager+keyFromIntLong.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14061DDDA16300529703 /* TSStorageManager+keyFromIntLong.h */; };
+		9F7C15011DDDA16400529703 /* TSStorageManager+keyFromIntLong.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14061DDDA16300529703 /* TSStorageManager+keyFromIntLong.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15021DDDA16400529703 /* TSStorageManager+keyFromIntLong.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14071DDDA16300529703 /* TSStorageManager+keyFromIntLong.m */; };
-		9F7C15031DDDA16400529703 /* TSStorageManager+PreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14081DDDA16300529703 /* TSStorageManager+PreKeyStore.h */; };
+		9F7C15031DDDA16400529703 /* TSStorageManager+PreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14081DDDA16300529703 /* TSStorageManager+PreKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15041DDDA16400529703 /* TSStorageManager+PreKeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14091DDDA16300529703 /* TSStorageManager+PreKeyStore.m */; };
-		9F7C15051DDDA16400529703 /* TSStorageManager+SessionStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C140A1DDDA16300529703 /* TSStorageManager+SessionStore.h */; };
+		9F7C15051DDDA16400529703 /* TSStorageManager+SessionStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C140A1DDDA16300529703 /* TSStorageManager+SessionStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15061DDDA16400529703 /* TSStorageManager+SessionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C140B1DDDA16300529703 /* TSStorageManager+SessionStore.m */; };
-		9F7C15071DDDA16400529703 /* TSStorageManager+SignedPreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C140C1DDDA16300529703 /* TSStorageManager+SignedPreKeyStore.h */; };
+		9F7C15071DDDA16400529703 /* TSStorageManager+SignedPreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C140C1DDDA16300529703 /* TSStorageManager+SignedPreKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15081DDDA16400529703 /* TSStorageManager+SignedPreKeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C140D1DDDA16300529703 /* TSStorageManager+SignedPreKeyStore.m */; };
-		9F7C15091DDDA16400529703 /* OWSOrphanedDataCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C140E1DDDA16300529703 /* OWSOrphanedDataCleaner.h */; };
+		9F7C15091DDDA16400529703 /* OWSOrphanedDataCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C140E1DDDA16300529703 /* OWSOrphanedDataCleaner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C150A1DDDA16400529703 /* OWSOrphanedDataCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C140F1DDDA16300529703 /* OWSOrphanedDataCleaner.m */; };
-		9F7C150B1DDDA16400529703 /* TSDatabaseSecondaryIndexes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14101DDDA16300529703 /* TSDatabaseSecondaryIndexes.h */; };
+		9F7C150B1DDDA16400529703 /* TSDatabaseSecondaryIndexes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14101DDDA16300529703 /* TSDatabaseSecondaryIndexes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C150C1DDDA16400529703 /* TSDatabaseSecondaryIndexes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14111DDDA16300529703 /* TSDatabaseSecondaryIndexes.m */; };
-		9F7C150D1DDDA16400529703 /* TSDatabaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14121DDDA16300529703 /* TSDatabaseView.h */; };
+		9F7C150D1DDDA16400529703 /* TSDatabaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14121DDDA16300529703 /* TSDatabaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C150E1DDDA16400529703 /* TSDatabaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14131DDDA16300529703 /* TSDatabaseView.m */; };
-		9F7C150F1DDDA16400529703 /* TSStorageHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14141DDDA16300529703 /* TSStorageHeaders.h */; };
-		9F7C15101DDDA16400529703 /* TSStorageKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14151DDDA16300529703 /* TSStorageKeys.h */; };
-		9F7C15111DDDA16400529703 /* TSStorageManager+keyingMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14161DDDA16300529703 /* TSStorageManager+keyingMaterial.h */; };
+		9F7C150F1DDDA16400529703 /* TSStorageHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14141DDDA16300529703 /* TSStorageHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7C15101DDDA16400529703 /* TSStorageKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14151DDDA16300529703 /* TSStorageKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7C15111DDDA16400529703 /* TSStorageManager+keyingMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14161DDDA16300529703 /* TSStorageManager+keyingMaterial.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15121DDDA16400529703 /* TSStorageManager+keyingMaterial.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14171DDDA16300529703 /* TSStorageManager+keyingMaterial.m */; };
-		9F7C15131DDDA16400529703 /* TSStorageManager+messageIDs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14181DDDA16300529703 /* TSStorageManager+messageIDs.h */; };
+		9F7C15131DDDA16400529703 /* TSStorageManager+messageIDs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14181DDDA16300529703 /* TSStorageManager+messageIDs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15141DDDA16400529703 /* TSStorageManager+messageIDs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14191DDDA16300529703 /* TSStorageManager+messageIDs.m */; };
-		9F7C15151DDDA16400529703 /* TSStorageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C141A1DDDA16300529703 /* TSStorageManager.h */; };
+		9F7C15151DDDA16400529703 /* TSStorageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C141A1DDDA16300529703 /* TSStorageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15161DDDA16400529703 /* TSStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C141B1DDDA16300529703 /* TSStorageManager.m */; };
-		9F7C15171DDDA16400529703 /* TSYapDatabaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C141C1DDDA16300529703 /* TSYapDatabaseObject.h */; };
+		9F7C15171DDDA16400529703 /* TSYapDatabaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C141C1DDDA16300529703 /* TSYapDatabaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15181DDDA16400529703 /* TSYapDatabaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C141D1DDDA16300529703 /* TSYapDatabaseObject.m */; };
-		9F7C15191DDDA16400529703 /* TextSecureKitEnv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C141E1DDDA16300529703 /* TextSecureKitEnv.h */; };
+		9F7C15191DDDA16400529703 /* TextSecureKitEnv.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C141E1DDDA16300529703 /* TextSecureKitEnv.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C151A1DDDA16400529703 /* TextSecureKitEnv.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C141F1DDDA16300529703 /* TextSecureKitEnv.m */; };
-		9F7C151B1DDDA16400529703 /* TSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14201DDDA16300529703 /* TSConstants.h */; };
-		9F7C151C1DDDA16400529703 /* TSPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14211DDDA16300529703 /* TSPrefix.h */; };
-		9F7C151D1DDDA16400529703 /* BadArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14241DDDA16300529703 /* BadArgument.h */; };
+		9F7C151B1DDDA16400529703 /* TSConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14201DDDA16300529703 /* TSConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7C151C1DDDA16400529703 /* TSPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14211DDDA16300529703 /* TSPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7C151D1DDDA16400529703 /* BadArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14241DDDA16300529703 /* BadArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C151E1DDDA16400529703 /* BadArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14251DDDA16300529703 /* BadArgument.m */; };
-		9F7C151F1DDDA16400529703 /* BadState.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14261DDDA16300529703 /* BadState.h */; };
+		9F7C151F1DDDA16400529703 /* BadState.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14261DDDA16300529703 /* BadState.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15201DDDA16400529703 /* BadState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14271DDDA16300529703 /* BadState.m */; };
-		9F7C15211DDDA16400529703 /* Constraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14281DDDA16300529703 /* Constraints.h */; };
-		9F7C15221DDDA16400529703 /* OperationFailed.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14291DDDA16300529703 /* OperationFailed.h */; };
+		9F7C15211DDDA16400529703 /* Constraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14281DDDA16300529703 /* Constraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7C15221DDDA16400529703 /* OperationFailed.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14291DDDA16300529703 /* OperationFailed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15231DDDA16400529703 /* OperationFailed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C142A1DDDA16300529703 /* OperationFailed.m */; };
-		9F7C15241DDDA16400529703 /* SecurityFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C142B1DDDA16300529703 /* SecurityFailure.h */; };
+		9F7C15241DDDA16400529703 /* SecurityFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C142B1DDDA16300529703 /* SecurityFailure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15251DDDA16400529703 /* SecurityFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C142C1DDDA16300529703 /* SecurityFailure.m */; };
-		9F7C15261DDDA16400529703 /* Cryptography.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C142D1DDDA16300529703 /* Cryptography.h */; };
+		9F7C15261DDDA16400529703 /* Cryptography.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C142D1DDDA16300529703 /* Cryptography.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15271DDDA16400529703 /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C142E1DDDA16300529703 /* Cryptography.m */; };
-		9F7C15281DDDA16400529703 /* FunctionalUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C142F1DDDA16300529703 /* FunctionalUtil.h */; };
+		9F7C15281DDDA16400529703 /* FunctionalUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C142F1DDDA16300529703 /* FunctionalUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15291DDDA16400529703 /* FunctionalUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14301DDDA16300529703 /* FunctionalUtil.m */; };
-		9F7C152A1DDDA16400529703 /* MIMETypeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14311DDDA16300529703 /* MIMETypeUtil.h */; };
+		9F7C152A1DDDA16400529703 /* MIMETypeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14311DDDA16300529703 /* MIMETypeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C152B1DDDA16400529703 /* MIMETypeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14321DDDA16300529703 /* MIMETypeUtil.m */; };
-		9F7C152C1DDDA16400529703 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14331DDDA16300529703 /* NSData+Base64.h */; };
+		9F7C152C1DDDA16400529703 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14331DDDA16300529703 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C152D1DDDA16400529703 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14341DDDA16300529703 /* NSData+Base64.m */; };
-		9F7C152E1DDDA16400529703 /* NSData+hexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14351DDDA16300529703 /* NSData+hexString.h */; };
+		9F7C152E1DDDA16400529703 /* NSData+hexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14351DDDA16300529703 /* NSData+hexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C152F1DDDA16400529703 /* NSData+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14361DDDA16300529703 /* NSData+hexString.m */; };
-		9F7C15301DDDA16400529703 /* NSData+messagePadding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14371DDDA16300529703 /* NSData+messagePadding.h */; };
+		9F7C15301DDDA16400529703 /* NSData+messagePadding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14371DDDA16300529703 /* NSData+messagePadding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15311DDDA16400529703 /* NSData+messagePadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14381DDDA16300529703 /* NSData+messagePadding.m */; };
-		9F7C15321DDDA16400529703 /* NSDate+millisecondTimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14391DDDA16300529703 /* NSDate+millisecondTimeStamp.h */; };
+		9F7C15321DDDA16400529703 /* NSDate+millisecondTimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14391DDDA16300529703 /* NSDate+millisecondTimeStamp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15331DDDA16400529703 /* NSDate+millisecondTimeStamp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C143A1DDDA16300529703 /* NSDate+millisecondTimeStamp.mm */; };
-		9F7C15341DDDA16400529703 /* NSURLSessionDataTask+StatusCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C143B1DDDA16300529703 /* NSURLSessionDataTask+StatusCode.h */; };
+		9F7C15341DDDA16400529703 /* NSURLSessionDataTask+StatusCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C143B1DDDA16300529703 /* NSURLSessionDataTask+StatusCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15351DDDA16400529703 /* NSURLSessionDataTask+StatusCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C143C1DDDA16300529703 /* NSURLSessionDataTask+StatusCode.m */; };
-		9F7C15361DDDA16400529703 /* OWSDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C143D1DDDA16300529703 /* OWSDispatch.h */; };
+		9F7C15361DDDA16400529703 /* OWSDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C143D1DDDA16300529703 /* OWSDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15371DDDA16400529703 /* OWSDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C143E1DDDA16300529703 /* OWSDispatch.m */; };
-		9F7C15381DDDA16400529703 /* OWSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C143F1DDDA16300529703 /* OWSError.h */; };
+		9F7C15381DDDA16400529703 /* OWSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C143F1DDDA16300529703 /* OWSError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C15391DDDA16400529703 /* OWSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14401DDDA16300529703 /* OWSError.m */; };
-		9F7C153A1DDDA16400529703 /* UIImage+contentTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14411DDDA16300529703 /* UIImage+contentTypes.h */; };
+		9F7C153A1DDDA16400529703 /* UIImage+contentTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C14411DDDA16300529703 /* UIImage+contentTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C153B1DDDA16400529703 /* UIImage+contentTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14421DDDA16300529703 /* UIImage+contentTypes.m */; };
-		9F7C161E1DDDA68500529703 /* Curve25519.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C16181DDDA68500529703 /* Curve25519.h */; };
+		9F7C161E1DDDA68500529703 /* Curve25519.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C16181DDDA68500529703 /* Curve25519.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C161F1DDDA68500529703 /* Curve25519.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C16191DDDA68500529703 /* Curve25519.m */; };
-		9F7C16201DDDA68500529703 /* Ed25519.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C161A1DDDA68500529703 /* Ed25519.h */; };
+		9F7C16201DDDA68500529703 /* Ed25519.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C161A1DDDA68500529703 /* Ed25519.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C16211DDDA68500529703 /* Ed25519.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C161B1DDDA68500529703 /* Ed25519.m */; };
-		9F7C16221DDDA68500529703 /* Randomness.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C161C1DDDA68500529703 /* Randomness.h */; };
+		9F7C16221DDDA68500529703 /* Randomness.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7C161C1DDDA68500529703 /* Randomness.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7C16231DDDA68500529703 /* Randomness.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C161D1DDDA68500529703 /* Randomness.m */; };
 /* End PBXBuildFile section */
 
@@ -305,17 +343,19 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9F4C515E1DDF29FF008DFCC2 /* AFNetworking.framework in Embed Frameworks */,
-				9F4C515F1DDF29FF008DFCC2 /* CocoaLumberjack.framework in Embed Frameworks */,
-				9F4C51601DDF29FF008DFCC2 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
-				9F4C516C1DDF3027008DFCC2 /* ProtocolBuffers.framework in Embed Frameworks */,
-				9F4C51611DDF29FF008DFCC2 /* Curve25519.framework in Embed Frameworks */,
-				9F4C51621DDF29FF008DFCC2 /* libPhoneNumber.framework in Embed Frameworks */,
-				9F4C51631DDF29FF008DFCC2 /* Mantle.framework in Embed Frameworks */,
-				9F4C51641DDF29FF008DFCC2 /* SAMKeychain.framework in Embed Frameworks */,
-				9F4C51651DDF29FF008DFCC2 /* SocketRocket.framework in Embed Frameworks */,
-				9F4C51711DDF3400008DFCC2 /* HKDFKitiOS.framework in Embed Frameworks */,
-				9F4C51661DDF29FF008DFCC2 /* YapDatabase.framework in Embed Frameworks */,
+				9F2358041DE73D44001C8C22 /* AFNetworking.framework in Embed Frameworks */,
+				9F2358051DE73D44001C8C22 /* AxolotlKit.framework in Embed Frameworks */,
+				9F2358061DE73D44001C8C22 /* CocoaLumberjack.framework in Embed Frameworks */,
+				9F2358071DE73D44001C8C22 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+				9F2358081DE73D44001C8C22 /* Curve25519.framework in Embed Frameworks */,
+				9F2358091DE73D44001C8C22 /* HKDFKitiOS.framework in Embed Frameworks */,
+				9F23580A1DE73D44001C8C22 /* libPhoneNumber.framework in Embed Frameworks */,
+				9F23580B1DE73D44001C8C22 /* Mantle.framework in Embed Frameworks */,
+				9F23580C1DE73D44001C8C22 /* ProtocolBuffers.framework in Embed Frameworks */,
+				9F23580D1DE73D44001C8C22 /* SAMKeychain.framework in Embed Frameworks */,
+				9F23580E1DE73D44001C8C22 /* SocketRocket.framework in Embed Frameworks */,
+				9F23580F1DE73D44001C8C22 /* UnionFindiOS.framework in Embed Frameworks */,
+				9F2358101DE73D44001C8C22 /* YapDatabase.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,28 +363,64 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9F4C51391DDF29E2008DFCC2 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = SOURCE_ROOT; };
-		9F4C513A1DDF29E2008DFCC2 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = SOURCE_ROOT; };
-		9F4C513B1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework; sourceTree = SOURCE_ROOT; };
-		9F4C513C1DDF29E2008DFCC2 /* Curve25519.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curve25519.framework; path = Carthage/Build/iOS/Curve25519.framework; sourceTree = SOURCE_ROOT; };
-		9F4C513D1DDF29E2008DFCC2 /* libPhoneNumber.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libPhoneNumber.framework; path = Carthage/Build/iOS/libPhoneNumber.framework; sourceTree = SOURCE_ROOT; };
-		9F4C513E1DDF29E2008DFCC2 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = Carthage/Build/iOS/Mantle.framework; sourceTree = SOURCE_ROOT; };
-		9F4C513F1DDF29E2008DFCC2 /* SAMKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAMKeychain.framework; path = Carthage/Build/iOS/SAMKeychain.framework; sourceTree = SOURCE_ROOT; };
-		9F4C51401DDF29E2008DFCC2 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = Carthage/Build/iOS/SocketRocket.framework; sourceTree = SOURCE_ROOT; };
-		9F4C51411DDF29E2008DFCC2 /* YapDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YapDatabase.framework; path = Carthage/Build/iOS/YapDatabase.framework; sourceTree = SOURCE_ROOT; };
-		9F4C51421DDF29E2008DFCC2 /* AFNetworking.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AFNetworking.framework.dSYM; path = Carthage/Build/iOS/AFNetworking.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C51431DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaLumberjack.framework.dSYM; path = Carthage/Build/iOS/CocoaLumberjack.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C51441DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaLumberjackSwift.framework.dSYM; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C51451DDF29E2008DFCC2 /* Curve25519.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Curve25519.framework.dSYM; path = Carthage/Build/iOS/Curve25519.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C51461DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = libPhoneNumber.framework.dSYM; path = Carthage/Build/iOS/libPhoneNumber.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C51471DDF29E2008DFCC2 /* Mantle.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Mantle.framework.dSYM; path = Carthage/Build/iOS/Mantle.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C51481DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SAMKeychain.framework.dSYM; path = Carthage/Build/iOS/SAMKeychain.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C51491DDF29E2008DFCC2 /* SocketRocket.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SocketRocket.framework.dSYM; path = Carthage/Build/iOS/SocketRocket.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C514A1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = YapDatabase.framework.dSYM; path = Carthage/Build/iOS/YapDatabase.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C51681DDF301B008DFCC2 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = Carthage/Build/iOS/ProtocolBuffers.framework; sourceTree = SOURCE_ROOT; };
-		9F4C51691DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ProtocolBuffers.framework.dSYM; path = Carthage/Build/iOS/ProtocolBuffers.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		9F4C516D1DDF33F6008DFCC2 /* HKDFKitiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HKDFKitiOS.framework; path = Carthage/Build/iOS/HKDFKitiOS.framework; sourceTree = SOURCE_ROOT; };
-		9F4C516E1DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = HKDFKitiOS.framework.dSYM; path = Carthage/Build/iOS/HKDFKitiOS.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357901DE73D32001C8C22 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap"; path = "Carthage/Build/iOS/0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357911DE73D32001C8C22 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap"; path = "Carthage/Build/iOS/0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357921DE73D32001C8C22 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap"; path = "Carthage/Build/iOS/3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357931DE73D32001C8C22 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap"; path = "Carthage/Build/iOS/3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357941DE73D32001C8C22 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap"; path = "Carthage/Build/iOS/004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357951DE73D32001C8C22 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap"; path = "Carthage/Build/iOS/7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357961DE73D32001C8C22 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap"; path = "Carthage/Build/iOS/7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357971DE73D32001C8C22 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap"; path = "Carthage/Build/iOS/8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357981DE73D32001C8C22 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap"; path = "Carthage/Build/iOS/9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357991DE73D32001C8C22 /* 31C92C59-885A-3C19-9A6E-04000D108555.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "31C92C59-885A-3C19-9A6E-04000D108555.bcsymbolmap"; path = "Carthage/Build/iOS/31C92C59-885A-3C19-9A6E-04000D108555.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F23579A1DE73D32001C8C22 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap"; path = "Carthage/Build/iOS/53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F23579B1DE73D32001C8C22 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap"; path = "Carthage/Build/iOS/93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F23579C1DE73D32001C8C22 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap"; path = "Carthage/Build/iOS/958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F23579D1DE73D32001C8C22 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap"; path = "Carthage/Build/iOS/4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F23579E1DE73D32001C8C22 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap"; path = "Carthage/Build/iOS/5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F23579F1DE73D32001C8C22 /* 054479AB-33BA-3799-AE4D-9899820898AA.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "054479AB-33BA-3799-AE4D-9899820898AA.bcsymbolmap"; path = "Carthage/Build/iOS/054479AB-33BA-3799-AE4D-9899820898AA.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357A01DE73D32001C8C22 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap"; path = "Carthage/Build/iOS/84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357A11DE73D32001C8C22 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap"; path = "Carthage/Build/iOS/290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357A21DE73D32001C8C22 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap"; path = "Carthage/Build/iOS/AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357A31DE73D32001C8C22 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = SOURCE_ROOT; };
+		9F2357A41DE73D32001C8C22 /* AFNetworking.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AFNetworking.framework.dSYM; path = Carthage/Build/iOS/AFNetworking.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357A51DE73D32001C8C22 /* AxolotlKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AxolotlKit.framework; path = Carthage/Build/iOS/AxolotlKit.framework; sourceTree = SOURCE_ROOT; };
+		9F2357A61DE73D32001C8C22 /* AxolotlKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AxolotlKit.framework.dSYM; path = Carthage/Build/iOS/AxolotlKit.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357A71DE73D32001C8C22 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap"; path = "Carthage/Build/iOS/B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357A81DE73D32001C8C22 /* B1842DA1-B2B1-3B59-BA12-DC5F782CDB5C.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "B1842DA1-B2B1-3B59-BA12-DC5F782CDB5C.bcsymbolmap"; path = "Carthage/Build/iOS/B1842DA1-B2B1-3B59-BA12-DC5F782CDB5C.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357A91DE73D32001C8C22 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap"; path = "Carthage/Build/iOS/B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357AA1DE73D32001C8C22 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap"; path = "Carthage/Build/iOS/B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357AB1DE73D32001C8C22 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap"; path = "Carthage/Build/iOS/C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357AC1DE73D32001C8C22 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap"; path = "Carthage/Build/iOS/C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357AD1DE73D32001C8C22 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap"; path = "Carthage/Build/iOS/CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357AE1DE73D32001C8C22 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = SOURCE_ROOT; };
+		9F2357AF1DE73D32001C8C22 /* CocoaLumberjack.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaLumberjack.framework.dSYM; path = Carthage/Build/iOS/CocoaLumberjack.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357B01DE73D32001C8C22 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework; sourceTree = SOURCE_ROOT; };
+		9F2357B11DE73D32001C8C22 /* CocoaLumberjackSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaLumberjackSwift.framework.dSYM; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357B21DE73D32001C8C22 /* Curve25519.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curve25519.framework; path = Carthage/Build/iOS/Curve25519.framework; sourceTree = SOURCE_ROOT; };
+		9F2357B31DE73D32001C8C22 /* Curve25519.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Curve25519.framework.dSYM; path = Carthage/Build/iOS/Curve25519.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357B41DE73D32001C8C22 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap"; path = "Carthage/Build/iOS/D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357B51DE73D32001C8C22 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap"; path = "Carthage/Build/iOS/DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357B61DE73D32001C8C22 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap"; path = "Carthage/Build/iOS/E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357B71DE73D32001C8C22 /* E8FD8B59-2A43-3B6C-8E0E-04AE04B44513.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "E8FD8B59-2A43-3B6C-8E0E-04AE04B44513.bcsymbolmap"; path = "Carthage/Build/iOS/E8FD8B59-2A43-3B6C-8E0E-04AE04B44513.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357B81DE73D32001C8C22 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap"; path = "Carthage/Build/iOS/E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357B91DE73D32001C8C22 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap"; path = "Carthage/Build/iOS/F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
+		9F2357BA1DE73D32001C8C22 /* HKDFKitiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HKDFKitiOS.framework; path = Carthage/Build/iOS/HKDFKitiOS.framework; sourceTree = SOURCE_ROOT; };
+		9F2357BB1DE73D32001C8C22 /* HKDFKitiOS.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = HKDFKitiOS.framework.dSYM; path = Carthage/Build/iOS/HKDFKitiOS.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357BC1DE73D32001C8C22 /* libPhoneNumber.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libPhoneNumber.framework; path = Carthage/Build/iOS/libPhoneNumber.framework; sourceTree = SOURCE_ROOT; };
+		9F2357BD1DE73D32001C8C22 /* libPhoneNumber.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = libPhoneNumber.framework.dSYM; path = Carthage/Build/iOS/libPhoneNumber.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357BE1DE73D32001C8C22 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = Carthage/Build/iOS/Mantle.framework; sourceTree = SOURCE_ROOT; };
+		9F2357BF1DE73D32001C8C22 /* Mantle.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Mantle.framework.dSYM; path = Carthage/Build/iOS/Mantle.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357C01DE73D32001C8C22 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = Carthage/Build/iOS/ProtocolBuffers.framework; sourceTree = SOURCE_ROOT; };
+		9F2357C11DE73D32001C8C22 /* ProtocolBuffers.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ProtocolBuffers.framework.dSYM; path = Carthage/Build/iOS/ProtocolBuffers.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357C21DE73D32001C8C22 /* SAMKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAMKeychain.framework; path = Carthage/Build/iOS/SAMKeychain.framework; sourceTree = SOURCE_ROOT; };
+		9F2357C31DE73D32001C8C22 /* SAMKeychain.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SAMKeychain.framework.dSYM; path = Carthage/Build/iOS/SAMKeychain.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357C41DE73D32001C8C22 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = Carthage/Build/iOS/SocketRocket.framework; sourceTree = SOURCE_ROOT; };
+		9F2357C51DE73D32001C8C22 /* SocketRocket.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SocketRocket.framework.dSYM; path = Carthage/Build/iOS/SocketRocket.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357C61DE73D32001C8C22 /* UnionFindiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnionFindiOS.framework; path = Carthage/Build/iOS/UnionFindiOS.framework; sourceTree = SOURCE_ROOT; };
+		9F2357C71DE73D32001C8C22 /* UnionFindiOS.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = UnionFindiOS.framework.dSYM; path = Carthage/Build/iOS/UnionFindiOS.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F2357C81DE73D32001C8C22 /* YapDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YapDatabase.framework; path = Carthage/Build/iOS/YapDatabase.framework; sourceTree = SOURCE_ROOT; };
+		9F2357C91DE73D32001C8C22 /* YapDatabase.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = YapDatabase.framework.dSYM; path = Carthage/Build/iOS/YapDatabase.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		9F7C132A1DDDA12400529703 /* SignalServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7C132D1DDDA12400529703 /* SignalServiceKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalServiceKit.h; sourceTree = "<group>"; };
 		9F7C132E1DDDA12400529703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -610,23 +686,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F4C514F1DDF29E2008DFCC2 /* libPhoneNumber.framework in Frameworks */,
-				9F4C51511DDF29E2008DFCC2 /* SAMKeychain.framework in Frameworks */,
-				9F4C514C1DDF29E2008DFCC2 /* CocoaLumberjack.framework in Frameworks */,
-				9F4C51521DDF29E2008DFCC2 /* SocketRocket.framework in Frameworks */,
-				9F4C514B1DDF29E2008DFCC2 /* AFNetworking.framework in Frameworks */,
-				9F4C51531DDF29E2008DFCC2 /* YapDatabase.framework in Frameworks */,
-				9F4C516F1DDF33F6008DFCC2 /* HKDFKitiOS.framework in Frameworks */,
-				9F4C516A1DDF301B008DFCC2 /* ProtocolBuffers.framework in Frameworks */,
-				9F4C514D1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework in Frameworks */,
-				9F4C514E1DDF29E2008DFCC2 /* Curve25519.framework in Frameworks */,
-				9F4C51501DDF29E2008DFCC2 /* Mantle.framework in Frameworks */,
+				9F2357FE1DE73D32001C8C22 /* SocketRocket.framework in Frameworks */,
+				9F2357EA1DE73D32001C8C22 /* CocoaLumberjackSwift.framework in Frameworks */,
+				9F2357DD1DE73D32001C8C22 /* AFNetworking.framework in Frameworks */,
+				9F2357FC1DE73D32001C8C22 /* SAMKeychain.framework in Frameworks */,
+				9F2358021DE73D32001C8C22 /* YapDatabase.framework in Frameworks */,
+				9F2357E81DE73D32001C8C22 /* CocoaLumberjack.framework in Frameworks */,
+				9F2357DF1DE73D32001C8C22 /* AxolotlKit.framework in Frameworks */,
+				9F2357FA1DE73D32001C8C22 /* ProtocolBuffers.framework in Frameworks */,
+				9F2357F61DE73D32001C8C22 /* libPhoneNumber.framework in Frameworks */,
+				9F2357F81DE73D32001C8C22 /* Mantle.framework in Frameworks */,
+				9F2357F41DE73D32001C8C22 /* HKDFKitiOS.framework in Frameworks */,
+				9F2357EC1DE73D32001C8C22 /* Curve25519.framework in Frameworks */,
+				9F2358001DE73D32001C8C22 /* UnionFindiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F23578F1DE73D26001C8C22 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9F2357901DE73D32001C8C22 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap */,
+				9F2357911DE73D32001C8C22 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap */,
+				9F2357921DE73D32001C8C22 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap */,
+				9F2357931DE73D32001C8C22 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap */,
+				9F2357941DE73D32001C8C22 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap */,
+				9F2357951DE73D32001C8C22 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap */,
+				9F2357961DE73D32001C8C22 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap */,
+				9F2357971DE73D32001C8C22 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap */,
+				9F2357981DE73D32001C8C22 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap */,
+				9F2357991DE73D32001C8C22 /* 31C92C59-885A-3C19-9A6E-04000D108555.bcsymbolmap */,
+				9F23579A1DE73D32001C8C22 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap */,
+				9F23579B1DE73D32001C8C22 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap */,
+				9F23579C1DE73D32001C8C22 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap */,
+				9F23579D1DE73D32001C8C22 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap */,
+				9F23579E1DE73D32001C8C22 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap */,
+				9F23579F1DE73D32001C8C22 /* 054479AB-33BA-3799-AE4D-9899820898AA.bcsymbolmap */,
+				9F2357A01DE73D32001C8C22 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap */,
+				9F2357A11DE73D32001C8C22 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap */,
+				9F2357A21DE73D32001C8C22 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap */,
+				9F2357A31DE73D32001C8C22 /* AFNetworking.framework */,
+				9F2357A41DE73D32001C8C22 /* AFNetworking.framework.dSYM */,
+				9F2357A51DE73D32001C8C22 /* AxolotlKit.framework */,
+				9F2357A61DE73D32001C8C22 /* AxolotlKit.framework.dSYM */,
+				9F2357A71DE73D32001C8C22 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap */,
+				9F2357A81DE73D32001C8C22 /* B1842DA1-B2B1-3B59-BA12-DC5F782CDB5C.bcsymbolmap */,
+				9F2357A91DE73D32001C8C22 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap */,
+				9F2357AA1DE73D32001C8C22 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap */,
+				9F2357AB1DE73D32001C8C22 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap */,
+				9F2357AC1DE73D32001C8C22 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap */,
+				9F2357AD1DE73D32001C8C22 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap */,
+				9F2357AE1DE73D32001C8C22 /* CocoaLumberjack.framework */,
+				9F2357AF1DE73D32001C8C22 /* CocoaLumberjack.framework.dSYM */,
+				9F2357B01DE73D32001C8C22 /* CocoaLumberjackSwift.framework */,
+				9F2357B11DE73D32001C8C22 /* CocoaLumberjackSwift.framework.dSYM */,
+				9F2357B21DE73D32001C8C22 /* Curve25519.framework */,
+				9F2357B31DE73D32001C8C22 /* Curve25519.framework.dSYM */,
+				9F2357B41DE73D32001C8C22 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap */,
+				9F2357B51DE73D32001C8C22 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap */,
+				9F2357B61DE73D32001C8C22 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap */,
+				9F2357B71DE73D32001C8C22 /* E8FD8B59-2A43-3B6C-8E0E-04AE04B44513.bcsymbolmap */,
+				9F2357B81DE73D32001C8C22 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap */,
+				9F2357B91DE73D32001C8C22 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap */,
+				9F2357BA1DE73D32001C8C22 /* HKDFKitiOS.framework */,
+				9F2357BB1DE73D32001C8C22 /* HKDFKitiOS.framework.dSYM */,
+				9F2357BC1DE73D32001C8C22 /* libPhoneNumber.framework */,
+				9F2357BD1DE73D32001C8C22 /* libPhoneNumber.framework.dSYM */,
+				9F2357BE1DE73D32001C8C22 /* Mantle.framework */,
+				9F2357BF1DE73D32001C8C22 /* Mantle.framework.dSYM */,
+				9F2357C01DE73D32001C8C22 /* ProtocolBuffers.framework */,
+				9F2357C11DE73D32001C8C22 /* ProtocolBuffers.framework.dSYM */,
+				9F2357C21DE73D32001C8C22 /* SAMKeychain.framework */,
+				9F2357C31DE73D32001C8C22 /* SAMKeychain.framework.dSYM */,
+				9F2357C41DE73D32001C8C22 /* SocketRocket.framework */,
+				9F2357C51DE73D32001C8C22 /* SocketRocket.framework.dSYM */,
+				9F2357C61DE73D32001C8C22 /* UnionFindiOS.framework */,
+				9F2357C71DE73D32001C8C22 /* UnionFindiOS.framework.dSYM */,
+				9F2357C81DE73D32001C8C22 /* YapDatabase.framework */,
+				9F2357C91DE73D32001C8C22 /* YapDatabase.framework.dSYM */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
 		9F7C13201DDDA12400529703 = {
 			isa = PBXGroup;
 			children = (
@@ -646,32 +789,11 @@
 		9F7C132C1DDDA12400529703 /* SignalServiceKit */ = {
 			isa = PBXGroup;
 			children = (
+				9F23578F1DE73D26001C8C22 /* Vendor */,
 				9F7C16171DDDA68500529703 /* Classes */,
 				9F7C13351DDDA16300529703 /* src */,
 				9F7C132D1DDDA12400529703 /* SignalServiceKit.h */,
 				9F7C132E1DDDA12400529703 /* Info.plist */,
-				9F4C51681DDF301B008DFCC2 /* ProtocolBuffers.framework */,
-				9F4C51391DDF29E2008DFCC2 /* AFNetworking.framework */,
-				9F4C513A1DDF29E2008DFCC2 /* CocoaLumberjack.framework */,
-				9F4C513B1DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework */,
-				9F4C513C1DDF29E2008DFCC2 /* Curve25519.framework */,
-				9F4C513D1DDF29E2008DFCC2 /* libPhoneNumber.framework */,
-				9F4C513E1DDF29E2008DFCC2 /* Mantle.framework */,
-				9F4C513F1DDF29E2008DFCC2 /* SAMKeychain.framework */,
-				9F4C51401DDF29E2008DFCC2 /* SocketRocket.framework */,
-				9F4C51411DDF29E2008DFCC2 /* YapDatabase.framework */,
-				9F4C516D1DDF33F6008DFCC2 /* HKDFKitiOS.framework */,
-				9F4C516E1DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM */,
-				9F4C51691DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM */,
-				9F4C51421DDF29E2008DFCC2 /* AFNetworking.framework.dSYM */,
-				9F4C51431DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM */,
-				9F4C51441DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM */,
-				9F4C51451DDF29E2008DFCC2 /* Curve25519.framework.dSYM */,
-				9F4C51461DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM */,
-				9F4C51471DDF29E2008DFCC2 /* Mantle.framework.dSYM */,
-				9F4C51481DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM */,
-				9F4C51491DDF29E2008DFCC2 /* SocketRocket.framework.dSYM */,
-				9F4C514A1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM */,
 			);
 			path = SignalServiceKit;
 			sourceTree = "<group>";
@@ -1308,18 +1430,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F4C51701DDF33F6008DFCC2 /* HKDFKitiOS.framework.dSYM in Resources */,
-				9F4C51561DDF29E2008DFCC2 /* CocoaLumberjackSwift.framework.dSYM in Resources */,
-				9F4C516B1DDF301B008DFCC2 /* ProtocolBuffers.framework.dSYM in Resources */,
-				9F4C51551DDF29E2008DFCC2 /* CocoaLumberjack.framework.dSYM in Resources */,
-				9F4C515C1DDF29E2008DFCC2 /* YapDatabase.framework.dSYM in Resources */,
-				9F4C51591DDF29E2008DFCC2 /* Mantle.framework.dSYM in Resources */,
-				9F4C51571DDF29E2008DFCC2 /* Curve25519.framework.dSYM in Resources */,
+				9F2357F31DE73D32001C8C22 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap in Resources */,
+				9F2357E91DE73D32001C8C22 /* CocoaLumberjack.framework.dSYM in Resources */,
+				9F2357D21DE73D32001C8C22 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap in Resources */,
+				9F2357CA1DE73D32001C8C22 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap in Resources */,
+				9F2357F01DE73D32001C8C22 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap in Resources */,
+				9F2357E51DE73D32001C8C22 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap in Resources */,
+				9F2357EE1DE73D32001C8C22 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap in Resources */,
+				9F2357DE1DE73D32001C8C22 /* AFNetworking.framework.dSYM in Resources */,
+				9F2357D61DE73D32001C8C22 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap in Resources */,
+				9F2357E41DE73D32001C8C22 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap in Resources */,
+				9F2357E31DE73D32001C8C22 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap in Resources */,
+				9F2357F21DE73D32001C8C22 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap in Resources */,
 				9F7C14FC1DDDA16400529703 /* textsecure.cer in Resources */,
-				9F4C51581DDF29E2008DFCC2 /* libPhoneNumber.framework.dSYM in Resources */,
-				9F4C515B1DDF29E2008DFCC2 /* SocketRocket.framework.dSYM in Resources */,
-				9F4C515A1DDF29E2008DFCC2 /* SAMKeychain.framework.dSYM in Resources */,
-				9F4C51541DDF29E2008DFCC2 /* AFNetworking.framework.dSYM in Resources */,
+				9F2357CE1DE73D32001C8C22 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap in Resources */,
+				9F2358031DE73D32001C8C22 /* YapDatabase.framework.dSYM in Resources */,
+				9F2357DB1DE73D32001C8C22 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap in Resources */,
+				9F2357ED1DE73D32001C8C22 /* Curve25519.framework.dSYM in Resources */,
+				9F2357D01DE73D32001C8C22 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap in Resources */,
+				9F2357D91DE73D32001C8C22 /* 054479AB-33BA-3799-AE4D-9899820898AA.bcsymbolmap in Resources */,
+				9F2358011DE73D32001C8C22 /* UnionFindiOS.framework.dSYM in Resources */,
+				9F2357F91DE73D32001C8C22 /* Mantle.framework.dSYM in Resources */,
+				9F2357FF1DE73D32001C8C22 /* SocketRocket.framework.dSYM in Resources */,
+				9F2357F51DE73D32001C8C22 /* HKDFKitiOS.framework.dSYM in Resources */,
+				9F2357D51DE73D32001C8C22 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap in Resources */,
+				9F2357DC1DE73D32001C8C22 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap in Resources */,
+				9F2357D11DE73D32001C8C22 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap in Resources */,
+				9F2357F71DE73D32001C8C22 /* libPhoneNumber.framework.dSYM in Resources */,
+				9F2357CC1DE73D32001C8C22 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap in Resources */,
+				9F2357EF1DE73D32001C8C22 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap in Resources */,
+				9F2357E01DE73D32001C8C22 /* AxolotlKit.framework.dSYM in Resources */,
+				9F2357CF1DE73D32001C8C22 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap in Resources */,
+				9F2357CB1DE73D32001C8C22 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap in Resources */,
+				9F2357E71DE73D32001C8C22 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap in Resources */,
+				9F2357E61DE73D32001C8C22 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap in Resources */,
+				9F2357EB1DE73D32001C8C22 /* CocoaLumberjackSwift.framework.dSYM in Resources */,
+				9F2357CD1DE73D32001C8C22 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap in Resources */,
+				9F2357E11DE73D32001C8C22 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap in Resources */,
+				9F2357F11DE73D32001C8C22 /* E8FD8B59-2A43-3B6C-8E0E-04AE04B44513.bcsymbolmap in Resources */,
+				9F2357DA1DE73D32001C8C22 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap in Resources */,
+				9F2357D31DE73D32001C8C22 /* 31C92C59-885A-3C19-9A6E-04000D108555.bcsymbolmap in Resources */,
+				9F2357D81DE73D32001C8C22 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap in Resources */,
+				9F2357D71DE73D32001C8C22 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap in Resources */,
+				9F2357FD1DE73D32001C8C22 /* SAMKeychain.framework.dSYM in Resources */,
+				9F2357E21DE73D32001C8C22 /* B1842DA1-B2B1-3B59-BA12-DC5F782CDB5C.bcsymbolmap in Resources */,
+				9F2357FB1DE73D32001C8C22 /* ProtocolBuffers.framework.dSYM in Resources */,
+				9F2357D41DE73D32001C8C22 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1573,6 +1729,10 @@
 				INFOPLIST_FILE = SignalServiceKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.whispersystems.SignalServiceKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1597,6 +1757,10 @@
 				INFOPLIST_FILE = SignalServiceKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.whispersystems.SignalServiceKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

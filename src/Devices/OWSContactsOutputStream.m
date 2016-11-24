@@ -5,6 +5,7 @@
 #import "MIMETypeUtil.h"
 #import "OWSSignalServiceProtos.pb.h"
 #import <ProtocolBuffers/CodedOutputStream.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

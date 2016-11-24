@@ -5,7 +5,7 @@
 #import "OWSProvisioningProtos.pb.h"
 #import <Curve25519/Curve25519.h>
 #import <AxolotlKit/NSData+keyVersionByte.h>
-#import <HKDFKit/HKDFKit.h>
+#import <HKDFKitiOS/HKDFKit-iOS.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

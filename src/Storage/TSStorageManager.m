@@ -12,7 +12,7 @@
 #import "TSInteraction.h"
 #import "TSPrivacyPreferences.h"
 #import "TSThread.h"
-#import <Curve25519/Randomness.h>
+#import <Curve25519/Curve25519-header.h>
 #import <SAMKeychain/SAMKeychain.h>
 #import <YapDatabase/YapDatabaseRelationship.h>
 

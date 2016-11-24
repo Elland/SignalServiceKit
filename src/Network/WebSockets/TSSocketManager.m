@@ -13,7 +13,7 @@
 #import "TSMessagesManager.h"
 #import "TSSocketManager.h"
 #import "TSStorageManager+keyingMaterial.h"
-
+#import <UIKit/UIKit.h>
 #import "OWSWebsocketSecurityPolicy.h"
 #import "Cryptography.h"
 
