@@ -277,38 +277,6 @@
 		9FFCD81A1DED7EF900F1AB62 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFCD7DE1DED7EF900F1AB62 /* SocketRocket.framework */; };
 		9FFCD81B1DED7EF900F1AB62 /* UnionFindiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFCD7DF1DED7EF900F1AB62 /* UnionFindiOS.framework */; };
 		9FFCD81C1DED7EF900F1AB62 /* YapDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFCD7E01DED7EF900F1AB62 /* YapDatabase.framework */; };
-		9FFCD81D1DED7EF900F1AB62 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7E11DED7EF900F1AB62 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap */; };
-		9FFCD81E1DED7EF900F1AB62 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7E21DED7EF900F1AB62 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap */; };
-		9FFCD81F1DED7EF900F1AB62 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7E31DED7EF900F1AB62 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap */; };
-		9FFCD8201DED7EF900F1AB62 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7E41DED7EF900F1AB62 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap */; };
-		9FFCD8211DED7EF900F1AB62 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7E51DED7EF900F1AB62 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap */; };
-		9FFCD8221DED7EF900F1AB62 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7E61DED7EF900F1AB62 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap */; };
-		9FFCD8231DED7EF900F1AB62 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7E71DED7EF900F1AB62 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap */; };
-		9FFCD8241DED7EF900F1AB62 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7E81DED7EF900F1AB62 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap */; };
-		9FFCD8251DED7EF900F1AB62 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7E91DED7EF900F1AB62 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap */; };
-		9FFCD8261DED7EF900F1AB62 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7EA1DED7EF900F1AB62 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap */; };
-		9FFCD8271DED7EF900F1AB62 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7EB1DED7EF900F1AB62 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap */; };
-		9FFCD8281DED7EF900F1AB62 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7EC1DED7EF900F1AB62 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap */; };
-		9FFCD8291DED7EF900F1AB62 /* 1906B338-4921-3EA2-93FA-BA7AA3EE4282.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7ED1DED7EF900F1AB62 /* 1906B338-4921-3EA2-93FA-BA7AA3EE4282.bcsymbolmap */; };
-		9FFCD82A1DED7EF900F1AB62 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7EE1DED7EF900F1AB62 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap */; };
-		9FFCD82B1DED7EF900F1AB62 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7EF1DED7EF900F1AB62 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap */; };
-		9FFCD82C1DED7EF900F1AB62 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F01DED7EF900F1AB62 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap */; };
-		9FFCD82D1DED7EF900F1AB62 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F11DED7EF900F1AB62 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap */; };
-		9FFCD82E1DED7EF900F1AB62 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F21DED7EF900F1AB62 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap */; };
-		9FFCD82F1DED7EF900F1AB62 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F31DED7EF900F1AB62 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap */; };
-		9FFCD8301DED7EF900F1AB62 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F41DED7EF900F1AB62 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap */; };
-		9FFCD8311DED7EF900F1AB62 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F51DED7EF900F1AB62 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap */; };
-		9FFCD8321DED7EF900F1AB62 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F61DED7EF900F1AB62 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap */; };
-		9FFCD8331DED7EF900F1AB62 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F71DED7EF900F1AB62 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap */; };
-		9FFCD8341DED7EF900F1AB62 /* CA52E388-B61A-37C8-8C90-72BE49F1D140.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F81DED7EF900F1AB62 /* CA52E388-B61A-37C8-8C90-72BE49F1D140.bcsymbolmap */; };
-		9FFCD8351DED7EF900F1AB62 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7F91DED7EF900F1AB62 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap */; };
-		9FFCD8361DED7EF900F1AB62 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7FA1DED7EF900F1AB62 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap */; };
-		9FFCD8371DED7EF900F1AB62 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7FB1DED7EF900F1AB62 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap */; };
-		9FFCD8381DED7EF900F1AB62 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7FC1DED7EF900F1AB62 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap */; };
-		9FFCD8391DED7EF900F1AB62 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7FD1DED7EF900F1AB62 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap */; };
-		9FFCD83A1DED7EF900F1AB62 /* F27C43A8-3D12-3552-B8C8-892FDF2AEA2D.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7FE1DED7EF900F1AB62 /* F27C43A8-3D12-3552-B8C8-892FDF2AEA2D.bcsymbolmap */; };
-		9FFCD83B1DED7EF900F1AB62 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD7FF1DED7EF900F1AB62 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap */; };
-		9FFCD83C1DED7EF900F1AB62 /* F743704A-DE6D-3A6F-AEB2-09AAEED819C5.bcsymbolmap in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD8001DED7EF900F1AB62 /* F743704A-DE6D-3A6F-AEB2-09AAEED819C5.bcsymbolmap */; };
 		9FFCD83D1DED7EF900F1AB62 /* AFNetworking.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD8011DED7EF900F1AB62 /* AFNetworking.framework.dSYM */; };
 		9FFCD83E1DED7EF900F1AB62 /* AxolotlKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD8021DED7EF900F1AB62 /* AxolotlKit.framework.dSYM */; };
 		9FFCD83F1DED7EF900F1AB62 /* CocoaLumberjack.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9FFCD8031DED7EF900F1AB62 /* CocoaLumberjack.framework.dSYM */; };
@@ -639,38 +607,6 @@
 		9FFCD7DE1DED7EF900F1AB62 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = Carthage/Build/iOS/SocketRocket.framework; sourceTree = SOURCE_ROOT; };
 		9FFCD7DF1DED7EF900F1AB62 /* UnionFindiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnionFindiOS.framework; path = Carthage/Build/iOS/UnionFindiOS.framework; sourceTree = SOURCE_ROOT; };
 		9FFCD7E01DED7EF900F1AB62 /* YapDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YapDatabase.framework; path = Carthage/Build/iOS/YapDatabase.framework; sourceTree = SOURCE_ROOT; };
-		9FFCD7E11DED7EF900F1AB62 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap"; path = "Carthage/Build/iOS/0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7E21DED7EF900F1AB62 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap"; path = "Carthage/Build/iOS/0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7E31DED7EF900F1AB62 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap"; path = "Carthage/Build/iOS/3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7E41DED7EF900F1AB62 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap"; path = "Carthage/Build/iOS/3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7E51DED7EF900F1AB62 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap"; path = "Carthage/Build/iOS/004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7E61DED7EF900F1AB62 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap"; path = "Carthage/Build/iOS/7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7E71DED7EF900F1AB62 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap"; path = "Carthage/Build/iOS/7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7E81DED7EF900F1AB62 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap"; path = "Carthage/Build/iOS/8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7E91DED7EF900F1AB62 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap"; path = "Carthage/Build/iOS/9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7EA1DED7EF900F1AB62 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap"; path = "Carthage/Build/iOS/53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7EB1DED7EF900F1AB62 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap"; path = "Carthage/Build/iOS/93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7EC1DED7EF900F1AB62 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap"; path = "Carthage/Build/iOS/958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7ED1DED7EF900F1AB62 /* 1906B338-4921-3EA2-93FA-BA7AA3EE4282.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "1906B338-4921-3EA2-93FA-BA7AA3EE4282.bcsymbolmap"; path = "Carthage/Build/iOS/1906B338-4921-3EA2-93FA-BA7AA3EE4282.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7EE1DED7EF900F1AB62 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap"; path = "Carthage/Build/iOS/4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7EF1DED7EF900F1AB62 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap"; path = "Carthage/Build/iOS/5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F01DED7EF900F1AB62 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap"; path = "Carthage/Build/iOS/84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F11DED7EF900F1AB62 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap"; path = "Carthage/Build/iOS/290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F21DED7EF900F1AB62 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap"; path = "Carthage/Build/iOS/AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F31DED7EF900F1AB62 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap"; path = "Carthage/Build/iOS/B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F41DED7EF900F1AB62 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap"; path = "Carthage/Build/iOS/B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F51DED7EF900F1AB62 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap"; path = "Carthage/Build/iOS/B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F61DED7EF900F1AB62 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap"; path = "Carthage/Build/iOS/C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F71DED7EF900F1AB62 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap"; path = "Carthage/Build/iOS/C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F81DED7EF900F1AB62 /* CA52E388-B61A-37C8-8C90-72BE49F1D140.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CA52E388-B61A-37C8-8C90-72BE49F1D140.bcsymbolmap"; path = "Carthage/Build/iOS/CA52E388-B61A-37C8-8C90-72BE49F1D140.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7F91DED7EF900F1AB62 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap"; path = "Carthage/Build/iOS/CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7FA1DED7EF900F1AB62 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap"; path = "Carthage/Build/iOS/D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7FB1DED7EF900F1AB62 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap"; path = "Carthage/Build/iOS/DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7FC1DED7EF900F1AB62 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap"; path = "Carthage/Build/iOS/E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7FD1DED7EF900F1AB62 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap"; path = "Carthage/Build/iOS/E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7FE1DED7EF900F1AB62 /* F27C43A8-3D12-3552-B8C8-892FDF2AEA2D.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "F27C43A8-3D12-3552-B8C8-892FDF2AEA2D.bcsymbolmap"; path = "Carthage/Build/iOS/F27C43A8-3D12-3552-B8C8-892FDF2AEA2D.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD7FF1DED7EF900F1AB62 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap"; path = "Carthage/Build/iOS/F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
-		9FFCD8001DED7EF900F1AB62 /* F743704A-DE6D-3A6F-AEB2-09AAEED819C5.bcsymbolmap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "F743704A-DE6D-3A6F-AEB2-09AAEED819C5.bcsymbolmap"; path = "Carthage/Build/iOS/F743704A-DE6D-3A6F-AEB2-09AAEED819C5.bcsymbolmap"; sourceTree = SOURCE_ROOT; };
 		9FFCD8011DED7EF900F1AB62 /* AFNetworking.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AFNetworking.framework.dSYM; path = Carthage/Build/iOS/AFNetworking.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		9FFCD8021DED7EF900F1AB62 /* AxolotlKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AxolotlKit.framework.dSYM; path = Carthage/Build/iOS/AxolotlKit.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		9FFCD8031DED7EF900F1AB62 /* CocoaLumberjack.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CocoaLumberjack.framework.dSYM; path = Carthage/Build/iOS/CocoaLumberjack.framework.dSYM; sourceTree = SOURCE_ROOT; };
@@ -729,38 +665,6 @@
 				9FFCD7DE1DED7EF900F1AB62 /* SocketRocket.framework */,
 				9FFCD7DF1DED7EF900F1AB62 /* UnionFindiOS.framework */,
 				9FFCD7E01DED7EF900F1AB62 /* YapDatabase.framework */,
-				9FFCD7E11DED7EF900F1AB62 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap */,
-				9FFCD7E21DED7EF900F1AB62 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap */,
-				9FFCD7E31DED7EF900F1AB62 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap */,
-				9FFCD7E41DED7EF900F1AB62 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap */,
-				9FFCD7E51DED7EF900F1AB62 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap */,
-				9FFCD7E61DED7EF900F1AB62 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap */,
-				9FFCD7E71DED7EF900F1AB62 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap */,
-				9FFCD7E81DED7EF900F1AB62 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap */,
-				9FFCD7E91DED7EF900F1AB62 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap */,
-				9FFCD7EA1DED7EF900F1AB62 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap */,
-				9FFCD7EB1DED7EF900F1AB62 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap */,
-				9FFCD7EC1DED7EF900F1AB62 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap */,
-				9FFCD7ED1DED7EF900F1AB62 /* 1906B338-4921-3EA2-93FA-BA7AA3EE4282.bcsymbolmap */,
-				9FFCD7EE1DED7EF900F1AB62 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap */,
-				9FFCD7EF1DED7EF900F1AB62 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap */,
-				9FFCD7F01DED7EF900F1AB62 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap */,
-				9FFCD7F11DED7EF900F1AB62 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap */,
-				9FFCD7F21DED7EF900F1AB62 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap */,
-				9FFCD7F31DED7EF900F1AB62 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap */,
-				9FFCD7F41DED7EF900F1AB62 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap */,
-				9FFCD7F51DED7EF900F1AB62 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap */,
-				9FFCD7F61DED7EF900F1AB62 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap */,
-				9FFCD7F71DED7EF900F1AB62 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap */,
-				9FFCD7F81DED7EF900F1AB62 /* CA52E388-B61A-37C8-8C90-72BE49F1D140.bcsymbolmap */,
-				9FFCD7F91DED7EF900F1AB62 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap */,
-				9FFCD7FA1DED7EF900F1AB62 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap */,
-				9FFCD7FB1DED7EF900F1AB62 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap */,
-				9FFCD7FC1DED7EF900F1AB62 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap */,
-				9FFCD7FD1DED7EF900F1AB62 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap */,
-				9FFCD7FE1DED7EF900F1AB62 /* F27C43A8-3D12-3552-B8C8-892FDF2AEA2D.bcsymbolmap */,
-				9FFCD7FF1DED7EF900F1AB62 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap */,
-				9FFCD8001DED7EF900F1AB62 /* F743704A-DE6D-3A6F-AEB2-09AAEED819C5.bcsymbolmap */,
 				9FFCD8011DED7EF900F1AB62 /* AFNetworking.framework.dSYM */,
 				9FFCD8021DED7EF900F1AB62 /* AxolotlKit.framework.dSYM */,
 				9FFCD8031DED7EF900F1AB62 /* CocoaLumberjack.framework.dSYM */,
@@ -1439,53 +1343,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FFCD8251DED7EF900F1AB62 /* 9E85C800-237F-302E-9B03-DD5BDA7053FD.bcsymbolmap in Resources */,
-				9FFCD82F1DED7EF900F1AB62 /* B545CAF7-A632-307E-A3CA-3621CE7CCBF9.bcsymbolmap in Resources */,
-				9FFCD81D1DED7EF900F1AB62 /* 0A7A512C-4454-3C5B-B3F8-D04D4D835523.bcsymbolmap in Resources */,
-				9FFCD83C1DED7EF900F1AB62 /* F743704A-DE6D-3A6F-AEB2-09AAEED819C5.bcsymbolmap in Resources */,
 				9F7C14FC1DDDA16400529703 /* textsecure.cer in Resources */,
-				9FFCD8211DED7EF900F1AB62 /* 004AB3D6-D5B3-3969-9A3D-23A7A7B85A1A.bcsymbolmap in Resources */,
 				9FFCD8461DED7EF900F1AB62 /* ProtocolBuffers.framework.dSYM in Resources */,
 				9FFCD83F1DED7EF900F1AB62 /* CocoaLumberjack.framework.dSYM in Resources */,
-				9FFCD8291DED7EF900F1AB62 /* 1906B338-4921-3EA2-93FA-BA7AA3EE4282.bcsymbolmap in Resources */,
 				9FFCD8441DED7EF900F1AB62 /* libPhoneNumberiOS.framework.dSYM in Resources */,
-				9FFCD8231DED7EF900F1AB62 /* 7F618832-698C-313B-B12E-91B7C000F9D9.bcsymbolmap in Resources */,
-				9FFCD8261DED7EF900F1AB62 /* 53E40DBD-D16F-3916-AA94-9B2CEFEFE915.bcsymbolmap in Resources */,
-				9FFCD8391DED7EF900F1AB62 /* E9F7233E-E056-3346-A3B3-D6EAF079A1FF.bcsymbolmap in Resources */,
-				9FFCD8321DED7EF900F1AB62 /* C01B682F-7125-3393-BF3E-F44C013FA7EA.bcsymbolmap in Resources */,
-				9FFCD8241DED7EF900F1AB62 /* 8AE7E07D-4899-32D5-8A8F-DCED9BBBC684.bcsymbolmap in Resources */,
-				9FFCD83A1DED7EF900F1AB62 /* F27C43A8-3D12-3552-B8C8-892FDF2AEA2D.bcsymbolmap in Resources */,
-				9FFCD8361DED7EF900F1AB62 /* D6F2C7D2-9B52-3351-B26A-3B3101696E5B.bcsymbolmap in Resources */,
-				9FFCD81F1DED7EF900F1AB62 /* 3A59E0DE-D058-3EE0-A514-ADA02948F973.bcsymbolmap in Resources */,
 				9FFCD8431DED7EF900F1AB62 /* HKDFKitiOS.framework.dSYM in Resources */,
 				9FFCD8491DED7EF900F1AB62 /* UnionFindiOS.framework.dSYM in Resources */,
-				9FFCD8221DED7EF900F1AB62 /* 7DC397A5-D5E5-321B-AE3F-B84B2D259DD7.bcsymbolmap in Resources */,
-				9FFCD8341DED7EF900F1AB62 /* CA52E388-B61A-37C8-8C90-72BE49F1D140.bcsymbolmap in Resources */,
 				9FFCD8411DED7EF900F1AB62 /* CollapsingFutures.framework.dSYM in Resources */,
 				9FFCD84A1DED7EF900F1AB62 /* YapDatabase.framework.dSYM in Resources */,
 				9FFCD83D1DED7EF900F1AB62 /* AFNetworking.framework.dSYM in Resources */,
-				9FFCD82D1DED7EF900F1AB62 /* 290681EF-D248-3825-9959-5FEAB3F45F87.bcsymbolmap in Resources */,
 				9FFCD8451DED7EF900F1AB62 /* Mantle.framework.dSYM in Resources */,
-				9FFCD8381DED7EF900F1AB62 /* E3E18AD4-CCBB-382F-9F81-88AA5B3B4668.bcsymbolmap in Resources */,
 				9FFCD8471DED7EF900F1AB62 /* SAMKeychain.framework.dSYM in Resources */,
-				9FFCD8311DED7EF900F1AB62 /* B48977F2-1355-3D1A-8FE1-EC060C77D3E8.bcsymbolmap in Resources */,
-				9FFCD8301DED7EF900F1AB62 /* B8250EAF-51D0-3CDE-9D09-2F0CB81BFADF.bcsymbolmap in Resources */,
-				9FFCD83B1DED7EF900F1AB62 /* F95BCA0D-BBCD-387D-98AA-6321CEF982C7.bcsymbolmap in Resources */,
-				9FFCD81E1DED7EF900F1AB62 /* 0B103FCE-D282-3045-B6E1-B7A22B3E743F.bcsymbolmap in Resources */,
 				9FFCD8421DED7EF900F1AB62 /* Curve25519.framework.dSYM in Resources */,
-				9FFCD8271DED7EF900F1AB62 /* 93BAD774-B1E1-37A5-890F-6B9F94756040.bcsymbolmap in Resources */,
 				9FFCD8401DED7EF900F1AB62 /* CocoaLumberjackSwift.framework.dSYM in Resources */,
 				9FFCD83E1DED7EF900F1AB62 /* AxolotlKit.framework.dSYM in Resources */,
-				9FFCD8371DED7EF900F1AB62 /* DF17B7A5-5E2D-376E-9856-E080CA4321C0.bcsymbolmap in Resources */,
-				9FFCD8281DED7EF900F1AB62 /* 958EAD3C-4832-397E-B259-CCB05CBE97DA.bcsymbolmap in Resources */,
-				9FFCD8351DED7EF900F1AB62 /* CDBEDA1F-F163-3416-A15B-B2A16AD562AD.bcsymbolmap in Resources */,
-				9FFCD82B1DED7EF900F1AB62 /* 5112C8EA-28B5-33AB-9903-619B1AD2F063.bcsymbolmap in Resources */,
-				9FFCD82A1DED7EF900F1AB62 /* 4399C4D2-B563-38A3-B75D-D71ED7B272B3.bcsymbolmap in Resources */,
-				9FFCD82C1DED7EF900F1AB62 /* 84888F29-CF50-3DD1-B1B3-D014A0402EF2.bcsymbolmap in Resources */,
-				9FFCD82E1DED7EF900F1AB62 /* AF56B730-3DD8-3058-8712-9A75319270EB.bcsymbolmap in Resources */,
 				9FFCD8481DED7EF900F1AB62 /* SocketRocket.framework.dSYM in Resources */,
-				9FFCD8201DED7EF900F1AB62 /* 3BD6B87E-9F62-3B64-A6E0-499C4874189D.bcsymbolmap in Resources */,
-				9FFCD8331DED7EF900F1AB62 /* C7C86867-F1D0-3EA5-A586-69F825A4A661.bcsymbolmap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
