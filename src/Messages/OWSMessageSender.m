@@ -35,7 +35,7 @@
 #import <AxolotlKit/PreKeyBundle.h>
 #import <AxolotlKit/SessionBuilder.h>
 #import <AxolotlKit/SessionCipher.h>
-#import <TwistedOakCollapsingFutures/CollapsingFutures.h>
+#import <CollapsingFutures/CollapsingFutures.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

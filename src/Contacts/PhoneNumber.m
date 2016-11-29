@@ -1,4 +1,4 @@
-#import <libPhoneNumber/libPhoneNumber.h>
+#import <libPhoneNumberiOS/libPhoneNumberiOS.h>
 #import "PhoneNumber.h"
 #import "PhoneNumberUtil.h"
 

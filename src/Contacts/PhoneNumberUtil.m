@@ -97,7 +97,7 @@
 
 // normalizes a phone number, so parentheses and spaces are stripped
 + (NSString *)normalizePhoneNumber:(NSString *)number {
-    return [[[self sharedUtil] nbPhoneNumberUtil] normalizePhoneNumber:number];
+    return [[[self sharedUtil] nbPhoneNumberUtil] normalize:number];
 }
 
 // black  magic
