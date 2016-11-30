@@ -24,7 +24,7 @@ FOUNDATION_EXPORT const unsigned char SignalServiceKitVersionString[];
 #import <SignalServiceKit/ECKeyPair+OWSPrivateKey.h>
 #import <SignalServiceKit/OWSChunkedOutputStream.h>
 #import <SignalServiceKit/NSData+messagePadding.h>
-#import <SignalServiceKit/Curve25519.h>
+#import <SignalServiceKit/Curve25519-header.h>
 #import <SignalServiceKit/TSNetworkManager.h>
 #import <SignalServiceKit/TSRequest.h>
 #import <SignalServiceKit/TSAvailablePreKeysCountRequest.h>
